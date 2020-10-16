@@ -1,0 +1,35 @@
+site_name: Astecas | Documentação
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Instalação: getting-started.md
+  - Esquemas de dados:
+    - Esquema Astecas: databases/db-astecas.md
+    - Esquema Admin: databases/db-admin.md
+    - Esquema BAAS: databases/db-baas.md
+  - Changelog: 
+    - Releases: changelog.md 
+
+theme:
+  name: 'material'
+  logo: assets/images/logo.png
+  favicon: assets/images/logo-color.png
+  features:
+    - navigation.tabs
+  language: pt
+  palette:
+    scheme: astecas
+    
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - markdown_include.include:
+      base_path: docs
