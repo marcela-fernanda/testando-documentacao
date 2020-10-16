@@ -56,6 +56,8 @@ Tabela responsável por receber os dados da conta bancária, dados do titular da
   | `bankaccountstatus`              | varchar(20)  | Status da conta bancária.                                                        |
   | `card_free`                      | int4         | Saldo de emissão de cartões gratuitos da conta.                                  |
 
+*[TED]: Transferência Eletrônica Disponível
+
 - **Relacionamentos:**
 
   | Tabela                                  | Tipo        | Descrição                                                                      |

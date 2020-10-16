@@ -19,7 +19,7 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `email`                       | varchar(255) | E-mail do sócio.                                                                                 |
   | `profissao`                   | varchar(255) | Profissão que o sócio exerce.                                                                    |
   | `pep`                         | varchar(1)   | Controla se a pessoa é politicamente exposta.                                                    |
-  | `rg_numero`                   | varchar(25)  | Número do registro geral (RG) do sócio.                                                          |
+  | `rg_numero`                   | varchar(25)  | Número do RG do sócio.                                                                           |
   | `rg_orgao`                    | varchar(25)  | Órgão expeditor do RG do sócio.                                                                  |
   | `rg_uf`                       | varchar(2)   | Unidade federativa que consta no RG do sócio                                                     |
   | `rg_emissao`                  | date         | Data de emissão do RG do sócio.                                                                  |
@@ -55,6 +55,11 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `doc_identity_card_verse`     | varchar(255) | Documento de identidade do sócio - verso.                                                        |
   | `status_identity_card_verse`  | varchar(1)   | Status do documento de identidade do sócio - verso. Valores: "W" (aguardando) e "E" (enviado).   |
   | `data_identity_card_verse`    | timestamp    | Data de recebimento do documento de identidade - verso.                                          |
+
+*[RG]: Registro Geral
+*[DDI]: Discagem Direta Internacional
+*[DDD]: Discagem Direta à Distância
+*[CNH]: Carteira Nacional de Habilitação
 
 - **Relacionamentos:**
 

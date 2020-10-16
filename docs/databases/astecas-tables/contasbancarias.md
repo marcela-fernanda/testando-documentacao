@@ -20,6 +20,8 @@ A tabela corresponde as contas bancárias das empresas, utilizadas para moviment
   | `data`                  | timestamp   | Data em que o termo foi aceito.                                                                |
   | `idregistration`        | varchar(50) | Identificador da conta bancária no BAAS.                                                       |
 
+*[BAAS]: Bank as a Service
+
 - **Relacionamentos:**
 
   | Tabela                                          | Tipo        | Descrição                                                                       |

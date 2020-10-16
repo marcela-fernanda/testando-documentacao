@@ -16,6 +16,8 @@ Tabela responsável por armazenar a categoria de lançamentos presentes no siste
   | `updated_at` | timestamp    |                                                                                       |
   | `codconta`   | varchar(10)  | Categorização da conta em 1 - Desembolso e 2 - Ingresso.                              |
 
+*[UI]: User Interface
+
 - **Relacionamentos:**
 
   | Tabela                  | Tipo        | Descrição                                                       |

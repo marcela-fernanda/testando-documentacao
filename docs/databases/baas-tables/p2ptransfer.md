@@ -1,4 +1,6 @@
-Tabela responsável por armazenar os dados referentes as transferências bancárias do tipo P2P (Person to person).
+Tabela responsável por armazenar os dados referentes as transferências bancárias do tipo P2P.
+
+*[P2P]: Person to Person
 
 - **Descrição dos campos da tabela:**
 

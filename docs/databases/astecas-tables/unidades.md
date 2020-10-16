@@ -19,7 +19,7 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | `cep`                          | varchar(8)   | CEP da unidade.                                                            |
   | `data_abertura`                | date         | Data de abertura da unidade.                                               |
   | `porte`                        | varchar(40)  | Porte da unidade.                                                          |
-  | `cnae_principal`               | varchar(40)  | CNAE (Classificação Nacional de Atividades Econômicas) da unidade.         |
+  | `cnae_principal`               | varchar(40)  | CNAE da unidade.                                                           |
   | `natureza_juridica`            | varchar(40)  | Natureza jurídica da unidade.                                              |
   | `email`                        | varchar(80)  | E-mail da unidade.                                                         |
   | `telefone`                     | varchar(50)  | Telefone da unidade.                                                       |
@@ -34,7 +34,7 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | `telefone_tipo`                | varchar(25)  | Tipo de número informado.                                                  |
   | `idcompany`                    | varchar(255) | Identificador para a unidade utilizado pelo BAAS.                          |
   | `regime_tributario`            | varchar(50)  | Registro tributário da unidade.                                            |
-  | `formato_juridico`             | varchar(25)  | Formato jurídico da empresa. Exemplo: MEI, EI, etc.                        |
+  | `formato_juridico`             | varchar(25)  | Formato jurídico da empresa. Exemplo: MEI, EIRELI, etc.                    |
   | `situacao_cadastral`           | varchar(25)  | Situação do cadastro da empresa na receita federal.                        |
   | `doc_atos_constitutivos`       | varchar(255) | Documento relacionado aos Atos Constitutivos de uma determinada unidade.   |
   | `status_doc_atos_constitutivos`| varchar(1)   | Status do documento. Valores: "W" (aguardando) e "E" (enviado).            |
@@ -44,6 +44,10 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | `apelido`                      | varchar(120) | Apelido utilizado para relações informais da empresa.                      |
   | `printedcardname`              | varchar(21)  | Nome a ser mostrado no cartão da empresa.                                  |
   
+*[CNAE]: Classificação Nacional de Atividades Econômicas
+*[MEI]: Microeemprendedor Individual
+*[EIRELI]: Empresa Individual de responsabilidade limitada 
+
 - **Relacionamentos:**
 
   | Tabela                            | Tipo        | Descrição                                                                                 |

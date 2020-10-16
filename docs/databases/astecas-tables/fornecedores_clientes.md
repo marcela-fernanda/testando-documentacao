@@ -27,6 +27,10 @@ Tabela responsável por armazenar os tipos de documentos presentes no sistema.
   | `email`        | varchar(120) | E-mail para contato com o fornecedor.                                                        |
   | `unidade_id`   | int8         | Foreing Key da tabela [unidades](#unidades).                                                 |
 
+*[CPF]: Cadastro de pessoas físicas
+*[CNPJ] : Cadastro de pessoas jurídicas
+*[CEP]: Código de endereço postal
+
 - **Relacionamentos:**
 
   | Tabela                                              | Tipo        | Descrição                                                                       |

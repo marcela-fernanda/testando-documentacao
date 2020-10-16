@@ -1,4 +1,14 @@
-Tabela responsável por armazenar os dados dos lançamentos de uma empresa no sistema. Um lançamento é um registro de algo que pode vir a (futuro) afetar, financeiramente, uma empresa. No sistema, os lançamentos podem assumir 3 estados: "P" (pendente) - estão pendentes de análise pelo setor operacional e pedentes de pagamento/recebimento;  "A" (analisado) - lançamentos com esse status já foram devidamente analisados pelo setor operacional e "B" (baixado/baixa), onde dado lançamento já passou pelo processo de análise e já foi pago/recebido.
+Tabela responsável por armazenar os dados dos lançamentos de uma empresa no sistema. Um lançamento é um registro de algo que pode vir a (futuro) afetar, financeiramente, uma empresa. No sistema, os lançamentos podem assumir 3 estados: 
+
+`"P" (pendente)`
+:   Estão pendentes de análise pelo setor operacional e pedentes de pagamento/recebimento.  
+
+`"A" (analisado)`
+:   Lançamentos com esse status já foram devidamente analisados pelo setor operacional. 
+
+`"B" (baixado/baixa)`
+:   onde dado lançamento já passou pelo processo de análise e já foi pago/recebido.
+
 
 - **Descrição dos campos da tabela:**
 

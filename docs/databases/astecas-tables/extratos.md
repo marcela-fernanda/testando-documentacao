@@ -21,6 +21,8 @@ Tabela utilizada para armazenar os extratos bancários de uma empresa.
   | `data_fim`         | date         | Data de fim dos lançamentos que constam no extrato.                        |
   | `registros`        | int4         | Registro do extrato.                                                       |
 
+*[S3 da Amazon]: Amazon Simple Storage Service
+
 - **Relacionamentos:**
 
   | Tabela                                          | Tipo        | Descrição                                                                          |

@@ -43,3 +43,5 @@ A seguir, encontram-se os dados contidos nos objetos da tabela payment_slip_invo
   | [`astecas.lancamentos`](db-astecas.md#lancamentos)                     | Foreing Key | Os boletos gerados estão vinculados a um lançamento. |
   | [`astecas.fornecedores_clientes`](db-astecas.md#fornecedores_clientes) | Foreing Key | Cada lançamento possui um fornecedor_cliente.        |
   | [`astecas.documentos`](db-astecas.md#documentos)                       | Foreing Key | Refere-se aos documentos gerados e que são armazenados no Amazon S3. |
+
+*[Amazon S3]: Amazon Simple Storage Service
