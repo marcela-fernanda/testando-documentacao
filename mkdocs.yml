@@ -3,7 +3,7 @@ site_name: Astecas | Documentação
 #Repositório
 repo_url: https://gitlab.com/marcela-fernanda/documentacao-astecas
 repo_name: documentacao-astecas
-edit_uri: edit/master/docs/
+edit_uri: ""
 
 nav:
   - Home: index.md
