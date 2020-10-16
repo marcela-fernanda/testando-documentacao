@@ -1,5 +1,10 @@
 site_name: Astecas | Documentação
 
+#Repositório
+repo_url: https://gitlab.com/marcela-fernanda/documentacao-astecas
+repo_name: documentacao-astecas
+edit_uri: edit/master/docs/
+
 nav:
   - Home: index.md
   - Getting Started:
@@ -20,6 +25,8 @@ theme:
   language: pt
   palette:
     scheme: astecas
+  icon:
+    repo: fontawesome/brands/gitlab
     
 extra_css:
   - stylesheets/extra.css
