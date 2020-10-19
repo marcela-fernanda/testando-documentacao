@@ -4,8 +4,6 @@
 
 ## Tabelas
 
-<!-- Inserir infos + link para diagramas ER -->
-
 ### Accounts
 
 {!databases/baas-tables/accounts.md!}

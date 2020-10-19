@@ -4,8 +4,6 @@
 
 ## Tabelas
 
-<!-- Inserir infos + link para diagramas ER -->
-
 ### Bancos
 
 {!databases/astecas-tables/bancos.md!}

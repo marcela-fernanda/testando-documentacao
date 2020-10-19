@@ -4,8 +4,6 @@
 
 ## Tabelas
 
-<!-- Inserir infos + link para diagramas ER -->
-
 ### Modulos
 
 {!databases/admin-tables/modulos.md!}

@@ -1,14 +1,16 @@
 site_name: Astecas | Documentação
 
-#Repositório
+#Repositório GitLab
 repo_url: https://gitlab.com/marcela-fernanda/documentacao-astecas
-repo_name: documentacao-astecas
+repo_name: astecas/documentacao
 edit_uri: ""
 
 nav:
-  - Home: index.md
+  - Sobre: 
+    - O que é o Astecas?: index.md
   - Getting Started:
-    - Instalação: getting-started.md
+    - Instalação: getting-started
+    - Processos: getting-started/processos.md
   - Esquemas de dados:
     - Esquema Astecas: databases/db-astecas.md
     - Esquema Admin: databases/db-admin.md
@@ -43,3 +45,8 @@ markdown_extensions:
   - abbr
   - pymdownx.snippets
   - def_list
+  - attr_list
+
+plugins:
+  - search
+  - git-revision-date-localized
