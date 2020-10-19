@@ -1,10 +1,10 @@
 image: python:3.8
 
+variables:
+  GIT_DEPTH: 1000
+
 before_script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install markdown-include
-  - pip3 install mkdocs-git-revision-date-localized-plugin
+  - pip install mkdocs mkdocs-material markdown-include mkdocs-git-revision-date-localized-plugin
 
 pages:
   script:
@@ -15,14 +15,3 @@ pages:
       - public
   only:
     - master
-
-variables:
-  GIT_DEPTH: 1000
-
-clone:
-  depth: full
-
-steps:
-  - uses: actions/checkout@v2
-    with:
-      fetch-depth: 0
