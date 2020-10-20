@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     var sidebar = document.querySelector(".md-header-nav__ellipsis");
 
-    sidebar.parentNode.appendChild(container, sidebar);
+    sidebar.parentNode.innerHTML(container, sidebar);
   };
   xhr.send();
 });
