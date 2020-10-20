@@ -32,3 +32,12 @@ a.md-nav__link--active {
 a.md-nav__link--active:hover {
   border-color: #44CCCC;
 }
+
+span.md-header-nav__topic, span.md-ellipsis {
+  position: static;
+  display: inline;
+}
+
+.md-header-nav__ellipsis:nth-child(2) {
+  display: none;
+}
