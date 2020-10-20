@@ -42,8 +42,7 @@ span.md-header-nav__topic, span.md-ellipsis {
   display: none;
 }
 
-.md-nav__item {
-  position: relative;
+#version-selector {
 	font-family: inherit;
 	background-color: transparent;
 	width: 350px;
