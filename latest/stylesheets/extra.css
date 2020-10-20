@@ -56,3 +56,7 @@ span.md-header-nav__topic, span.md-ellipsis {
 #version-selector select option {
   color: black;
 }
+
+#version-selector:active, #version-selector:hover {
+  border: none;
+}
