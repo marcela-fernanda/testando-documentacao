@@ -37,14 +37,14 @@ window.addEventListener("DOMContentLoaded", function() {
       window.location.replace(window.location.href.replace(window.location.href.split("/")[3],this.value));
     });
 
-    var container = document.createElement("div");
+    var container = document.createElement("span");
     container.id = "version-selector";
     container.className = "md-nav__item";
     container.appendChild(select);
 
     var sidebar = document.querySelector(".md-header-nav__ellipsis");
 
-    sidebar.parentNode.insertBefore(sidebar);
+    sidebar.parentNode.insertBefore(container, sidebar);
   };
   xhr.send();
 });
