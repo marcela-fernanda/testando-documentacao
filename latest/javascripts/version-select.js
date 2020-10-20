@@ -34,8 +34,7 @@ window.addEventListener("DOMContentLoaded", function() {
       return {text: i.title, value: i.version};
     }), realVersion);
     select.addEventListener("change", function(event) {
-      window.location.href = ABS_BASE_URL + "/../" + this.value;
-      console.log(window.location.href);
+      alert(ABS_BASE_URL + "/../" + this.value);
     });
 
     var container = document.createElement("div");
@@ -48,4 +47,5 @@ window.addEventListener("DOMContentLoaded", function() {
     sidebar.parentNode.insertBefore(container, sidebar);
   };
   xhr.send();
+  console.log(window.location.href);
 });
