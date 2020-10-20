@@ -38,6 +38,6 @@ span.md-header-nav__topic, span.md-ellipsis {
   display: inline;
 }
 
-.md-header-nav__ellipsis:nth-child(2) {
+.md-header-nav__ellipsis:nth-child(even) {
   display: none;
 }
