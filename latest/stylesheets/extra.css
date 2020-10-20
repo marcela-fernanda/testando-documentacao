@@ -49,8 +49,7 @@ span.md-header-nav__topic, span.md-ellipsis {
 	width: 150px;
 	padding: 10px 10px 10px 0;
 	font-size: 18px;
-	border: none;
-	border-bottom: 1px solid white;
+
 }
 
 #version-selector select option {
