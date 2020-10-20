@@ -42,7 +42,7 @@ span.md-header-nav__topic, span.md-ellipsis {
   display: none;
 }
 
-#version-selector {
+#version-selector select {
 	font-family: inherit;
 	background-color: transparent;
 	width: 350px;
