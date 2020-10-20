@@ -53,10 +53,6 @@ span.md-header-nav__topic, span.md-ellipsis {
 	border-bottom: 1px solid white;
 }
 
-#version-selector select:active, #version-selector select:hover {
-  border: none;
-}
-
 #version-selector select option {
   color: black;
 }
