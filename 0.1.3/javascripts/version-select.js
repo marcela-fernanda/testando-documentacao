@@ -34,7 +34,8 @@ window.addEventListener("DOMContentLoaded", function() {
       return {text: i.title, value: i.version};
     }), realVersion);
     select.addEventListener("change", function(event) {
-      alert(window.location.href);
+      
+      alert(window.location.href.replace(window.location.href.split("/")[3],this.value));
     });
 
     var container = document.createElement("div");
