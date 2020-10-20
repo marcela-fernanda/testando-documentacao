@@ -17,8 +17,8 @@ Tabela utilizada para armazenar os extratos bancários de uma empresa.
   | `analista`         | int8         | Pessoa responsável por realizar a análise do extrato (operacional).        |
   | `saldo_inicio`     | numeric      | Saldo inicial da conta bancária atrelada ao extrato.                       |
   | `saldo_fim`        | numeric      | Saldo final da conta bancária atrelada ao extrato.                         |
-  | `data_inicio`      | date         | Data de início dos lançamentos que constam no extrato.                     |
-  | `data_fim`         | date         | Data de fim dos lançamentos que constam no extrato.                        |
+  | `data_inicio`      | date         | Data de início dos lançamentos que constam no extrato (formato ISO 8601).  |
+  | `data_fim`         | date         | Data de fim dos lançamentos que constam no extrato (formato ISO 8601).     |
   | `registros`        | int4         | Registro do extrato.                                                       |
 
 *[S3 da Amazon]: Amazon Simple Storage Service

@@ -32,16 +32,16 @@ Tabela responsável por armazenar os dados dos lançamentos de uma empresa no si
   | `codigobarras`          | varchar(255) | Código de barras de um lançamento.                                                               |
   | `descricao`             | text         | Descrição do lançamento.                                                                         |
   | `lancado_por`           | int8         | Referente a quem fez o lançamento.                                                               |
-  | `lancado_em`            | timestamp    | Data em que o lançamento foi realizado.                                                          |
+  | `lancado_em`            | timestamp    | Data em que o lançamento foi realizado (formato ISO 8601).                                       |
   | `analisado_por`         | int8         | Referente a quem fez a análise do lançamento (operacional).                                      |
-  | `analisado_em`          | timestamp    | Data em que foi realizada a análise.                                                             |
+  | `analisado_em`          | timestamp    | Data em que foi realizada a análise (formato ISO 8601).                                          |
   | `status`                | varchar(255) | Status do lançamento no sistema. Valores: "P" (pendente), "A" (analisado) e "B" (baixado/baixa). |
   | `contabil`              | varchar(1)   | Verificação para saber se é ou não um lançamento contábil.                                       |
   | `created_at`            | timestamp    |                                                                                                  |
   | `updated_at`            | timestamp    |                                                                                                  |
   | `autorizado`            | varchar(1)   | Verificação para saber se o lançamento está ou não autorizado.                                   |
   | `autorizado_por`        | int8         | Referente a pessoa que realizou a autorização do lançamento.                                     |
-  | `autorizado_em`         | timestamp    | Data em que foi realizada a autorização do lançamento.                                           |
+  | `autorizado_em`         | timestamp    | Data em que foi realizada a autorização do lançamento (formato ISO 8601).                        |
 
 - **Relacionamentos:**
 

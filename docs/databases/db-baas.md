@@ -1,9 +1,4 @@
-# Sobre
-
-<!-- Inserir descrição para o banco como um todo -->
-
-## Tabelas
-
+# Esquema BAAS - Tabelas
 ### Accounts
 
 {!databases/baas-tables/accounts.md!}

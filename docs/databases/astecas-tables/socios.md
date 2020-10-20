@@ -8,7 +8,7 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `empresa_id`                  | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                                                 |
   | `nome`                        | varchar(140) | Nome do sócio.                                                                                   |
   | `cpfcnpj`                     | varchar(14)  | CPF ou CNPJ do sócio.                                                                            |
-  | `data_nascimento`             | date         | Data de nascimento do sócio.                                                                     |
+  | `data_nascimento`             | date         | Data de nascimento do sócio (formato ISO 8601).                                                  |
   | `created_at`                  | timestamp    |                                                                                                  |
   | `updated_at`                  | timestamp    |                                                                                                  |
   | `perfil`                      | varchar(25)  | Dados do perfil no sistema do sócio.                                                             |
@@ -22,7 +22,7 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `rg_numero`                   | varchar(25)  | Número do RG do sócio.                                                                           |
   | `rg_orgao`                    | varchar(25)  | Órgão expeditor do RG do sócio.                                                                  |
   | `rg_uf`                       | varchar(2)   | Unidade federativa que consta no RG do sócio                                                     |
-  | `rg_emissao`                  | date         | Data de emissão do RG do sócio.                                                                  |
+  | `rg_emissao`                  | date         | Data de emissão do RG do sócio (formato ISO 8601).                                               |
   | `telefone_ddi`                | int4         | DDI do tefelone do sócio.                                                                        |
   | `telefone_ddd`                | int4         | DDD do telefone do sócio.                                                                        |
   | `telefone_numero`             | int4         | Número de telefone do sócio.                                                                     |
@@ -40,21 +40,21 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `unidade_id`                  | int8         | Foreing Key da tabela [^^unidades^^](#unidades).                                                 |
   | `doc_selfie`                  | varchar(255) | Documento referente a selfie feita pelo sócio.                                                   |
   | `status_doc_selfie`           | varchar(1)   | Status da selfie do sócio. Valores: "W" (aguardando) e "E" (enviado).                            |
-  | `data_doc_selfie`             | timestamp    | Data de recebimento da selfie.                                                                   |
+  | `data_doc_selfie`             | timestamp    | Data de recebimento da selfie (formato ISO 8601).                                                |
   | `qualificacao`                | varchar(2)   | Qualificação do sócio dentro da empresa.                                                         |
   | `participacao`                | numeric      | Porcentagem de participação do sócio na empresa.                                                 |
   | `doc_identity_card_front`     | varchar(255) | Documento de identidade do sócio - anverso.                                                      |
   | `status_identity_card_front`  | varchar(1)   | Status do documento de identidade do sócio - anverso. Valores: "W" (aguardando) e "E" (enviado). |
-  | `data_identity_card_front`    | timestamp    | Data de recebimento do documento de identidade - anverso.                                        |
+  | `data_identity_card_front`    | timestamp    | Data de recebimento do documento de identidade - anverso (formato ISO 8601).                     |
   | `doc_driver_license_front`    | varchar(255) | CNH do sócio - anverso.                                                                          |
   | `status_driver_license_front` | varchar(1)   | Status da CNH do sócio - anverso. Valores: "W" (aguardando) e "E" (enviado).                     |
-  | `data_driver_license_front`   | timestamp    | Data de recebimento da CNH - anverso.                                                            |
+  | `data_driver_license_front`   | timestamp    | Data de recebimento da CNH - anverso (formato ISO 8601).                                         |
   | `doc_driver_license_verse`    | varchar(255) | CNH do sócio - verso.                                                                            |
   | `status_driver_license_verse` | varchar(1)   | Status da CNH do sócio - verso. Valores: "W" (aguardando) e "E" (enviado).                       |
-  | `data_driver_license_verse`   | timestamp    | Data de recebimento da CNH - verso.                                                              |
+  | `data_driver_license_verse`   | timestamp    | Data de recebimento da CNH - verso (formato ISO 8601).                                           |
   | `doc_identity_card_verse`     | varchar(255) | Documento de identidade do sócio - verso.                                                        |
   | `status_identity_card_verse`  | varchar(1)   | Status do documento de identidade do sócio - verso. Valores: "W" (aguardando) e "E" (enviado).   |
-  | `data_identity_card_verse`    | timestamp    | Data de recebimento do documento de identidade - verso.                                          |
+  | `data_identity_card_verse`    | timestamp    | Data de recebimento do documento de identidade - verso (formato ISO 8601).                       |
 
 *[RG]: Registro Geral
 *[DDI]: Discagem Direta Internacional

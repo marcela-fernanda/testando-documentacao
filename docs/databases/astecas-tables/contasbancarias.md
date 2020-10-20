@@ -17,7 +17,7 @@ A tabela corresponde as contas bancárias das empresas, utilizadas para moviment
   | `updated_at`            | timestamp   |                                                                                                |
   | `checked`               | bool(1)     | Confirma se o termo foi aceito ou não.                                                         |
   | `ip`                    | inet        | IP relacionado ao dispositivo onde foi feito o aceite do termo.                                |
-  | `data`                  | timestamp   | Data em que o termo foi aceito.                                                                |
+  | `data`                  | timestamp   | Data em que o termo foi aceito (formato ISO 8601).                                             |
   | `idregistration`        | varchar(50) | Identificador da conta bancária no BAAS.                                                       |
 
 *[BAAS]: Bank as a Service

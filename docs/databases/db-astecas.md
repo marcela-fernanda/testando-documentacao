@@ -1,9 +1,4 @@
-# Sobre
-
-<!-- Inserir descrição para o banco como um todo -->
-
-## Tabelas
-
+# Esquema Astecas - Tabelas
 ### Bancos
 
 {!databases/astecas-tables/bancos.md!}

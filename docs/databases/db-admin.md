@@ -1,9 +1,4 @@
-# Sobre
-
-<!-- Inserir descrição para o banco como um todo -->
-
-## Tabelas
-
+# Esquema Admin - Tabelas
 ### Modulos
 
 {!databases/admin-tables/modulos.md!}

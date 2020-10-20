@@ -13,12 +13,12 @@ Tabela que agrupa os lançamentos presentes no orçamento de uma determinada emp
   | `centrocusto_id`        | int8       | Foreing Key da tabela [^^centrocustos^^](#centrocustos).                   |
   | `planoconta_id`         | int8       | Foreing Key da tabela [^^planocontas^^](#planocontas).                     |
   | `valor`                 | numeric    | Valor do lançamento.                                                       |
-  | `data`                  | date       | Data de inserção do lançamento.                                            |
+  | `data`                  | date       | Data de inserção do lançamento (formato ISO 8601).                         |
   | `descricao`             | text       | Descrição do lançamento.                                                   |
   | `lancado_por`           | int8       | Indicativo do usuário que realizou o lançamento.                           |
-  | `lancado_em`            | timestamp  | Data em que o lançamento foi realizado.                                    |
+  | `lancado_em`            | timestamp  | Data em que o lançamento foi realizado (formato ISO 8601).                 |
   | `analisado_por`         | int8       | Responsável pela análise do lançamento.                                    |
-  | `analisado_em`          | timestamp  | Data da análise do lançamento.                                             |
+  | `analisado_em`          | timestamp  | Data da análise do lançamento (formato ISO 8601).                          |
   | `status`                | varchar(1) |                                                                            |
   | `created_at`            | timestamp  |                                                                            |
   | `updated_at`            | timestamp  |                                                                            |

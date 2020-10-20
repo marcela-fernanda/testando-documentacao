@@ -17,7 +17,7 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | `numero`                       | varchar(10)  | Número da unidade.                                                         |
   | `complemento`                  | varchar(140) | Complemento para localização da unidade.                                   |
   | `cep`                          | varchar(8)   | CEP da unidade.                                                            |
-  | `data_abertura`                | date         | Data de abertura da unidade.                                               |
+  | `data_abertura`                | date         | Data de abertura da unidade (formato ISO 8601).                            |
   | `porte`                        | varchar(40)  | Porte da unidade.                                                          |
   | `cnae_principal`               | varchar(40)  | CNAE da unidade.                                                           |
   | `natureza_juridica`            | varchar(40)  | Natureza jurídica da unidade.                                              |
@@ -38,7 +38,7 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | `situacao_cadastral`           | varchar(25)  | Situação do cadastro da empresa na receita federal.                        |
   | `doc_atos_constitutivos`       | varchar(255) | Documento relacionado aos Atos Constitutivos de uma determinada unidade.   |
   | `status_doc_atos_constitutivos`| varchar(1)   | Status do documento. Valores: "W" (aguardando) e "E" (enviado).            |
-  | `data_doc_atos_constitutivos`  | timestamp    | Data de recebimento do documento de Atos Constitutivos.                    |
+  | `data_doc_atos_constitutivos`  | timestamp    | Data de recebimento do documento de Atos Constitutivos (formato ISO 8601). |
   | `inscricao_estadual`           | varchar(50)  | Registro da unidade a nível estadual.                                      |
   | `inscricao_municipal`          | varchar(50)  | Registro da unidade a nível municipal.                                     |
   | `apelido`                      | varchar(120) | Apelido utilizado para relações informais da empresa.                      |

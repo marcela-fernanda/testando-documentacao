@@ -7,7 +7,7 @@ Tabela responsável por agrupar todos os lançamentos contidos em um extrato.
   | `id`                  | int8        | Indentificador da tabela (Primary Key).                                       |
   | `empresa_id`          | int8        | Foreing Key da tabela [^^empresas^^](#empresas).                              |
   | `extrato_id`          | int8        | Foreing Key da tabela [^^extratos^^](#extratos).                              |
-  | `valor`               | date        | Data de criação do lançamento.                                                |
+  | `valor`               | date        | Data de criação do lançamento (formato ISO 8601).                             |
   | `data`                | numeric     | Valor total dos extratos presentes no lançamento.                             |
   | `checknum`            | varchar(40) | Número de controle do lançamento usando pelo BAAS.                            |
   | `descricao`           | text        | Descrição do lançamento.                                                      |

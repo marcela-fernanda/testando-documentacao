@@ -18,7 +18,7 @@ Tabela que armazena os lançamentos que já sofreram baixa, ou seja, foram pagos
   | `valor`                 | numeric      | Valor pago em relação ao lançamento.                                                     |
   | `valor_acrescimo`       | numeric      | Valor de acréscimo no lançamento, em casos de, por exemplo, pagamento atrasado de conta. |
   | `valor_desconto`        | numeric      | Valor de desconto em um lançamento.                                                      |
-  | `data`                  | date         | Data em que o lançamento foi pago/recebido.                                              |
+  | `data`                  | date         | Data em que o lançamento foi pago/recebido (formato ISO 8601).                           |
   | `identificacao`         | varchar(50)  | Identificador do lançamento.                                                             |
   | `notafiscal`            | varchar(40)  | Nota fiscal do lançamento.                                                               |
   | `codigobarras`          | varchar(255) | Código de barras do lançamento.                                                          |
