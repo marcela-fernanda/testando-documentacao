@@ -55,7 +55,6 @@ span.md-header-nav__topic, span.md-ellipsis {
 
 #version-selector select:active, #version-selector select:hover {
   border: none;
-	border-bottom: 1px solid white;
 }
 
 #version-selector select option {
