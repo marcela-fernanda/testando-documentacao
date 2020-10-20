@@ -43,8 +43,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
-  - markdown_include.include:
-      base_path: docs
   - abbr
   - pymdownx.snippets
   - def_list
