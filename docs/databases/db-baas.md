@@ -384,7 +384,7 @@ Tabela responsável por armazenar os dados das companhias (empresas).
 
 #### Objetos da tabela - Registrations
 
-??? info "Dados"
+???+ info "Dados"
 
     === "Company"
         * **`nationalRegistration`:** CNPJ da empresa.
@@ -528,7 +528,7 @@ Tabela utilizada no processo de atualização dos dados de uma determinada compa
 
 #### Objetos da tabela - Registrations_Updates
 
-??? info "Dados"
+???+ info "Dados"
 
     === "Company"
         * **`nationalRegistration`:** CNPJ da empresa.
