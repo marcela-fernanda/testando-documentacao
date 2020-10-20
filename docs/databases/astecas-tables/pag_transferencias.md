@@ -5,8 +5,8 @@ Tabela responsável por armazenar os dados do pagamento de uma transferência ba
   | Campo                   | Tipo        | Descrição                                                                                     |
   | :---------------------- | :---------- | :-------------------------------------------------------------------------------------------- |
   | `id`                    | int8        | Indentificador da tabela (Primary Key).                                                       |
-  | `empresa_id`            | int8        | Foreing Key da tabela [empresas](#empresas).                                                  |
-  | `fornecedor_cliente_id` | int8        | Foreing Key da tabela [fornecedores_clientes](#fornecedores_clientes).                        |
+  | `empresa_id`            | int8        | Foreing Key da tabela [^^empresas^^](#empresas).                                                  |
+  | `fornecedor_cliente_id` | int8        | Foreing Key da tabela [^^fornecedores_clientes^^](#fornecedores_clientes).                        |
   | `descricao`             | text        | Descrição da transferência realizada.                                                         |
   | `banco`                 | varchar(40) | Banco envolvido na transferência.                                                             |
   | `agencia`               | varchar(40) | Agência bancária envolvida na transferência.                                                  |
@@ -18,9 +18,9 @@ Tabela responsável por armazenar os dados do pagamento de uma transferência ba
 
 - **Relacionamentos:**
 
-  | Tabela                                            | Tipo        | Descrição                                                                       |
-  | :------------------------------------------------ | :---------- | :------------------------------------------------------------------------------ |
-  | [`empresas`](#empresas)                           | Foreing Key | Cada empresa pode realizar transferências entre a mesma e os seus fornecedores. |
-  | [`fornecedores_clientes`](#fornecedores_clientes) | Foreing Key | Fornecedores realizam transferências entre eles e empresas.                     |
-  | [`lancamentos`](#lancamentos)                     | Primary Key | As transferências constarão nos lançamentos da empresa.                         |
-  | [`lancamentos_baixas`](#lancamentos_baixas)       | Primary Key | Os lançamentos, que contém os pagamentos de transferência, passarão pelo processo de "baixa" dentro do sistema. |
+  | Tabela                                                | Tipo        | Descrição                                                                       |
+  | :---------------------------------------------------- | :---------- | :------------------------------------------------------------------------------ |
+  | [^^`empresas`^^](#empresas)                           | Foreing Key | Cada empresa pode realizar transferências entre a mesma e os seus fornecedores. |
+  | [^^`fornecedores_clientes`^^](#fornecedores_clientes) | Foreing Key | Fornecedores realizam transferências entre eles e empresas.                     |
+  | [^^`lancamentos`^^](#lancamentos)                     | Primary Key | As transferências constarão nos lançamentos da empresa.                         |
+  | [^^`lancamentos_baixas`^^](#lancamentos_baixas)       | Primary Key | Os lançamentos, que contém os pagamentos de transferência, passarão pelo processo de "baixa" dentro do sistema. |

@@ -5,7 +5,7 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | Campo                         | Tipo         | Descrição                                                                                        |
   | :---------------------------- | :----------- | :----------------------------------------------------------------------------------------------- |
   | `id`                          | int8         | Indentificador da tabela (Primary Key).                                                          |
-  | `empresa_id`                  | int8         | Foreing Key da tabela [empresas](#empresas).                                                     |
+  | `empresa_id`                  | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                                                 |
   | `nome`                        | varchar(140) | Nome do sócio.                                                                                   |
   | `cpfcnpj`                     | varchar(14)  | CPF ou CNPJ do sócio.                                                                            |
   | `data_nascimento`             | date         | Data de nascimento do sócio.                                                                     |
@@ -35,9 +35,9 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | `endereco_cidade`             | varchar(255) | Cidade onde o sócio mora.                                                                        |
   | `endereco_uf`                 | varchar(2)   | Estado no qual o sócio mora.                                                                     |
   | `enderecoo_pais`              | varchar(25)  | País no qual o sócio mora.                                                                       |
-  | `user_id`                     | int8         | Foreing Key da tabela [users](db-admin.md#users) (banco admin).                                  |
+  | `user_id`                     | int8         | Foreing Key da tabela [^^users^^](db-admin.md#users) (banco admin).                              |
   | `renda`                       | numeric      | Renda atual do sócio.                                                                            |
-  | `unidade_id`                  | int8         | Foreing Key da tabela [unidades](#unidades).                                                     |
+  | `unidade_id`                  | int8         | Foreing Key da tabela [^^unidades^^](#unidades).                                                 |
   | `doc_selfie`                  | varchar(255) | Documento referente a selfie feita pelo sócio.                                                   |
   | `status_doc_selfie`           | varchar(1)   | Status da selfie do sócio. Valores: "W" (aguardando) e "E" (enviado).                            |
   | `data_doc_selfie`             | timestamp    | Data de recebimento da selfie.                                                                   |
@@ -63,8 +63,8 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
 
 - **Relacionamentos:**
 
-  | Tabela                              | Tipo        | Descrição                                                                           |
-  | :---------------------------------- | :---------- | :---------------------------------------------------------------------------------- |
-  | [`empresas`](#empresas)             | Foreing Key | Os sócios estão associados a uma empresa, e a mesma pode conter diversos sócios.    |
-  | [`unidades`](#unidades)             | Foreing Key | Um sócio pode estar associado a unidades de uma mesma empresa de formas diferentes. |
-  | [`admin.users`](db-admin.md#users) | Foreing Key | Cada sócio é um diferente usuário dentro do sistema.                                 |
+  | Tabela                                 | Tipo        | Descrição                                                                           |
+  | :------------------------------------- | :---------- | :---------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)            | Foreing Key | Os sócios estão associados a uma empresa, e a mesma pode conter diversos sócios.    |
+  | [^^`unidades`^^](#unidades)            | Foreing Key | Um sócio pode estar associado a unidades de uma mesma empresa de formas diferentes. |
+  | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Cada sócio é um diferente usuário dentro do sistema.                                |

@@ -11,7 +11,7 @@ Tabela responsável por armazenar os dados referentes as transferências bancár
   | `originalaccount`         | int8         | O identificador da conta que origina a operação de transferência.                 |
   | `destinationaccount`      | int8         | O identificador da conta de destino da transferência.                             |
   | `amount`                  | numeric      | O quantitativo que será transferido da conta originária para o destinatário.      |
-  | `transactiondate`         | timestamp    | Data em que a transação foi realizada.                                            |
+  | `transactiondate`         | timestamp    | Data em que a transação foi realizada (formato ISO 8601).                         |
   | `description`             | varchar(255) | Descrição da transação.                                                           |
   | `idadjustment`            | int8         | Identificador do ajuste da operação na conta originária.                          |
   | `idissuer`                | int8         | Identificador do emissor.                                                         |
@@ -21,10 +21,10 @@ Tabela responsável por armazenar os dados referentes as transferências bancár
   | `created_at`              | timestamp    |                                                                                   |
   | `updated_at`              | timestamp    |                                                                                   |
   | `id`                      | int8         | Identificador da tabela (Primary Key).                                            |
-  | `user_id`                 | int8         | Foreing Key da tabela [users](db-admin.md#users) (banco admin).                   |
+  | `user_id`                 | int8         | Foreing Key da tabela [^^users^^](db-admin.md#users) (banco admin).               |
 
 - **Relacionamentos:**
 
-  | Tabela                             | Tipo        | Descrição                                             |
-  | :--------------------------------- | :---------- | :---------------------------------------------------- |
-  | [`admin.users`](db-admin.md#users) | Foreing Key | Identifica qual usuário realizou a transferência P2P. |
+  | Tabela                                 | Tipo        | Descrição                                             |
+  | :------------------------------------- | :---------- | :---------------------------------------------------- |
+  | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Identifica qual usuário realizou a transferência P2P. |

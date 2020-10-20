@@ -12,6 +12,6 @@ Tabela responsável por armazenar os tipos de contas bancárias existentes.
 
 - **Relacionamentos:**
 
-  | Tabela                                | Tipo        | Descrição                               |
-  | :------------------------------------ | :---------- | :-------------------------------------- |
-  | [`contasbancarias`](#contasbancarias) | Primary Key | Cada conta bancária possui um tipo específico, por exemplo: conta corrente, conta poupança, etc. |
+  | Tabela                                    | Tipo        | Descrição                                                                                        |
+  | :---------------------------------------- | :---------- | :----------------------------------------------------------------------------------------------- |
+  | [^^`contasbancarias`^^](#contasbancarias) | Primary Key | Cada conta bancária possui um tipo específico, por exemplo: conta corrente, conta poupança, etc. |

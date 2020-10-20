@@ -12,12 +12,12 @@ Tabela que armazena planos padronizados que um lançamento pode possuir.
   | `descricao`                 | text         | Descrição do plano.                                                                                   |
   | `created_at`                | timestamp    |                                                                                                       |
   | `updated_at`                | timestamp    |                                                                                                       |
-  | `planoconta_padrao_tipo_id` | int8         | Foreing Key da tabela [planocontas_padrao_tipos](#planocontas_padrao_tipos).                          |
+  | `planoconta_padrao_tipo_id` | int8         | Foreing Key da tabela [^^planocontas_padrao_tipos^^](#planocontas_padrao_tipos).                      |
   | `codconta`                  | varchar(10)  | Categorização da conta em 1 - Desembolso e 2 - Ingresso.                                              |
   | `fc`                        | int4         | Informação relacionada ao fluxo de caixa.                                                             |
 
 - **Relacionamentos:**
 
-  | Tabela                                                  | Tipo        | Descrição                                                                 |
-  | :------------------------------------------------------ | :---------- | :------------------------------------------------------------------------ |
-  | [`planocontas_padrao_tipos`](#planocontas_padrao_tipos) | Foreing Key | Cada plano pode ter um tipo, que é discriminado na tabela correspondente. |
+  | Tabela                                                      | Tipo        | Descrição                                                                 |
+  | :---------------------------------------------------------- | :---------- | :------------------------------------------------------------------------ |
+  | [^^`planocontas_padrao_tipos`^^](#planocontas_padrao_tipos) | Foreing Key | Cada plano pode ter um tipo, que é discriminado na tabela correspondente. |

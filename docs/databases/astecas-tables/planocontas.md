@@ -6,7 +6,7 @@ Tabela responsável por armazenar a categoria de lançamentos presentes no siste
   | :----------- | :----------- | :------------------------------------------------------------------------------------ |
   | `id`         | int8         | Indentificador da tabela (Primary Key).                                               |
   | `id_pai`     | int8         | Identificador usado para apontar para o pai em um aninhamento contendo pais e filhos. |
-  | `empresa`    | int8         | Foreing Key da tabela [empresas](#empresas).                                          |
+  | `empresa`    | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                                      |
   | `nome`       | varchar(140) | Nome do plano a ser contratado.                                                       |
   | `ordem`      | varchar(12)  | Ordenação realizada na UI.                                                            |
   | `nivel`      | int4         | Nível dentro no aninhamento.                                                          |
@@ -20,6 +20,6 @@ Tabela responsável por armazenar a categoria de lançamentos presentes no siste
 
 - **Relacionamentos:**
 
-  | Tabela                  | Tipo        | Descrição                                                       |
-  | :---------------------- | :---------- | :-------------------------------------------------------------- |
-  | [`empresas`](#empresas) | Foreing Key | Empresa cujo lançamento pertence, e que receberá uma categoria. |
+  | Tabela                      | Tipo        | Descrição                                                       |
+  | :-------------------------- | :---------- | :-------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas) | Foreing Key | Empresa cujo lançamento pertence, e que receberá uma categoria. |

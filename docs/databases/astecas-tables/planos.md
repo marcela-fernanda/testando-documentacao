@@ -13,7 +13,7 @@ Tabela responsável por armazenar os dados referentes aos planos que poderão se
 
 - **Relacionamentos:**
 
-  | Tabela                              | Tipo        | Descrição                                                                          |
-  | :---------------------------------- | :---------- | :--------------------------------------------------------------------------------- |
-  | [`planos_modulos`](#planos_modulos) | Primary Key | Os planos contém diferentes módulos, armazenados na tabela de nome correspondente. |
-  | [`contratos`](#contratos)           | Primary Key | Um plano é adquirido através de um contrato, este sendo feito com empresas.        |
+  | Tabela                                  | Tipo        | Descrição                                                                          |
+  | :-------------------------------------- | :---------- | :--------------------------------------------------------------------------------- |
+  | [^^`planos_modulos`^^](#planos_modulos) | Primary Key | Os planos contém diferentes módulos, armazenados na tabela de nome correspondente. |
+  | [^^`contratos`^^](#contratos)           | Primary Key | Um plano é adquirido através de um contrato, este sendo feito com empresas.        |

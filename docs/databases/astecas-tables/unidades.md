@@ -5,7 +5,7 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
   | Campo                          | Tipo         | Descrição                                                                  |
   | :----------------------------- | :----------- | :------------------------------------------------------------------------- |
   | `id`                           | int8         | Indentificador da tabela (Primary Key).                                    |
-  | `empresa_id`                   | int8         | Foreing Key da tabela [empresas](#empresas).                               |
+  | `empresa_id`                   | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                           |
   | `cpfcnpj`                      | varchar(14)  | CPF/CNPJ da unidade.                                                       |
   | `nome`                         | varchar(140) | Nome da unidade.                                                           |
   | `razao_social`                 | varchar(140) | Razão social da unidade.                                                   |
@@ -50,11 +50,11 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
 
 - **Relacionamentos:**
 
-  | Tabela                            | Tipo        | Descrição                                                                                 |
-  | :------------------------------ - | :---------- | :---------------------------------------------------------------------------------------- |
-  | [`empresas`](#empresas)           | Foreing Key | As unidades são pertencentes as empresas, sendo que a mesma pode ter várias unidades.     |
-  | [`centrocustos`](#centrocustos)   | Primary Key | Cada unidade possui seu centro de custos próprio, agrupando receitas e despesas da mesma. |
-  | [`contascaixas`](#contascaixas)   | Primary Key | Cada unidade possui sua conta caixa, para gerenciamento das transações financeiras.       |
-  | [`painel_dados`](#painel_dados)   | Primary Key | Os dados das unidades estarão presentes, também, no painel de dados no sistema.           |
-  | [`departamentos`](#departamentos) | Primary Key | Cada unidade pode ter seus departamentos particulares.                                    |
-  | [`lancamentos`](#lancamentos)     | Primary Key | Os dados das unidades estarão presentes nos lançamentos.                                  |
+  | Tabela                                | Tipo        | Descrição                                                                                 |
+  | :------------------------------------ | :---------- | :---------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)           | Foreing Key | As unidades são pertencentes as empresas, sendo que a mesma pode ter várias unidades.     |
+  | [^^`centrocustos`^^](#centrocustos)   | Primary Key | Cada unidade possui seu centro de custos próprio, agrupando receitas e despesas da mesma. |
+  | [^^`contascaixas`^^](#contascaixas)   | Primary Key | Cada unidade possui sua conta caixa, para gerenciamento das transações financeiras.       |
+  | [^^`painel_dados`^^](#painel_dados)   | Primary Key | Os dados das unidades estarão presentes, também, no painel de dados no sistema.           |
+  | [^^`departamentos`^^](#departamentos) | Primary Key | Cada unidade pode ter seus departamentos particulares.                                    |
+  | [^^`lancamentos`^^](#lancamentos)     | Primary Key | Os dados das unidades estarão presentes nos lançamentos.                                  |

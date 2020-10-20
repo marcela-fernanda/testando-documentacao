@@ -15,14 +15,14 @@ Tabela responsável por armazenar os dados dos lançamentos de uma empresa no si
   | Campo                   | Tipo         | Descrição                                                                                        |
   | :---------------------- | :----------- | :----------------------------------------------------------------------------------------------- |
   | `id`                    | int8         | Indentificador da tabela (Primary Key).                                                          |
-  | `empresa_id`            | int8         | Foreing Key da tabela [empresas](#empresas).                                                     |
-  | `departamento_id`       | int8         | Foreing Key da tabela [departamentos](#departamentos).                                           |
-  | `fornecedor_cliente_id` | int8         | Foreing Key da tabela [fornecedores_clientes](#fornecedores_clientes).                           |
-  | `colaborador_id`        | int8         | Foreing Key da tabela [colaboradores](#colaboradores).                                           |
-  | `unidade_id`            | int8         | Foreing Key da tabela [unidades](#centrocustos).                                                 |
-  | `centrocusto_id`        | int8         | Foreing Key da tabela [centrocustos](#centrocustos).                                             |
-  | `pag_transferencia_id`  | int8         | Foreing Key da tabela [pag_transferencias](#pag_transferencias).                                 |
-  | `planoconta_id`         | int8         | Foreing Key da tabela [planocontas](#planocontas).                                               |
+  | `empresa_id`            | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                                                 |
+  | `departamento_id`       | int8         | Foreing Key da tabela [^^departamentos^^](#departamentos).                                       |
+  | `fornecedor_cliente_id` | int8         | Foreing Key da tabela [^^fornecedores_clientes^^](#fornecedores_clientes).                       |
+  | `colaborador_id`        | int8         | Foreing Key da tabela [^^colaboradores^^](#colaboradores).                                       |
+  | `unidade_id`            | int8         | Foreing Key da tabela [^^unidades^^](#centrocustos).                                             |
+  | `centrocusto_id`        | int8         | Foreing Key da tabela [^^centrocustos^^](#centrocustos).                                         |
+  | `pag_transferencia_id`  | int8         | Foreing Key da tabela [^^pag_transferencias^^](#pag_transferencias).                             |
+  | `planoconta_id`         | int8         | Foreing Key da tabela [^^planocontas^^](#planocontas).                                           |
   | `valor`                 | numeric      | Valor "original" do lançamento.                                                                  |
   | `valor_acrescimo`       | numeric      | Valor de acréscimo a um lançamento (pagamento em atraso).                                        |
   | `valor_desconto`        | numeric      | Valor de desconto em um lançamento.                                                              |
@@ -45,15 +45,15 @@ Tabela responsável por armazenar os dados dos lançamentos de uma empresa no si
 
 - **Relacionamentos:**
 
-  | Tabela                                              | Tipo        | Descrição                                                              |
-  | :-------------------------------------------------- | :---------- | :--------------------------------------------------------------------- |
-  | [`empresas`](#empresas)                             | Foreing Key | O lançamento refere-se a uma empresa, a qual ele está ligado.          |
-  | [`departamentos`](#departamentos)                   | Foreing Key | O lançamento refere-se a um departamento, a qual ele está ligado.      |
-  | [`fornecedor_clientes`](#fornecedor_clientes)       | Foreing Key | Os dados do fornecedor constarão em um lançamento.                     |
-  | [`colaboradores`](#colaboradores)                   | Foreing Key | Os dados refentes ao colaborador estão contidos em um lançamento.      |
-  | [`unidades`](#unidades)                             | Foreing Key | O lançamento refere-se a uma unidade, a qual ele está ligado.          |
-  | [`centrocustos`](#centrocustos)                     | Foreing Key | Os dados do centro de custos da empresa estará contido no lançamento.  |
-  | [`pag_transferencias`](#pag_transferencias)         | Foreing Key | Os dados referentes aos pagamentos de transferências estão contidos no lançamento. |
-  | [`planocontas`](#planocontas)                       | Foreing Key | Corresponde a categoria do lançamento.                                 |
-  | [`lancamentos_baixas`](#lancamentos_baixas)         | Primary Key | Os lançamentos passarão, no sistema, pelo processo de baixa.           |
-  | [`lancamentos_documentos`](#lancamentos_documentos) | Primary Key | Os lançamentos possuem documentos (anexos) que estão atrelados a eles. |
+  | Tabela                                                  | Tipo        | Descrição                                                                          |
+  | :------------------------------------------------------ | :---------- | :--------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)                             | Foreing Key | O lançamento refere-se a uma empresa, a qual ele está ligado.                      |
+  | [^^`departamentos`^^](#departamentos)                   | Foreing Key | O lançamento refere-se a um departamento, a qual ele está ligado.                  |
+  | [^^`fornecedor_clientes`^^](#fornecedor_clientes)       | Foreing Key | Os dados do fornecedor constarão em um lançamento.                                 |
+  | [^^`colaboradores`^^](#colaboradores)                   | Foreing Key | Os dados refentes ao colaborador estão contidos em um lançamento.                  |
+  | [^^`unidades`^^](#unidades)                             | Foreing Key | O lançamento refere-se a uma unidade, a qual ele está ligado.                      |
+  | [^^`centrocustos`^^](#centrocustos)                     | Foreing Key | Os dados do centro de custos da empresa estará contido no lançamento.              |
+  | [^^`pag_transferencias`^^](#pag_transferencias)         | Foreing Key | Os dados referentes aos pagamentos de transferências estão contidos no lançamento. |
+  | [^^`planocontas`^^](#planocontas)                       | Foreing Key | Corresponde a categoria do lançamento.                                             |
+  | [^^`lancamentos_baixas`^^](#lancamentos_baixas)         | Primary Key | Os lançamentos passarão, no sistema, pelo processo de baixa.                       |
+  | [^^`lancamentos_documentos`^^](#lancamentos_documentos) | Primary Key | Os lançamentos possuem documentos (anexos) que estão atrelados a eles.             |

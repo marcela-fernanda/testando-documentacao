@@ -5,9 +5,9 @@ Tabela responsável por englobar transações financeiras advindas de diversas f
   | Campo              | Tipo        | Descrição                                                                |
   | :----------------- | :---------- | :----------------------------------------------------------------------- |
   | `id`               | int8        | Indentificador da tabela (Primary Key).                                  |
-  | `empresa_id`       | int8        | Foreing Key da tabela [empresas](#empresas).                             |
-  | `unidade_id`       | int8        | Foreing Key da tabela [unidades](#unidades).                             |
-  | `contabancaria_id` | int8        | Foreing Key da tabela [contasbancarias](#contasbancarias).               |
+  | `empresa_id`       | int8        | Foreing Key da tabela [^^empresas^^](#empresas).                         |
+  | `unidade_id`       | int8        | Foreing Key da tabela [^^unidades^^](#unidades).                         |
+  | `contabancaria_id` | int8        | Foreing Key da tabela [^^contasbancarias^^](#contasbancarias).           |
   | `tipo`             | varchar(40) | Tipo de conta caixa (transação).                                         |
   | `saldoinicial`     | numeric     | Saldo inicial da conta antes do desconto da transação.                   |
   | `saldo`            | numeric     | Saldo final da conta após o desconto da transação.                       |
@@ -18,9 +18,9 @@ Tabela responsável por englobar transações financeiras advindas de diversas f
 
 - **Relacionamentos:**
 
-  | Tabela                                      | Tipo        | Descrição                                                                                |
-  | :------------------------------------------ | :---------- | :--------------------------------------------------------------------------------------- |
-  | [`empresas`](#empresas)                     | Foreing Key | As conta caixa estão ligadas a uma empresa, sendo que a mesma pode ter várias conta caixa. |
-  | [`unidades`](#unidades)                     | Foreing Key | As conta caixa estão ligadas a uma unidade, sendo que a mesma pode ter várias conta caixa. |
-  | [`contasbancarias`](#contasbancarias)       | Foreing Key | As transações armazenadas na conta caixa podem ser originadas de contas bancárias.       |
-  | [`lancamentos_baixas`](#lancamentos_baixas) | Primary Key | Os dados armazenados na tabela contascaixas serão utilizados nas baixas dos lançamentos. |
+  | Tabela                                          | Tipo        | Descrição                                                                                  |
+  | :---------------------------------------------- | :---------- | :----------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)                     | Foreing Key | As conta caixa estão ligadas a uma empresa, sendo que a mesma pode ter várias conta caixa. |
+  | [^^`unidades`^^](#unidades)                     | Foreing Key | As conta caixa estão ligadas a uma unidade, sendo que a mesma pode ter várias conta caixa. |
+  | [^^`contasbancarias`^^](#contasbancarias)       | Foreing Key | As transações armazenadas na conta caixa podem ser originadas de contas bancárias.         |
+  | [^^`lancamentos_baixas`^^](#lancamentos_baixas) | Primary Key | Os dados armazenados na tabela contascaixas serão utilizados nas baixas dos lançamentos.   |

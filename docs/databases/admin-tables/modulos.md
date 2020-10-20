@@ -13,6 +13,6 @@ Tabela responsável por armazenar os diferentes módulos acessíveis a um usuár
 
 - **Relacionamentos:**
 
-  | Tabela                      | Tipo        | Descrição                                                                            |
-  | :-------------------------- | :---------- | :----------------------------------------------------------------------------------- |
-  | [`permissoes`](#permissoes) | Primary Key | As permissões que os usuários possuem para acesso a determinados módulos do sistema. |
+  | Tabela                          | Tipo        | Descrição                                                                            |
+  | :------------------------------ | :---------- | :----------------------------------------------------------------------------------- |
+  | [^^`permissoes`^^](#permissoes) | Primary Key | As permissões que os usuários possuem para acesso a determinados módulos do sistema. |

@@ -12,10 +12,10 @@ Tabela responsável os boletos de pagamento cujo pessoa que o emitiu será a mes
   | `uniqueid`         | varchar(25)  | Identificador de um boleto de pagamento específico.                                                             |
   | `duedate`          | date         | Data de vencimento.                                                                                             |
   | `amount`           | numeric      | Valor a ser pago.                                                                                               |
-  | `datedocument`     | date         | Data de criação do documento de pagamento.                                                                      |
-  | `payer`            | jsonb        | Objeto contendo os dados sobre o pagador do boleto.                                                             |
-  | `beneficiary`      | jsonb        | Objeto contendo os dados do beneficiário.                                                                       |
-  | `cobeneficiary`    | jsonb        | Objeto contendo os dados da empresa que realizou a venda responsável pela geração de boleto (sacador avalista). |
+  | `datedocument`     | date         | Data de criação do documento de pagamento (formato ISO 8601).                                                   |
+  | `payer`            | jsonb        | Objeto contendo os [^^dados^^](#__tabbed_2_1) sobre o pagador do boleto.                                        |
+  | `beneficiary`      | jsonb        | Objeto contendo os [^^dados^^](#__tabbed_2_2) do beneficiário.                                                  |
+  | `cobeneficiary`    | jsonb        | Objeto contendo os [^^dados^^](#__tabbed_2_3) da empresa que realizou a venda responsável pela geração de boleto (sacador avalista). |
   | `bankbranchnumber` | int4         | Número da agência do banco responsável pela criação do boleto de pagamento.                                     |
   | `banknumber`       | int4         | Número do banco responsável pela criação do boleto.                                                             |
   | `instructions`     | varchar(200) | Instruções de pagamento do boleto.                                                                              |
@@ -26,7 +26,7 @@ Tabela responsável os boletos de pagamento cujo pessoa que o emitiu será a mes
   | `type`             | int4         | Tipo de boleto de pagamento gerado.                                                                             |
   | `created_at`       | timestamp    |                                                                                                                 |
   | `updated_at`       | timestamp    |                                                                                                                 |
-  | `lancamento_id`    | int8         | Foreing Key da tabela [lancamentos](db-astecas.md#lancamentos) (banco astecas).                                 |
+  | `lancamento_id`    | int8         | Foreing Key da tabela [^^lancamentos^^](db-astecas.md#lancamentos) (banco astecas).                             |
 
 A seguir, encontram-se os dados contidos nos objetos da tabela payment_slip_recharger:
 
@@ -34,7 +34,7 @@ A seguir, encontram-se os dados contidos nos objetos da tabela payment_slip_rech
 
 - **Relacionamentos:**
 
-  | Tabela                                             | Tipo        | Descrição                                         |
-  | :------------------------------------------------- | :---------- | :------------------------------------------------ |
-  | [`astecas.lancamentos`](db-astecas.md#lancamentos) | Foreing Key | Os boleto gerados são vinculados a um lançamento. |
+  | Tabela                                                 | Tipo        | Descrição                                         |
+  | :----------------------------------------------------- | :---------- | :------------------------------------------------ |
+  | [^^`astecas.lancamentos`^^](db-astecas.md#lancamentos) | Foreing Key | Os boleto gerados são vinculados a um lançamento. |
   

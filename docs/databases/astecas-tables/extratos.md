@@ -5,9 +5,9 @@ Tabela utilizada para armazenar os extratos bancários de uma empresa.
   | Campo              | Tipo         | Descrição                                                                  |
   | :----------------- | :----------- | :------------------------------------------------------------------------- |
   | `id`               | int8         | Indentificador da tabela (Primary Key).                                    |
-  | `empresa_id`       | int8         | Foreing Key da tabela [empresas](#empresas).                               |
-  | `contabancaria_id` | int8         | Foreing Key da tabela [contasbancarias](#contas_bancarias).                |
-  | `user_id`          | int8         | Foreing Key da tabela [users](db-admin.md#users) (banco admin).            |
+  | `empresa_id`       | int8         | Foreing Key da tabela [^^empresas^^](#empresas).                           |
+  | `contabancaria_id` | int8         | Foreing Key da tabela [^^contasbancarias^^](#contas_bancarias).            |
+  | `user_id`          | int8         | Foreing Key da tabela [^^users^^](db-admin.md#users) (banco admin).        |
   | `conteudo`         | jsonb        | Conteúdo do extrato.                                                       |
   | `metodo`           | varchar(40)  | Método de recebimento do extrato no sistema.                               |
   | `created_at`       | timestamp    |                                                                            |
@@ -25,9 +25,9 @@ Tabela utilizada para armazenar os extratos bancários de uma empresa.
 
 - **Relacionamentos:**
 
-  | Tabela                                          | Tipo        | Descrição                                                                          |
-  | :-----------------------------------------------| :---------- | :----------------------------------------------------------------------------------|
-  | [`empresas`](#empresas)                         | Foreing Key | Os extratos estão ligados a uma empresa e a mesma pode ter vários extratos.        |
-  | [`contasbancarias`](#contasbancarias)           | Foreing Key | Um extrato é advindo das movimentações financeiras realizadas em contas bancárias. |
-  | [`admin.users`](db-admin.md#users)              | Foreing Key | Cada extrato está ligado a um usuário dentro do sistema.                           |
-  | [`extratos_lancamentos`](#extratos_lancamentos) | Primary Key | Os extratos são compostos por lançamentos.                                         |
+  | Tabela                                              | Tipo        | Descrição                                                                          |
+  | :-------------------------------------------------- | :---------- | :----------------------------------------------------------------------------------|
+  | [^^`empresas`^^](#empresas)                         | Foreing Key | Os extratos estão ligados a uma empresa e a mesma pode ter vários extratos.        |
+  | [^^`contasbancarias`^^](#contasbancarias)           | Foreing Key | Um extrato é advindo das movimentações financeiras realizadas em contas bancárias. |
+  | [^^`admin.users`^^](db-admin.md#users)              | Foreing Key | Cada extrato está ligado a um usuário dentro do sistema.                           |
+  | [^^`extratos_lancamentos`^^](#extratos_lancamentos) | Primary Key | Os extratos são compostos por lançamentos.                                         |

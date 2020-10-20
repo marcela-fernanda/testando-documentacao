@@ -14,6 +14,6 @@ Tabela responsável pelo armazenamento dos dados referentes aos bancos que estã
 
 - **Relacionamentos:**
 
-  | Tabela                                | Tipo        | Descrição                          |
-  | :------------------------------------ | :---------- | :----------------------------------|
-  | [`contasbancarias`](#contasbancarias) | Primary Key | A conta bancária está ligada a um banco, assim como o mesmo banco possui várias contas bancárias ligadas a ele. |
+  | Tabela                                    | Tipo        | Descrição                          |
+  | :---------------------------------------- | :---------- | :----------------------------------|
+  | [^^`contasbancarias`^^](#contasbancarias) | Primary Key | A conta bancária está ligada a um banco, assim como o mesmo banco possui várias contas bancárias ligadas a ele. |

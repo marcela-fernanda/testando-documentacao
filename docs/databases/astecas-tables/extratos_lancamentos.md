@@ -5,8 +5,8 @@ Tabela responsável por agrupar todos os lançamentos contidos em um extrato.
   | Campo                 | Tipo        | Descrição                                                                     |
   | :-------------------- | :---------- | :---------------------------------------------------------------------------- |
   | `id`                  | int8        | Indentificador da tabela (Primary Key).                                       |
-  | `empresa_id`          | int8        | Foreing Key da tabela [empresas](#empresas).                                  |
-  | `extrato_id`          | int8        | Foreing Key da tabela [extratos](#extratos).                                  |
+  | `empresa_id`          | int8        | Foreing Key da tabela [^^empresas^^](#empresas).                              |
+  | `extrato_id`          | int8        | Foreing Key da tabela [^^extratos^^](#extratos).                              |
   | `valor`               | date        | Data de criação do lançamento.                                                |
   | `data`                | numeric     | Valor total dos extratos presentes no lançamento.                             |
   | `checknum`            | varchar(40) | Número de controle do lançamento usando pelo BAAS.                            |
@@ -19,8 +19,8 @@ Tabela responsável por agrupar todos os lançamentos contidos em um extrato.
   
 - **Relacionamentos:**
 
-  | Tabela                      | Tipo                                                    | Descrição                                            |
-  | :------------------------------------------------------------------------------------ | :---------- | :------------------------------------- |
-  | [`empresas`](#empresas)                                                               | Foreing Key | Os lançamentos correspondem a uma empresa, e a mesma pode ter vários lançamentos. |
-  | [`extratos`](#extratos)                                                               | Foreing Key | Os lançamentos contém vários extratos. |
-  | [`lancamentos_baixas_extratos_lancamentos`](#lancamentos_baixas_extratos_lancamentos) | Primary Key | Os lançamentos de extratos passam pelo processo de "baixa" dentro do sistema. |
+  | Tabela                                                                                    | Tipo        | Descrição                              |
+  | :---------------------------------------------------------------------------------------- | :---------- | :------------------------------------- |
+  | [^^`empresas`^^](#empresas)                                                               | Foreing Key | Os lançamentos correspondem a uma empresa, e a mesma pode ter vários lançamentos. |
+  | [^^`extratos`^^](#extratos)                                                               | Foreing Key | Os lançamentos contém vários extratos. |
+  | [^^`lancamentos_baixas_extratos_lancamentos`^^](#lancamentos_baixas_extratos_lancamentos) | Primary Key | Os lançamentos de extratos passam pelo processo de "baixa" dentro do sistema. |

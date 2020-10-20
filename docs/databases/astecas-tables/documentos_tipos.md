@@ -12,6 +12,6 @@ Tabela responsável por armazenar os tipos de documentos presentes no sistema.
 
 - **Relacionamentos:**
 
-  | Tabela                      | Tipo        | Descrição                                                                                              |
-  | :-------------------------- | :---------- | :----------------------------------------------------------------------------------------------------- |
-  | [`documentos`](#documentos) | Primary Key | Os tipos de documentos estão atrelados aos documentos, ou seja, cada documento tem um tipo específico. |
+  | Tabela                          | Tipo        | Descrição                                                                                              |
+  | :------------------------------ | :---------- | :----------------------------------------------------------------------------------------------------- |
+  | [^^`documentos`^^](#documentos) | Primary Key | Os tipos de documentos estão atrelados aos documentos, ou seja, cada documento tem um tipo específico. |

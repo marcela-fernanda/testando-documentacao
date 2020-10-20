@@ -22,7 +22,7 @@ Tabela responsável por armazenar os dados referentes aos destinatários envolvi
   | `idissuer`           | int4         | Código de identificação do emissor.                  |
   | `tariffcode`         | varchar(255) | Código da tarifa.                                    |
   | `uid`                | varchar(255) | Identificador da transferência.                      |
-  | `date`               | timestamp    | Destino da transação.                                |
+  | `date`               | timestamp    | Data de realização da transferência (ISO 8601).      |
   | `transactioncode`    | varchar(255) | Código da transação.                                 |
   | `idadjustment`       | int4         | Código dos ajustes de identificação.                 |
   | `user_id`            | int4         | Identificador do usuário envolvido na transferência. |

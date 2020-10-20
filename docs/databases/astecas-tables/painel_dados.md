@@ -5,8 +5,8 @@ Tabela responsável por armazenar os dados da empresa, que serão mostrados (UI)
   | Campo                   | Tipo      | Descrição                                                                  |
   | :---------------------- | :-------- | :------------------------------------------------------------------------- |
   | `id`                    | int8      | Indentificador da tabela (Primary Key).                                    |
-  | `empresa_id`            | int8      | Foreing Key da tabela [empresas](#empresas).                               |
-  | `unidade_id`            | int8      | Foreing Key da tabela [unidades](#unidades).                               |
+  | `empresa_id`            | int8      | Foreing Key da tabela [^^empresas^^](#empresas).                           |
+  | `unidade_id`            | int8      | Foreing Key da tabela [^^unidades^^](#unidades).                           |
   | `ano`                   | int4      | Ano vigente.                                                               |
   | `mes`                   | int4      | Mês vigente.                                                               |
   | `geracao_liquida_caixa` | numeric   | Correspondente ao valor da geração líquida de caixa.                       |
@@ -22,7 +22,7 @@ Tabela responsável por armazenar os dados da empresa, que serão mostrados (UI)
 
 - **Relacionamentos:**
 
-  | Tabela                  | Tipo        | Descrição                                                                                              |
-  | :---------------------- | :---------- | :----------------------------------------------------------------------------------------------------- |
-  | [`empresas`](#empresas) | Foreing Key | O painel de dados irá apresentar dados da empresa no sistema.                                          |
-  | [`unidades`](#unidades) | Foreing Key | O painel de dados contará, também, com os dados de cada unidade pertencente a uma determinada empresa. |
+  | Tabela                      | Tipo        | Descrição                                                                                              |
+  | :-------------------------- | :---------- | :----------------------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas) | Foreing Key | O painel de dados irá apresentar dados da empresa no sistema.                                          |
+  | [^^`unidades`^^](#unidades) | Foreing Key | O painel de dados contará, também, com os dados de cada unidade pertencente a uma determinada empresa. |

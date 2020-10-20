@@ -5,7 +5,7 @@ Tabela responsável por armazenar os tokens de acesso de cada usuário nas sess�
   | Campo        | Tipo         | Descrição                                               |
   | :----------- | :----------- | :------------------------------------------------------ |
   | `id`         | varchar(100) | Indentificador da tabela (Primary Key).                 |
-  | `user_id`    | int8         | Foreing Key da tabela [users](#users).                  |
+  | `user_id`    | int8         | Foreing Key da tabela [^^users^^](#users).              |
   | `client_id`  | int4         | Identificador do cliente.                               |
   | `name`       | varchar(255) |                                                         |
   | `scopes`     | text         | Refere-se a permissão do usuário dentro do sistema.     |
@@ -16,6 +16,6 @@ Tabela responsável por armazenar os tokens de acesso de cada usuário nas sess�
 
 - **Relacionamentos:**
 
-  | Tabela            | Tipo        | Descrição                                           |
-  | :---------------- | :---------- | :-------------------------------------------------- |
-  | [`users`](#users) | Foreing Key | Usuário ao qual o token de acesso está relacionado. |
+  | Tabela                | Tipo        | Descrição                                           |
+  | :-------------------- | :---------- | :-------------------------------------------------- |
+  | [^^`users`^^](#users) | Foreing Key | Usuário ao qual o token de acesso está relacionado. |

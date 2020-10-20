@@ -33,6 +33,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/extra.js
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -46,7 +49,12 @@ markdown_extensions:
   - pymdownx.snippets
   - def_list
   - attr_list
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
 
 plugins:
-  - search
+  - search:
+      lang:
+        - pt
   - git-revision-date-localized

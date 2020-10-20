@@ -12,6 +12,6 @@ Tabela que armazena os diferentes tipos de planos que as contas podem possuir.
 
 - **Relacionamentos:**
 
-  | Tabela                                      | Tipo        | Descrição                                                                   |
-  | :------------------------------------------ | :---------- | :-------------------------------------------------------------------------- |
-  | [`planocontas_padrao`](#planocontas_padrao) | Primary Key | Cada plano terá um tipo especifico, e será atrelado a uma conta específica. |
+  | Tabela                                          | Tipo        | Descrição                                                                   |
+  | :---------------------------------------------- | :---------- | :-------------------------------------------------------------------------- |
+  | [^^`planocontas_padrao`^^](#planocontas_padrao) | Primary Key | Cada plano terá um tipo especifico, e será atrelado a uma conta específica. |

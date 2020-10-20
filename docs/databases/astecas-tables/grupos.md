@@ -13,6 +13,6 @@ Tabela que armazena os dados do grupo do qual cada empresa faz parte.
 
 - **Relacionamentos:**
 
-  | Tabela                  | Tipo        | Descrição                                                                               |
-  | :---------------------- | :---------- | :-------------------------------------------------------------------------------------- |
-  | [`empresas`](#empresas) | Primary Key | Cada empresa pertence a um grupo, e os grupos possuem várias empresas atreladas a eles. |
+  | Tabela                      | Tipo        | Descrição                                                                               |
+  | :-------------------------- | :---------- | :-------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas) | Primary Key | Cada empresa pertence a um grupo, e os grupos possuem várias empresas atreladas a eles. |
