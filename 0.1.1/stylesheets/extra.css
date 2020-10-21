@@ -42,7 +42,7 @@ span.md-header-nav__topic, span.md-ellipsis {
   display: none;
 }
 
-#version-selector select {
+#version-selector select, .form-control {
   color: white;
 	font-family: inherit;
 	background-color: transparent;
@@ -53,6 +53,6 @@ span.md-header-nav__topic, span.md-ellipsis {
 	border-bottom: 1px solid white;
 }
 
-#version-selector select option {
+#version-selector select option, .form-control {
   color: black;
 }
