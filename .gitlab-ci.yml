@@ -5,7 +5,9 @@ variables:
 
 before_script:
   - pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin mike
-  - mike install-extras mike deploy 0.1.0 latest set-default latest
+  - mike install-extras 
+  - mike deploy 0.1.0 latest  
+  - mike set-default latest
 
 pages:
   script:
