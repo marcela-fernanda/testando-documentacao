@@ -6,39 +6,41 @@ repo_name: astecas/documentacao
 edit_uri: ""
 
 nav:
-  - Sobre: 
-    - O que é o Astecas?: index.md
+  - Sobre:
+      - O que é o Astecas?: index.md
   - Getting Started:
-    - Instalação: getting-started
-    - Processos: getting-started/processos.md
+      - Instalação: getting-started.md
+      - Processos: getting-started/processos.md
   - Esquemas de dados:
-    - Esquema Astecas: databases/db-astecas.md
-    - Esquema Admin: databases/db-admin.md
-    - Esquema BAAS: databases/db-baas.md
-  - Changelog: 
-    - Releases: changelog.md 
+      - Esquema Astecas: databases/db-astecas.md
+      - Esquema Admin: databases/db-admin.md
+      - Esquema BAAS: databases/db-baas.md
+  - Changelog:
+      - Releases: changelog.md
 
 theme:
-  name: 'material'
-  logo: assets/images/logo.png
-  favicon: assets/images/logo-color.png
-  features:
-    - navigation.tabs
-  language: pt
-  palette:
-    scheme: astecas
-  icon:
-    repo: fontawesome/brands/gitlab
-    
+    name: 'material'
+    logo: assets/images/logo.png
+    favicon: assets/images/logo-color.png
+    features:
+      - navigation.tabs
+    language: pt
+    palette:
+        scheme: astecas
+    icon:
+        repo: fontawesome/brands/gitlab
+
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/version-select.css
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/version-select.js
 
 markdown_extensions:
   - toc:
-      permalink: true
+        permalink: true
   - admonition
   - pymdownx.details
   - pymdownx.tabbed
@@ -53,6 +55,6 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang:
-        - pt
+        lang:
+          - pt
   - git-revision-date-localized

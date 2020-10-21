@@ -5,7 +5,9 @@ window.onclick = function(event) {
 function init (eventData) {
   var currentId = eventData.srcElement.parentElement.hash;
 
-  changeCheckedInput(currentId);
+  if (currentId) {
+    changeCheckedInput(currentId);
+  }
 }
 
 function changeCheckedInput (currentId) {
@@ -21,8 +23,5 @@ function changeCheckedInput (currentId) {
       inputParent[i].checked = false;
       
     } 
-  }
-
-  
-  
+  } 
 }

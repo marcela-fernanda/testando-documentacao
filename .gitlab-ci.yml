@@ -4,7 +4,9 @@ variables:
   GIT_DEPTH: 1000
 
 before_script:
-  - pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
+  - pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin mike
+  - mike install-extras
+  - mike set-default latest
 
 pages:
   script:
