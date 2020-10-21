@@ -42,17 +42,24 @@ span.md-header-nav__topic, span.md-ellipsis {
   display: none;
 }
 
-#version-selector select, .form-control {
+select {
+  border:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+}
+
+#version-selector select {
   color: white;
 	font-family: inherit;
 	background-color: transparent;
 	width: 150px;
 	padding: 10px 10px 10px 0;
 	font-size: 18px;
-	border: none;
 	border-bottom: 1px solid white;
 }
 
-#version-selector select option, .form-control {
+#version-selector select option {
   color: black;
 }
