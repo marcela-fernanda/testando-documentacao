@@ -39,14 +39,14 @@ a.md-nav__link--active:hover {
   border-color: #44CCCC;
 }
 
-span.md-header-nav__topic, span.md-ellipsis {
+/*span.md-header-nav__topic, span.md-ellipsis {
   position: static;
   display: inline;
 }
 
 .md-header-nav__ellipsis span:nth-of-type(2) {
   display: none;
-}
+}*/
 
 #version-selector select {
   color: white;
@@ -83,7 +83,7 @@ span.md-header-nav__topic, span.md-ellipsis {
 
 .displayTitle {
   display: inline !important;
-  position: absolute !important;
+  position: relative !important;
   left: 0px !important;
 }
 
