@@ -81,7 +81,7 @@ a.md-nav__link--active:hover {
   color: black;
 }
 
-.displayTitle {
+/*.displayTitle {
   display: inline !important;
   position: relative !important;
   left: 0px !important;
@@ -89,4 +89,4 @@ a.md-nav__link--active:hover {
 
 .md-nav__source {
   background-color: #44CCCC;
-}
+}*/
