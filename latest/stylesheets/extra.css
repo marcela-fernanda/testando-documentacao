@@ -51,7 +51,7 @@ a.md-nav__link--active:hover {
   position: static;
 }
 
-.md-header-nav__ellipsis:first-child {
+.md-header-nav__ellipsis[data-md-state="active"]:first-child {
   display: none;
 }
 
