@@ -51,6 +51,10 @@ a.md-nav__link--active:hover {
   position: static;
 }
 
+.md-header-nav__ellipsis:first-child {
+  display: none;
+}
+
 /*span.md-header-nav__topic, span.md-ellipsis {
   position: static;
   display: inline;
