@@ -43,7 +43,7 @@ a.md-nav__link--active:hover {
   display: flex;
 }
 
-md-header-nav__ellipsis {
+.md-header-nav__ellipsis {
   width: auto;
 }
 
@@ -51,7 +51,7 @@ md-header-nav__ellipsis {
   position: static;
 }
 
-.md-header-nav__title[data-md-state="active"] {
+.md-header-nav__title[data-md-state="active"] > .md-header-nav__topic md-ellipsis {
   position: absolute;
 }
 
