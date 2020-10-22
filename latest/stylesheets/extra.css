@@ -39,12 +39,8 @@ a.md-nav__link--active:hover {
   border-color: #44CCCC;
 }
 
-.md-header-nav__topic {
-  position: relative;
-}
-
-.md-header-nav__ellipsis {
-  position: absolute;
+.md-header-nav__title {
+  display: flex;
 }
 
 /*span.md-header-nav__topic, span.md-ellipsis {
