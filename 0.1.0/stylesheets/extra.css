@@ -75,3 +75,13 @@ span.md-header-nav__topic, span.md-ellipsis {
 #version-selector select option {
   color: black;
 }
+
+.displayTitle {
+  display: inline !important;
+  position: absolute !important;
+  left: 0px !important;
+}
+
+.md-nav__source {
+  background-color: #44CCCC;
+}

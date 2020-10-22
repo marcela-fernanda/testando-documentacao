@@ -3,3 +3,9 @@
     padding: .6rem .8rem;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  #version-selector select {
+    width: 70px;
+  }
+}
