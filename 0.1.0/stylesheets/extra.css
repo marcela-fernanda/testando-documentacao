@@ -55,7 +55,8 @@ span.md-header-nav__topic, span.md-ellipsis {
   width: 100px;
   padding: 5px 5px 5px 0;
 	font-size: 18px;
-	border: none;
+  border: none;
+  cursor: pointer;
 }
 
 #version-selector select:focus {
