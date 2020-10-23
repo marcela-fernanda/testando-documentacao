@@ -43,12 +43,10 @@ window.addEventListener("DOMContentLoaded", function() {
     container.appendChild(select);
 
     var sidebar = document.querySelector(".md-header-nav__topic").lastChild;
-    var sidebarTeste = document.querySelector(".md-header-nav__topic").firstChild;
 
     sidebar.parentNode.appendChild(container, sidebar);
-    sidebar.parentNode.innerHTML(container, sidebar);
+    sidebar.appendChild(container, sidebar);
 
-    console.log(sidebarTeste)
   };
   xhr.send();
 });
