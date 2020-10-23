@@ -46,9 +46,7 @@ window.addEventListener("DOMContentLoaded", function() {
     var sidebar = document.querySelector(".md-header-nav__ellipsis").lastChild;
 
     sidebarLast.parentNode.appendChild(container, sidebar);
-    sidebar.parentElement.lastChild.previousSibling.appendChild(container, sidebar)
-
-
+    //sidebar.parentElement.lastChild.previousSibling.appendChild(container, sidebar);
   };
   xhr.send();
 });
