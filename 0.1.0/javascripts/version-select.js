@@ -47,6 +47,8 @@ window.addEventListener("DOMContentLoaded", function() {
 
     sidebar.parentNode.appendChild(container, sidebar);
     sidebarTeste.parentNode.appendChild(container, sidebar);
+
+    console.log(sidebarTeste)
   };
   xhr.send();
 });
