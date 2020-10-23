@@ -43,7 +43,7 @@ window.addEventListener("DOMContentLoaded", function() {
     container.appendChild(select);
 
     var sidebarLast = document.querySelector(".md-header-nav__topic").lastChild;
-    var sidebar = document.querySelector(".md-header-nav__topic");
+    var sidebar = document.querySelector(".md-header-nav__ellipsis").lastChild;
 
     sidebarLast.parentNode.appendChild(container, sidebar);
 
