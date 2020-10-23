@@ -41,7 +41,7 @@ a.md-nav__link--active:hover {
 
 .md-header-nav__ellipsis {
   display: grid;
-  grid-template-columns: fit-content(300px) fit-content(300px) 1;
+  grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
 }
 
 .md-header-nav__topic {
