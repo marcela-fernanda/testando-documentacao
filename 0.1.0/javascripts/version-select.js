@@ -42,9 +42,9 @@ window.addEventListener("DOMContentLoaded", function() {
     container.className = "md-nav__item";
     container.appendChild(select);
 
-    var sidebar = document.querySelector(".md-header-nav__ellipsis");
+    var sidebar = document.querySelector(".md-header-nav__topic").lastChild();
 
-    sidebar.parentNode.appendChild(container, sidebar);
+    sidebar.parentNode.insertBefore(container, sidebar);
   };
   xhr.send();
 });
