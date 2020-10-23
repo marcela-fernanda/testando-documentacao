@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", function() {
     var sidebar = document.querySelector(".md-header-nav__ellipsis").lastChild.parentElement.lastChild.previousSibling;
 
     sidebarLast.parentNode.appendChild(container, sidebar);
-    sidebar.innerHTML = '<span id="version-selector" class="md-nav__item"><select class="form-control"><option value="0.1.0">0.1.0</option></select></span>';
+    sidebar.innerHTML += '<span id="version-selector" class="md-nav__item"><select class="form-control"><option value="0.1.0">0.1.0</option></select></span>';
   };
   xhr.send();
 });
