@@ -43,8 +43,10 @@ window.addEventListener("DOMContentLoaded", function() {
     container.appendChild(select);
 
     var sidebar = document.querySelector(".md-header-nav__topic").lastChild;
+    var sidebarTeste = document.querySelector(".md-header-nav__topic").firstChild;
 
     sidebar.parentNode.appendChild(container, sidebar);
+    sidebarTeste.parentNode.appendChild(container, sidebar);
   };
   xhr.send();
 });
