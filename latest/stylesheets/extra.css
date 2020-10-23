@@ -40,7 +40,8 @@ a.md-nav__link--active:hover {
 }
 
 .md-header-nav__title {
-  display: flex;
+  display: grid;
+  grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
 }
 
 /*span.md-header-nav__topic, span.md-ellipsis {
