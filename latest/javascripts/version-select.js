@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     sidebarLast.parentNode.appendChild(container, sidebar);
 
-    console.log(sidebar)
+    console.log(sidebar.parentElement.lastChild)
 
     //sidebar[1].appendChild(container, sidebar);
 
