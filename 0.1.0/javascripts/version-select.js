@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", function() {
     var sidebarTeste = document.querySelector(".md-header-nav__topic").firstChild;
 
     sidebar.parentNode.appendChild(container, sidebar);
-    sidebarTeste.parentNode.appendChild(container, sidebar);
+    sidebar.parentNode.innerHTML(container, sidebar);
 
     console.log(sidebarTeste)
   };
