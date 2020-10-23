@@ -43,10 +43,10 @@ window.addEventListener("DOMContentLoaded", function() {
     container.appendChild(select);
 
     var sidebarLast = document.querySelector(".md-header-nav__topic").lastChild;
-    var sidebar = document.querySelector(".md-header-nav__ellipsis").lastChild;
+    var sidebar = document.querySelector(".md-header-nav__ellipsis").lastChild.parentElement.lastChild.previousSibling;
 
     sidebarLast.parentNode.appendChild(container, sidebar);
-    //sidebar.parentElement.lastChild.previousSibling.appendChild(container, sidebar);
+    sidebar.appendChild(container, sidebar);
   };
   xhr.send();
 });
