@@ -39,20 +39,6 @@ a.md-nav__link--active:hover {
   border-color: #44CCCC;
 }
 
-.md-header-nav__ellipsis {
-  display: grid;
-  grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
-}
-
-/*span.md-header-nav__topic, span.md-ellipsis {
-  position: static;
-  display: inline;
-}
-
-.md-header-nav__ellipsis span:nth-of-type(2) {
-  display: none;
-}*/
-
 #version-selector select {
   color: white;
 	font-family: inherit;
@@ -85,13 +71,3 @@ a.md-nav__link--active:hover {
 #version-selector select option {
   color: black;
 }
-
-/*.displayTitle {
-  display: inline !important;
-  position: relative !important;
-  left: 0px !important;
-}
-
-.md-nav__source {
-  background-color: #44CCCC;
-}*/
