@@ -45,7 +45,10 @@ window.addEventListener("DOMContentLoaded", function() {
     var sidebar = document.querySelector(".md-header-nav__topic").lastChild;
 
     sidebar.parentNode.appendChild(container, sidebar);
-    sidebar.appendChild(container, sidebar);
+
+    console.log(sidebar[1])
+
+    //sidebar[1].appendChild(container, sidebar);
 
   };
   xhr.send();
