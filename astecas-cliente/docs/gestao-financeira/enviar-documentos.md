@@ -5,7 +5,7 @@
 Ao entrar na opção de envio de documentos a **visão geral** é similar a da imagem abaixo. Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do sistema.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-painel.jpg" />
+    <img src="../../assets/images/enviar-documentos-painel.jpg" />
 </figure>
 
 ## Filtro
@@ -13,7 +13,7 @@ Ao entrar na opção de envio de documentos a **visão geral** é similar a da i
 Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-filtro.jpg" />
+    <img src="../../assets/images/enviar-documentos-filtro.jpg" />
 </figure>
 
 A filtragem pode ser feita atavés das seguintes opções:
@@ -32,7 +32,7 @@ A filtragem pode ser feita atavés das seguintes opções:
 Na tabela são exibidos os **dados referentes aos documentos enviados**.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-tabela.jpg" />
+    <img src="../../assets/images/enviar-documentos-tabela.jpg" />
 </figure>
 
 Os dados exibidos são:
@@ -62,7 +62,7 @@ A **tabela de exibição dos dados** referentes aos documentos possui duas opç�
 1. Alterar o número de linhas exibidas da tabela. Dependendo do número de de dados totais que a tabela possua, exibir mais linhas pode resultar em todos os dados sendo exibidos em uma única página.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-exibir-linhas.jpg" />
+    <img src="../../assets/images/enviar-documentos-exibir-linhas.jpg" />
 </figure>
 
 <ol start="2">
@@ -70,7 +70,7 @@ A **tabela de exibição dos dados** referentes aos documentos possui duas opç�
 </ol>
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-paginas.jpg" />
+    <img src="../../assets/images/enviar-documentos-paginas.jpg" />
 </figure>
 
 ## Enviar Documentos
@@ -78,13 +78,13 @@ A **tabela de exibição dos dados** referentes aos documentos possui duas opç�
 Para acessar a área de envio de documento, basta clicar no botão **enviar documentos**, localizado no canto superior esquedo, acima da área de aplicação de filtros.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos.jpg" />
+    <img src="../../assets/images/enviar-documentos.jpg" />
 </figure>
 
 Ao acessar a página, é possível ver uma tela similar a essa. A mesma será descrita a seguir.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-painel-envio.jpg" />
+    <img src="../../assets/images/enviar-documentos-painel-envio.jpg" />
 </figure>
 
 ### Opções de envio
@@ -92,7 +92,7 @@ Ao acessar a página, é possível ver uma tela similar a essa. A mesma será de
 O **envio de documento** possui 3 opções:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-opcoes-envio.jpg" />
+    <img src="../../assets/images/enviar-documentos-opcoes-envio.jpg" />
 </figure>
 
 * **Adicionar documentos**: Permite que o usuário selecione um arquivo (nesse caso, um documento) e realize o envio para o sistema.
@@ -107,7 +107,7 @@ O **envio de documento** possui 3 opções:
 Após adicionar um documento, o usuário pode visualizá-lo na tabela disponibilizada (considere o último da lista):
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-adicionar.jpg" />
+    <img src="../../assets/images/enviar-documentos-adicionar.jpg" />
 </figure>
 
 É importante notar que o documento, nesse momento, apenas foi **adicionado**. Caso o usuário deseje **enviá-lo**, o mesmo pode utilizar a opção **enviar todos**, ou, caso queira enviar individualmente, pode realizar isso na opção **enviar**. Esta mesma regra é válida para cancelamento de envio.
@@ -115,7 +115,7 @@ Após adicionar um documento, o usuário pode visualizá-lo na tabela disponibil
 Após enviar, o extrato será exibido dessa forma:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-documentos-enviado.jpg" />
+    <img src="../../assets/images/enviar-documentos-enviado.jpg" />
 </figure>
 
 Note que o documento foi **enviado**, e, diferentemente dos outros listados, é possível **apagar** esse documento. Isso ocorre em função da possibilidade de exclusão de documentos enviados pela pessoa cujo o enviou. Se outra pessoa tiver enviado o arquivo, não será possível realizar a exclusão, podendo ser feita apenas pela pessoa que o enviou.

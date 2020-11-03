@@ -5,7 +5,7 @@
 Ao entrar na opção de extratos bancários, a **visão geral** é similar a da imagem abaixo:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/extratos-bancarios-painel.jpg" />
+    <img src="../../../../assets/images/extratos-bancarios-painel.jpg" />
 </figure>
 
 Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do sistema.
@@ -13,7 +13,7 @@ Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do
 ## Opções para geração de extrato
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/extratos-bancarios-opcoes.jpg" />
+    <img src="../../assets/images/extratos-bancarios-opcoes.jpg" />
 </figure>
 
 Para gerar um extrato bancário, é necessária a realização de uma filtragem de dados, sendo esta com duas opções:
@@ -29,7 +29,7 @@ Para gerar um extrato bancário, é necessária a realização de uma filtragem 
 Após a filtragem, basta clicar no botão **gerar** e o extrato será mostrado:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/extratos-bancarios-extrato.jpg" />
+    <img src="../../assets/images/extratos-bancarios-extrato.jpg" />
 </figure>
 
 No extrato, são mostrados alguns dados:
@@ -41,7 +41,7 @@ No extrato, são mostrados alguns dados:
 : Detalhes da transação. Ao clicar no botão com ícone de olho, os detalhes serão exibidos em uma tela similar a essa:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/extratos-bancarios-detalhes.jpg" />
+    <img src="../../assets/images/extratos-bancarios-detalhes.jpg" />
 </figure>
 
 `Anexos`

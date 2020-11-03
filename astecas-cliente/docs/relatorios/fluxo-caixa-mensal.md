@@ -5,7 +5,7 @@
 Ao entrar na opção de contas a pagar a **visão geral** é similar a da imagem abaixo.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-painel.jpg" />
+    <img src="../../assets/images/fluxo-caixa-painel.jpg" />
 </figure>
 
 Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do sistema.
@@ -13,7 +13,7 @@ Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do
 ## Filtro
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-filtro.jpg" />
+    <img src="../../assets/images/fluxo-caixa-filtro.jpg" />
 </figure>
 
 Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela atavés das seguintes opções:
@@ -41,7 +41,7 @@ Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela a
 Na tabela são exibidos os **dados referentes ao fluxo de caixa mensal**.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-tabela.jpg" />
+    <img src="../../assets/images/fluxo-caixa-tabela.jpg" />
 </figure>
 
 Os dados exibidos são:
@@ -65,7 +65,7 @@ Os dados exibidos são:
 A **tabela de exibição dos dados** referentes ao fluxo de caixa mensal possui duas opções:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-sintetico-analitico.jpg" />
+    <img src="../../assets/images/fluxo-caixa-sintetico-analitico.jpg" />
 </figure>
 
 1. **Exibição Sintética**: Exibe os dados de forma sintética, ou seja, categorias gerais de ingressos (informações em verde) e desembolsos (informações em vermelho).
@@ -92,7 +92,7 @@ Para fazer isso, é necessário realizar os seguintes passos:
 1. Clique em algum número das colunas/linhas válidas (para exemplo, será usado o mês de agosto, primeira linha, como mostrado na imagem a seguir):
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-info-clique.jpg" />
+    <img src="../../assets/images/fluxo-caixa-info-clique.jpg" />
 </figure>
 
 <ol start="2">
@@ -100,7 +100,7 @@ Para fazer isso, é necessário realizar os seguintes passos:
 </ol>
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-dados.jpg" />
+    <img src="../../assets/images/fluxo-caixa-dados.jpg" />
 </figure>
 
 #### Tela de informações adicionais
@@ -108,7 +108,7 @@ Para fazer isso, é necessário realizar os seguintes passos:
 A esqueda da tela onde os dados são mostrados de forma extendida, é possível visualizar um resumo referente ao que foi selecionado, contendo:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-dados-info.jpg" />
+    <img src="../../assets/images/fluxo-caixa-dados-info.jpg" />
 </figure>
 
 `Categoria geral`
@@ -129,7 +129,7 @@ A esqueda da tela onde os dados são mostrados de forma extendida, é possível 
 A direita são mostrados os registros retornados na opção selecionada.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-dados-registros.jpg" />
+    <img src="../../assets/images/fluxo-caixa-dados-registros.jpg" />
 </figure>
 
 Os registros são mostrados em uma tabela com as seguintes opções:
@@ -138,7 +138,7 @@ Os registros são mostrados em uma tabela com as seguintes opções:
 : Apresenta mais detalhes do registro selecionado em uma nova tela, similar a imagem a seguir:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/fluxo-caixa-detalhes.jpg" />
+    <img src="../../assets/images/fluxo-caixa-detalhes.jpg" />
 </figure>
 
 `Unidade`

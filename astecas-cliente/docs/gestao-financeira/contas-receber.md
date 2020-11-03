@@ -5,7 +5,7 @@
 Ao entrar na opção de contas a receber a **visão geral** é similar a da imagem abaixo.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-receber-painel.jpg" />
+    <img src="../../assets/images/contas-receber-painel.jpg" />
 </figure>
 
 Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do sistema.
@@ -13,7 +13,7 @@ Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do
 ## Filtro
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-receber-filtro.jpg" />
+    <img src="../../assets/images/contas-receber-filtro.jpg" />
 </figure>
 
 Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela atavés das seguintes opções:
@@ -41,7 +41,7 @@ Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela a
 Na tabela são exibidos os **dados referentes as contas a receber**.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-receber-tabela.jpg" />
+    <img src="../../assets/images/contas-receber-tabela.jpg" />
 </figure>
 
 Os dados exibidos são:
@@ -71,7 +71,7 @@ Os dados exibidos são:
 : Opção que disponibiliza a visualização da conta a ser paga. Ao clicar nessa opção, será exibida uma tela contendo todas as informações relacionadas a conta em questão. Além da visualização do lançamento, o usuário pode ver os dados do mesmo após o processo de baixa, clicando na opção respectiva.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-pagar-visualizar.jpg" />
+    <img src="../../assets/images/contas-pagar-visualizar.jpg" />
 </figure>
 
 ### Opções de exibição
@@ -81,7 +81,7 @@ A **tabela de exibição dos dados** referentes as contas a receber possui duas 
 1. Alterar o número de linhas exibidas da tabela. Dependendo do número de de dados totais que a tabela possua, exibir mais linhas pode resultar em todos os dados sendo exibidos em uma única página.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-exibir-linhas.jpg" />
+    <img src="../../assets/images/enviar-extrato-exibir-linhas.jpg" />
 </figure>
 
 <ol start="2">
@@ -89,7 +89,7 @@ A **tabela de exibição dos dados** referentes as contas a receber possui duas 
 </ol>
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-paginas.jpg" />
+    <img src="../../assets/images/enviar-extrato-paginas.jpg" />
 </figure>
 
 ## Novo Lançamento
@@ -97,13 +97,13 @@ A **tabela de exibição dos dados** referentes as contas a receber possui duas 
 Para acessar a área de adição de novos lançamentos, basta clicar no botão **novo lançamento**, localizado no canto superior esquedo, acima da área de aplicação de filtros.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-pagar.jpg" />
+    <img src="../../assets/images/contas-pagar.jpg" />
 </figure>
 
 Ao acessar a página, é possível ver uma tela similar a essa. A mesma será descrita a seguir.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-receber-painel-novo.jpg" />
+    <img src="../../assets/images/contas-receber-painel-novo.jpg" />
 </figure>
 
 ### Inserção de dados
@@ -111,7 +111,7 @@ Ao acessar a página, é possível ver uma tela similar a essa. A mesma será de
 Para fazer um novo lançamento, você deve preencher o formulário similar a tela abaixo:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/contas-pagar-dados-lancamento.jpg" />
+    <img src="../../assets/images/contas-pagar-dados-lancamento.jpg" />
 </figure>
 
 Note que o formulária está com mais campos se comparado ao da tela apresentada anteriormente. Isso é possível através da opção **mais informações**, localizada no canto inferior direito, abaixo do formulário. Ela é utilizada caso a empresa tiver **mais de uma unidade/filial** ou se quiser **informar um departamento** para esse lançamento. 

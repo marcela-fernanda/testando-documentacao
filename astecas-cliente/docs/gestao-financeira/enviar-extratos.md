@@ -5,7 +5,7 @@
 Ao entrar na opção de envio de extratos a **visão geral** é similar a da imagem abaixo. Nos próximos tópicos, serão descrevidas as opções possíveis nessa área do sistema.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-painel.jpg" />
+    <img src="../../assets/images/enviar-extrato-painel.jpg" />
 </figure>
 
 ## Filtro
@@ -13,7 +13,7 @@ Ao entrar na opção de envio de extratos a **visão geral** é similar a da ima
 Nesta opção, é possível **filtrar os dados** que serão exibidos na tabela.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-filtro.jpg" />
+    <img src="../../assets/images/enviar-extrato-filtro.jpg" />
 </figure>
  
 A filtragem pode ser realizada através das seguintes opções:
@@ -35,7 +35,7 @@ A filtragem pode ser realizada através das seguintes opções:
 Na tabela são exibidos os **dados referentes aos extratos enviados**.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-tabela.jpg" />
+    <img src="../../assets/images/enviar-extrato-tabela.jpg" />
 </figure>
 
 Os dados exibidos são:
@@ -62,7 +62,7 @@ Os dados exibidos são:
 : Opção que disponibiliza a visualização do documento enviado. Ao estar nessa tela, é possível ver o extrato enviado, os dados bancários a qual o documento se refere e uma tabela que lista todos os itens do extrato. Caso o extrato ainda esteja em análise, é possível alterar os dados bancários referentes ao mesmo, bem como apagar o extrato.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-visualizar.jpg" />
+    <img src="../../assets/images/enviar-extrato-visualizar.jpg" />
 </figure>
 
 ### Opções de exibição
@@ -72,7 +72,7 @@ A **tabela de exibição dos dados** referentes aos extratos possui duas opçõe
 1. Alterar o número de linhas exibidas da tabela. Dependendo do número de de dados totais que a tabela possua, exibir mais linhas pode resultar em todos os dados sendo exibidos em uma única página.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-exibir-linhas.jpg" />
+    <img src="../../assets/images/enviar-extrato-exibir-linhas.jpg" />
 </figure>
 
 <ol start="2">
@@ -80,7 +80,7 @@ A **tabela de exibição dos dados** referentes aos extratos possui duas opçõe
 </ol>
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-paginas.jpg" />
+    <img src="../../assets/images/enviar-extrato-paginas.jpg" />
 </figure>
 
 ## Enviar Extratos
@@ -88,13 +88,13 @@ A **tabela de exibição dos dados** referentes aos extratos possui duas opçõe
 Para acessar a área de envio de extrato, basta clicar no botão **enviar extrato**, localizado no canto superior esquedo, acima da área de aplicação de filtros.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato.jpg" />
+    <img src="../../assets/images/enviar-extrato.jpg" />
 </figure>
 
 Ao acessar a página, é possível ver uma tela similar a essa. A mesma será descrita a seguir.
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-painel-envio.jpg" />
+    <img src="../../assets/images/enviar-extrato-painel-envio.jpg" />
 </figure>
 
 ### Opções de envio
@@ -102,7 +102,7 @@ Ao acessar a página, é possível ver uma tela similar a essa. A mesma será de
 O **envio de extrato** possui 3 opções:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-opcoes-envio.jpg" />
+    <img src="../../assets/images/enviar-extrato-opcoes-envio.jpg" />
 </figure>
 
 * **Adicionar extratos PDF**: Permite que o usuário selecione um arquivo (nesse caso, um extrato) e realize o envio para o sistema.
@@ -117,7 +117,7 @@ O **envio de extrato** possui 3 opções:
 Após adicionar um extrato, o usuário pode visualizá-lo na tabela disponibilizada:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-adicionar.jpg" />
+    <img src="../../assets/images/enviar-extrato-adicionar.jpg" />
 </figure>
 
 É importante notar que o documento, nesse momento, apenas foi **adicionado**. Caso o usuário deseje **enviá-lo**, o mesmo pode utilizar a opção **enviar todos**, ou, caso queira enviar individualmente, pode realizar isso na opção **enviar**. Esta mesma regra é válida para cancelamento de envio.
@@ -125,7 +125,7 @@ Após adicionar um extrato, o usuário pode visualizá-lo na tabela disponibiliz
 Após enviar, o extrato será exibido dessa forma:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-nao-identificado.jpg" />
+    <img src="../../assets/images/enviar-extrato-nao-identificado.jpg" />
 </figure>
 
 Note que o extrato foi enviado, porém, os dados bancários referentes ao mesmo não foram identificados. Para realizar esse processo, basta clicar em **visualizar**. Caso deseje, o usuário pode apagar o extrato também.
@@ -133,7 +133,7 @@ Note que o extrato foi enviado, porém, os dados bancários referentes ao mesmo 
 Ao clicar para visualizar o extrato, a seguinte tela será exibida:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-selecionar-banco.jpg" />
+    <img src="../../assets/images/enviar-extrato-selecionar-banco.jpg" />
 </figure>
 
 A partir dessa tela, será possível selecionar os dados bancários que se referem aquele extrato em específico. 
@@ -141,5 +141,5 @@ A partir dessa tela, será possível selecionar os dados bancários que se refer
 O usuário, nessa tela, também pode anexar o OFX do arquivo, caso desejar, no botão correspondente, como na imagem a seguir:
 
 <figure class="images">
-    <img src="../../../../assets/prints-ui/enviar-extrato-ofx.jpg" />
+    <img src="../../assets/images/enviar-extrato-ofx.jpg" />
 </figure>

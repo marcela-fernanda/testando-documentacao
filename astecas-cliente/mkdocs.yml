@@ -1,0 +1,78 @@
+site_name: Astecas - Cliente | Documentação
+site_author: Astecas
+copyright: Copyright © 2019 - 2020 Astecas
+
+nav:
+  #- Home:
+- Primeiros Passos:
+  - Login e Seleção de Empresa: index.md
+  - Menu do Cliente: menu-cliente.md
+  - Painel: painel.md
+  - Conta Digital: conta-digital.md
+- Vendas:
+  - Minhas Máquinas: vendas/minhas-maquinas.md
+  - PDV: vendas/pdv.md
+- Gestão Financeira:
+  - Enviar Extratos: gestao-financeira/enviar-extratos.md
+  - Enviar Documentos: gestao-financeira/enviar-documentos.md
+  - Contas a Pagar: gestao-financeira/contas-pagar.md
+  - Contas a Receber: gestao-financeira/contas-receber.md
+- Relatórios:
+  - Fluxo de Caixa Mensal: relatorios/extratos-bancarios.md
+  - Lançamentos Detalhados: relatorios/extratos-tesourarias.md
+  - Extratos Bancários: relatorios/fluxo-caixa-mensal.md
+  - Extratos Tesourarias: relatorios/lancamentos-detalhados.md
+
+theme:
+  name: 'material'
+  logo: assets/logo/logo.png
+  favicon: assets/logo/logo-color.png
+  features:
+    - navigation.tabs
+  language: pt
+  palette:
+    scheme: astecas
+  icon:
+    repo: fontawesome/brands/gitlab
+
+extra:
+  social:
+  - icon: octicons/home-fill-24
+    link: https://google.com
+
+extra_css:
+- stylesheets/extra.css
+- css\version-select.css
+
+extra_javascript:
+- javascripts/extra.js
+- js\version-select.js
+
+markdown_extensions:
+- toc:
+    permalink: true
+- admonition
+- pymdownx.details
+- pymdownx.tabbed
+- pymdownx.inlinehilite
+- pymdownx.highlight:
+    linenums: true
+    guess_lang: true
+    extend_pygments_lang:
+    - name: php
+      lang: php
+      options:
+        startinline: true
+- pymdownx.superfences
+- abbr
+- pymdownx.snippets
+- def_list
+- attr_list
+- pymdownx.caret
+- pymdownx.mark
+- pymdownx.tilde
+
+plugins:
+- search:
+    lang:
+    - pt

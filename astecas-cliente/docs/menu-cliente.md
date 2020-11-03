@@ -5,7 +5,7 @@
 Para acessar o menu pessoal do cliente, clique no **nome** do mesmo no canto superior direito da tela:
 
 <figure class="images">
-    <img src="../../../assets/prints-ui/menu-cliente.jpg" />
+    <img src="assets/images/menu-cliente.jpg" />
 </figure>
 
 ## Opções do menu
@@ -18,7 +18,7 @@ Caso o usuário deseje realizar a troca de senha, este deve realizar os seguinte
 2. Preencher o formulário com uma **nova senha**.
 
 <figure class="images">
-    <img src="../../../assets/prints-ui/trocar-senha.jpg" />
+    <img src="assets/images/trocar-senha.jpg" />
 </figure>
 
 ### Trocar empresa
