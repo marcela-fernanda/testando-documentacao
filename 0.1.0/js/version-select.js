@@ -22,8 +22,8 @@ window.addEventListener("DOMContentLoaded", function() {
 
   var xhr = new XMLHttpRequest();
   xhr.open("GET", ABS_BASE_URL + "/../versions.json");
-  console.log(xhr);
   xhr.onload = function() {
+    console.log(xhr.responseText);
     var versions = JSON.parse(this.responseText);
 
     var realVersion = versions.find(function(i) {
