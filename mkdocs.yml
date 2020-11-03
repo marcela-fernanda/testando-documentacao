@@ -1,4 +1,6 @@
 site_name: Astecas | Documentação
+site_author: Astecas
+copyright: Copyright © 2019 - 2020 Astecas
 
 #Repositório GitLab
 repo_url: https://gitlab.com/marcela-fernanda/documentacao-astecas
@@ -8,13 +10,93 @@ edit_uri: ""
 nav:
   - Sobre:
       - O que é o Astecas?: index.md
-  - Getting Started:
-      - Instalação: getting-started.md
-      - Processos: getting-started/processos.md
+  - Aplicações Desktop:
+      Astecas - Cliente:
+      - Login e Seleção de Empresa: aplicacoes-desktop/astecas-cliente/login-selecao.md
+      - Menu do cliente: aplicacoes-desktop/astecas-cliente/menu-cliente.md
+      - Painel: aplicacoes-desktop/astecas-cliente/painel.md
+      - Conta Digital: aplicacoes-desktop/astecas-cliente/conta_digital.md
+      - Vendas:
+        - Minhas Máquinas: aplicacoes-desktop/astecas-cliente/vendas/minhas-maquinas.md
+        - PDV: aplicacoes-desktop/astecas-cliente/vendas/pdv.md
+      - Gestão Financeira:
+        - Enviar Extratos: aplicacoes-desktop/astecas-cliente/gestao-financeira/enviar-extratos.md
+        - Enviar Documentos: aplicacoes-desktop/astecas-cliente/gestao-financeira/enviar-documentos.md
+        - Contas a Pagar: aplicacoes-desktop/astecas-cliente/gestao-financeira/contas-pagar.md
+        - Contas a Receber: aplicacoes-desktop/astecas-cliente/gestao-financeira/contas-receber.md
+      - Relatórios:
+        - Fluxo de Caixa Mensal: aplicacoes-desktop/astecas-cliente/relatorios/fluxo-caixa-mensal.md
+        - Lançamentos Detalhados: aplicacoes-desktop/astecas-cliente/relatorios/lancamentos-detalhados.md
+        - Extratos Bancários: aplicacoes-desktop/astecas-cliente/relatorios/extratos-bancarios.md
+        - Extratos Tesourarias: aplicacoes-desktop/astecas-cliente/relatorios/extratos-tesourarias.md
+      Astecas - Operacional:
+        - Dashboards: 
+          - Principal: aplicacoes-desktop/astecas-operacional/dashboards/principal.md
+        - Admin:
+          - Módulos: aplicacoes-desktop/astecas-operacional/admin/modulos.md
+          - Permissões: aplicacoes-desktop/astecas-operacional/admin/permissoes.md
+          - Perfis: aplicacoes-desktop/astecas-operacional/admin/perfis.md
+          - Usuários: aplicacoes-desktop/astecas-operacional/admin/usuarios.md
+        - Vendas:
+          - Planos: aplicacoes-desktop/astecas-operacional/vendas/planos.md
+          - Empresas: aplicacoes-desktop/astecas-operacional/vendas/empresas.md
+          - Contratos: aplicacoes-desktop/astecas-operacional/vendas/contratos.md
+        - Implantação:
+          - Plano de Contas Modelo: aplicacoes-desktop/astecas-operacional/implantacao/plano-contas-modelo.md
+          - Contas Bancárias: aplicacoes-desktop/astecas-operacional/implantacao/contas-bancarias.md
+          - Empresas:
+            - Implantação de empresas: aplicacoes-desktop/astecas-operacional/implantacao/empresas.md
+            - Gerenciamento de empresa: aplicacoes-desktop/astecas-operacional/implantacao/gerencia-empresa/gerencia.md
+        - Suporte:
+          - Chamados: aplicacoes-desktop/astecas-operacional/suporte/chamados.md
+          - Base de Conhecimento: aplicacoes-desktop/astecas-operacional/suporte/base-conhecimento.md
+        - Conta Digital:
+          - Empresas: aplicacoes-desktop/astecas-operacional/conta-digital/empresas.md
+          - Contas: aplicacoes-desktop/astecas-operacional/conta-digital/contas.md
+          - TEDs: aplicacoes-desktop/astecas-operacional/conta-digital/ted.md
+          - Cartões: aplicacoes-desktop/astecas-operacional/conta-digital/cartoes.md
+          - P2P: aplicacoes-desktop/astecas-operacional/conta-digital/p2p.md
+        - Máquina de Cartão:
+          - Listagem: aplicacoes-desktop/astecas-operacional/maquina-cartao/listagem.md
+        - PDV:
+          - Listagem: aplicacoes-desktop/astecas-operacional/pdv/listagem.md
+        - Análises:
+          - Plano de Contas: aplicacoes-desktop/astecas-operacional/analises/plano-contas.md
+          - Lançamentos (Faturamentos): aplicacoes-desktop/astecas-operacional/analises/faturamentos.md
+          - Lançamentos (Orçamentos): aplicacoes-desktop/astecas-operacional/analises/orcamentos.md
+          - Lançamentos (Financeiros): aplicacoes-desktop/astecas-operacional/analises/financeiros.md
+          - Documentos: aplicacoes-desktop/astecas-operacional/analises/documentos.md
+          - Extratos: aplicacoes-desktop/astecas-operacional/analises/extratos.md
+        - Relatórios:
+          - Fluxo de Caixa Mensal: aplicacoes-desktop/astecas-operacional/relatorios/fluxo-caixa-mensal.md
+          - Lançamentos Detalhados: aplicacoes-desktop/astecas-operacional/relatorios/lancamentos-detalhados.md
+          - Extrato Bancário: aplicacoes-desktop/astecas-operacional/relatorios/extrato-bancario.md
+          - Extrato Tesouraria: aplicacoes-desktop/astecas-operacional/relatorios/extrato-tesouraria.md
+  - Aplicações Mobile:
+      Astecas - Digital:
+      - Login: aplicacoes-mobile/astecas-empresas/login.md
+      - Alterar Empresa: aplicacoes-mobile/astecas-empresas/alterar-empresa.md
+      - Conta Digital: aplicacoes-mobile/astecas-empresas/conta-digital.md
+      - Autenticador: aplicacoes-mobile/astecas-empresas/autenticador.md
+      Astecas - Envio:
+      - Login: aplicacoes-mobile/astecas-envio/login.md
+      - Alterar Empresa: aplicacoes-mobile/astecas-envio/alterar-empresa.md
+      - Documentos: aplicacoes-mobile/astecas-envio/documentos.md
+      - Novo (documento): aplicacoes-mobile/astecas-envio/novo.md
+      - Conta: aplicacoes-mobile/astecas-envio/conta.md
+      Astecas - Operacional:
+      - Login: aplicacoes-mobile/astecas-operacional/login.md
+      - Informações do usuário: aplicacoes-mobile/astecas-operacional/informacoes.md
+      - Autenticação via QRCode: aplicacoes-mobile/astecas-operacional/qr-code.md
   - Esquemas de dados:
       - Esquema Astecas: databases/db-astecas.md
       - Esquema Admin: databases/db-admin.md
       - Esquema BAAS: databases/db-baas.md
+      - Esquema TecnoSpeed: databases/db-tecnospeed.md
+  - Processos:
+      - Login: processos/login.md
+      - Nova Conta Astecas - PJ: processos/nova-conta-pessoa-juridica.md
+      - Envio de Documentos do Sócio: processos/envio-documentos-socio.md
   - Changelog:
       - Releases: changelog.md
 
@@ -40,10 +122,19 @@ extra_javascript:
 
 markdown_extensions:
   - toc:
-        permalink: true
+      permalink: true
   - admonition
   - pymdownx.details
   - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      linenums: true
+      guess_lang: true
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            startinline: true
   - pymdownx.superfences
   - abbr
   - pymdownx.snippets

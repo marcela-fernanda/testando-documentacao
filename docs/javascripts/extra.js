@@ -11,7 +11,6 @@ function init (eventData) {
 }
 
 function changeCheckedInput (currentId) {
-
   var idToUse = currentId.replaceAll('#','');
   var cobeneficiaryInput = document.getElementById(idToUse)
   var inputParent = cobeneficiaryInput.parentElement.getElementsByTagName("input")
@@ -20,8 +19,7 @@ function changeCheckedInput (currentId) {
 
   for(i=0; i<inputParent.length; i++) {
     if (inputParent[i].id !== idToUse) {
-      inputParent[i].checked = false;
-      
+      inputParent[i].checked = false;    
     } 
   } 
 }

@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="750px" height="390px">
+  <style type="text/css"><![CDATA[
+	.style1{fill:#E6FF97;stroke:#62A716;stroke-width:2;}
+	.style2{fill:#EEAAAA;stroke:#990000;stroke-width:3;}
+	.style3{fill:#ECEFFF;stroke:#03689A;stroke-width:3;}
+	.style4{fill:#FFFFCC;stroke:#A6A61D;stroke-width:2;}
+	.style5{fill:#ECEFFF;stroke:#03689A;stroke-width:2;}
+	.style6{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def11);}
+	.style7{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def12);}
+	.style8{fill:#FFFFFF;}
+	.style9{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def16);}
+	.style10{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def17);}
+	.style11{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def19);}
+	.style12{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def21);}]]></style>
+  <defs>
+    <path id="4dfb5e73-19c2-43a9-9148-4dd36034a4dbHeaderPath" fill-rule="evenodd" d="M 30,380 L 380,380 L 380,430 L 30,430 Z " />
+    <clipPath id="e988af0d-442e-490d-b102-abf8f6feb9b6HeaderClipPath">
+      <use xlink:href="#4dfb5e73-19c2-43a9-9148-4dd36034a4dbHeaderPath" />
+    </clipPath>
+    <ellipse id="def3" cx="15" cy="15" rx="15" ry="15" />
+    <clipPath id="def4">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def5">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def6" fill-rule="evenodd" d="M 7,0 L 83,0 L 83,0 C 86.87,-0 90,3.13 90,7 C 90,7 90,7 90,7 L 90,7 L 90,53 L 90,53 C 90,56.87 86.87,60 83,60 L 83,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def7">
+      <use xlink:href="#def6" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def8">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <polygon id="def9" points="-0,20 20,-0 40,20 20,40 -0,20 " />
+    <clipPath id="def10">
+      <use xlink:href="#def9" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def11">
+      <use xlink:href="#def6" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def12">
+      <use xlink:href="#def6" transform="translate(0,0)" />
+    </clipPath>
+    <marker id="defMarkerShadow" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="0.1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <marker id="defMarker" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <rect id="def15" width="50" height="30" />
+    <clipPath id="def16">
+      <use xlink:href="#def15" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def17">
+      <use xlink:href="#def15" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def18" width="90" height="60" />
+    <clipPath id="def19">
+      <use xlink:href="#def18" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def20" width="88" height="30" />
+    <clipPath id="def21">
+      <use xlink:href="#def20" transform="translate(0,0)" />
+    </clipPath>
+  </defs>
+  <g>
+    <rect x="30" y="30" width="700" height="350" rx="0" ry="0" style="fill:#FFFFFF;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <line x1="80" y1="30" x2="80" y2="380" style="stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text style="font-family:'Segoe UI';font-size:10pt;font-weight:bold;fill:#000000;clip-path:url(#e988af0d-442e-490d-b102-abf8f6feb9b6HeaderClipPath);" transform="rotate(-90 30 380)">
+      <tspan x="188.8683" y="410">Login</tspan>
+    </text>
+  </g>
+  <use id="f2063b79-97ce-460c-a8d2-769dd0173357" xlink:href="#def3" class="style1" x="94" y="136" />
+  <g id="f2063b79-97ce-460c-a8d2-769dd0173357Container" transform="translate(94,136) rotate(0,25,25)" />
+  <use id="66589518-b8e7-4418-94d1-41b82130684f" xlink:href="#def3" class="style2" x="617" y="259" />
+  <g id="66589518-b8e7-4418-94d1-41b82130684fContainer" transform="translate(617,259) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#990000;stroke:#990000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 25.183514,16.014719 a 8.8410206,8.8410206 0 1 1 -17.6820415,0 8.8410206,8.8410206 0 1 1 17.6820415,0 z" transform="translate(615.8,257.8)" />
+  </g>
+  <use id="0f7a4193-bb79-4cca-928c-f8f5fc0aeab7" xlink:href="#def6" class="style3" x="172" y="121" />
+  <g id="0f7a4193-bb79-4cca-928c-f8f5fc0aeab7Container" transform="translate(172,121) rotate(0,25,25)" />
+  <g>
+    <path style="fill:none;stroke:#03689A;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 17.324829,33.786065 16.789009,0 0,16.967615 -16.789009,0 z" transform="translate(192,130)" />
+    <path style="fill:#03689A;stroke:#03689A;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 21.343661,41.724627 3.031053,0 0,-3.157347 2.904758,0 0,3.157347 2.904759,0 0,2.904758 -2.904759,0 0,2.904759 -2.904758,0 0,-2.904759 -3.031053,0 z" transform="translate(192,130)" />
+  </g>
+  <use id="91cdd805-608b-45a1-9222-30ef9de20667" xlink:href="#def3" class="style2" x="348" y="50" />
+  <g id="91cdd805-608b-45a1-9222-30ef9de20667Container" transform="translate(348,50) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#990000;stroke:#990000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 25.183514,16.014719 a 8.8410206,8.8410206 0 1 1 -17.6820415,0 8.8410206,8.8410206 0 1 1 17.6820415,0 z" transform="translate(346.8,48.8)" />
+  </g>
+  <use id="f1ac6f82-7309-4bd8-bc5a-63f59877dba5" xlink:href="#def9" class="style4" x="343" y="131" />
+  <g id="f1ac6f82-7309-4bd8-bc5a-63f59877dba5Container" transform="translate(343,131) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,21.105005 20.718352,7.530912 23.665359,10.388616 10.627086,23.962708 z" transform="translate(347.4,135.2)" />
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,10.388616 10.627086,7.530912 23.665359,21.105005 20.718352,23.962708 z" transform="translate(347.4,135.2)" />
+  </g>
+  <use id="c9a4d4ba-e176-46c2-b2a4-f0245dcb60bd" xlink:href="#def6" class="style5" x="446" y="121" />
+  <g id="c9a4d4ba-e176-46c2-b2a4-f0245dcb60bdContainer" transform="translate(446,121) rotate(0,25,25)">
+    <text id="c9a4d4ba-e176-46c2-b2a4-f0245dcb60bdText" class="style6">
+	<tspan x="21" y="25">2. Checar </tspan><tspan x="16" y="39">permissões</tspan></text>
+  </g>
+  <use id="2c494d3c-936c-47b5-91a2-fac6da24b202" xlink:href="#def6" class="style5" x="587" y="121" />
+  <g id="2c494d3c-936c-47b5-91a2-fac6da24b202Container" transform="translate(587,121) rotate(0,25,25)">
+    <text id="2c494d3c-936c-47b5-91a2-fac6da24b202Text" class="style7">
+	<tspan x="6" y="32">3. Salvar sessão</tspan></text>
+  </g>
+  <polyline id="6c4e4d7c-78ec-43dd-8607-732e54e8afaa" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,78 " marker-end="url(#defMarker)" transform="translate(632,181)" />
+  <text x="632" y="218" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="e49eb750-cea4-4fb2-a306-e6dbb6019fcc" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 51,0 " marker-end="url(#defMarker)" transform="translate(536,151)" />
+  <text x="561.5" y="149" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="7e272400-e342-4253-bdba-b07a3c0e23f8" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 81,0 " marker-end="url(#defMarker)" transform="translate(262,151)" />
+  <text x="302.5" y="149" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="84076eda-2772-46af-bb54-c6a1c0bb06c4" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,51 0,0 " marker-end="url(#defMarker)" transform="translate(363,80)" />
+  <text x="363" y="103.5" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="f1ba2a22-2608-47da-84c9-0b5dcd234c6c" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 63,0 " marker-end="url(#defMarker)" transform="translate(383,151)" />
+  <text x="414.5" y="149" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="41402a28-3361-48fd-9313-106e0b403e1f" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 48,0 " marker-end="url(#defMarker)" transform="translate(124,151)" />
+  <text x="148" y="149" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <g id="Text_82a773b2-16aa-4c7d-9dd3-17b91e034955Container" transform="translate(404,150) rotate(0,25,25)">
+    <text id="Text_82a773b2-16aa-4c7d-9dd3-17b91e034955Text" class="style9">
+	<tspan x="7" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_d34beecc-978d-466b-9917-60aacf1fe206Container" transform="translate(360,85) rotate(0,25,25)">
+    <text id="Text_d34beecc-978d-466b-9917-60aacf1fe206Text" class="style10">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_0f7a4193-bb79-4cca-928c-f8f5fc0aeab7Container" transform="translate(172,187) rotate(0,25,25)">
+    <text id="Text_0f7a4193-bb79-4cca-928c-f8f5fc0aeab7Text" class="style11">
+	<tspan x="7" y="14">1. Gerar Access </tspan><tspan x="30" y="29">Token</tspan></text>
+  </g>
+  <g id="Text_f1ac6f82-7309-4bd8-bc5a-63f59877dba5Container" transform="translate(319,177) rotate(0,25,25)">
+    <text id="Text_f1ac6f82-7309-4bd8-bc5a-63f59877dba5Text" class="style12">
+	<tspan x="10" y="14">Token gerado?</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,396 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1307px" height="690px">
+  <style type="text/css"><![CDATA[
+	.style1{fill:#E6FF97;stroke:#62A716;stroke-width:2;}
+	.style2{fill:#FFFFCC;stroke:#A6A61D;stroke-width:2;}
+	.style3{fill:#EEAAAA;stroke:#990000;stroke-width:3;}
+	.style4{fill:#ECEFFF;stroke:#03689A;stroke-width:2;}
+	.style5{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def15);}
+	.style6{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def16);}
+	.style7{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def17);}
+	.style8{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def19);}
+	.style9{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def21);}
+	.style10{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def22);}
+	.style11{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def24);}
+	.style12{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def25);}
+	.style13{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def26);}
+	.style14{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def28);}
+	.style15{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def29);}
+	.style16{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def31);}
+	.style17{fill:#ECEFFF;stroke:#03689A;stroke-width:3;}
+	.style18{fill:#FFFFFF;}
+	.style19{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def37);}
+	.style20{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def38);}
+	.style21{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def39);}
+	.style22{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def40);}
+	.style23{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def41);}
+	.style24{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def42);}
+	.style25{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def43);}
+	.style26{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def45);}
+	.style27{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def47);}
+	.style28{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def49);}
+	.style29{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def51);}
+	.style30{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def52);}
+	.style31{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def54);}]]></style>
+  <defs>
+    <path id="2c4e24fc-0119-4a2c-a7f0-cc633fdb4c29HeaderPath" fill-rule="evenodd" d="M 30,661 L 661,661 L 661,711 L 30,711 Z " />
+    <clipPath id="c7514b55-b546-4c16-b52c-1813853da322HeaderClipPath">
+      <use xlink:href="#2c4e24fc-0119-4a2c-a7f0-cc633fdb4c29HeaderPath" />
+    </clipPath>
+    <ellipse id="def3" cx="15" cy="15" rx="15" ry="15" />
+    <clipPath id="def4">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <polygon id="def5" points="-0,20 20,-0 40,20 20,40 -0,20 " />
+    <clipPath id="def6">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def7">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def8">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def9">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def10">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def11">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def12">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def13">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def14" fill-rule="evenodd" d="M 7,0 L 83,0 L 83,0 C 86.87,-0 90,3.13 90,7 C 90,7 90,7 90,7 L 90,7 L 90,53 L 90,53 C 90,56.87 86.87,60 83,60 L 83,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def15">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def16">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def17">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def18" fill-rule="evenodd" d="M 7,0 L 110,0 L 110,0 C 113.87,-0 117,3.13 117,7 C 117,7 117,7 117,7 L 117,7 L 117,53 L 117,53 C 117,56.87 113.87,60 110,60 L 110,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def19">
+      <use xlink:href="#def18" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def20" fill-rule="evenodd" d="M 7,0 L 116,0 L 116,0 C 119.87,-0 123,3.13 123,7 C 123,7 123,7 123,7 L 123,7 L 123,53 L 123,53 C 123,56.87 119.87,60 116,60 L 116,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def21">
+      <use xlink:href="#def20" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def22">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def23" fill-rule="evenodd" d="M 7,0 L 100,0 L 100,0 C 103.87,-0 107,3.13 107,7 C 107,7 107,7 107,7 L 107,7 L 107,53 L 107,53 C 107,56.87 103.87,60 100,60 L 100,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def24">
+      <use xlink:href="#def23" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def25">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def26">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def27" fill-rule="evenodd" d="M 7,0 L 98,0 L 98,0 C 101.87,-0 105,3.13 105,7 C 105,7 105,7 105,7 L 105,7 L 105,53 L 105,53 C 105,56.87 101.87,60 98,60 L 98,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def28">
+      <use xlink:href="#def27" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def29">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def30" fill-rule="evenodd" d="M 7,0 L 127,0 L 127,0 C 130.87,-0 134,3.13 134,7 C 134,7 134,7 134,7 L 134,7 L 134,57 L 134,57 C 134,60.87 130.87,64 127,64 L 127,64 L 7,64 L 7,64 C 3.13,64 0,60.87 0,57 L 0,57 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def31">
+      <use xlink:href="#def30" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def32">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def33">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <marker id="defMarkerShadow" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="0.1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <marker id="defMarker" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <rect id="def36" width="50" height="30" />
+    <clipPath id="def37">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def38">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def39">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def40">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def41">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def42">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def43">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def44" width="90" height="74" />
+    <clipPath id="def45">
+      <use xlink:href="#def44" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def46" width="82" height="44" />
+    <clipPath id="def47">
+      <use xlink:href="#def46" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def48" width="76" height="44" />
+    <clipPath id="def49">
+      <use xlink:href="#def48" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def50" width="54" height="44" />
+    <clipPath id="def51">
+      <use xlink:href="#def50" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def52">
+      <use xlink:href="#def36" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def53" width="76" height="58" />
+    <clipPath id="def54">
+      <use xlink:href="#def53" transform="translate(0,0)" />
+    </clipPath>
+  </defs>
+  <g>
+    <rect x="30" y="30" width="1257" height="631" rx="0" ry="0" style="fill:#FFFFFF;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <line x1="80" y1="30" x2="80" y2="661" style="stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text style="font-family:'Segoe UI';font-size:10pt;font-weight:bold;fill:#000000;clip-path:url(#c7514b55-b546-4c16-b52c-1813853da322HeaderClipPath);" transform="rotate(-90 30 661)">
+      <tspan x="230.3676" y="691">Nova contaAstecas - Pessoa Jurídica</tspan>
+    </text>
+  </g>
+  <use id="c73ac9af-2ec1-477d-8456-e86a48cf7588" xlink:href="#def3" class="style1" x="97" y="124" />
+  <g id="c73ac9af-2ec1-477d-8456-e86a48cf7588Container" transform="translate(97,124) rotate(0,25,25)" />
+  <use id="2b9a7958-e2ce-4a56-a5c8-d4c41273526d" xlink:href="#def5" class="style2" x="315" y="119" />
+  <g id="2b9a7958-e2ce-4a56-a5c8-d4c41273526dContainer" transform="translate(315,119) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,21.105005 20.718352,7.530912 23.665359,10.388616 10.627086,23.962708 z" transform="translate(319.4,123.2)" />
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,10.388616 10.627086,7.530912 23.665359,21.105005 20.718352,23.962708 z" transform="translate(319.4,123.2)" />
+  </g>
+  <use id="73759f74-d5ce-4003-9381-3b9ebad13289" xlink:href="#def3" class="style3" x="320" y="45" />
+  <g id="73759f74-d5ce-4003-9381-3b9ebad13289Container" transform="translate(320,45) rotate(0,25,25)" />
+  <use id="a002c575-8487-4823-8839-c70a13be073e" xlink:href="#def5" class="style2" x="480" y="249" />
+  <g id="a002c575-8487-4823-8839-c70a13be073eContainer" transform="translate(480,249) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,21.105005 20.718352,7.530912 23.665359,10.388616 10.627086,23.962708 z" transform="translate(484.4,253.2)" />
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,10.388616 10.627086,7.530912 23.665359,21.105005 20.718352,23.962708 z" transform="translate(484.4,253.2)" />
+  </g>
+  <use id="af003028-11d5-47e8-a457-1b540072d7bf" xlink:href="#def3" class="style3" x="367" y="254" />
+  <g id="af003028-11d5-47e8-a457-1b540072d7bfContainer" transform="translate(367,254) rotate(0,25,25)" />
+  <use id="b2bbafd2-4fa3-4dcb-bd20-c13a14ee078a" xlink:href="#def5" class="style2" x="774" y="249" />
+  <g id="b2bbafd2-4fa3-4dcb-bd20-c13a14ee078aContainer" transform="translate(774,249) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,21.105005 20.718352,7.530912 23.665359,10.388616 10.627086,23.962708 z" transform="translate(778.4,253.2)" />
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,10.388616 10.627086,7.530912 23.665359,21.105005 20.718352,23.962708 z" transform="translate(778.4,253.2)" />
+  </g>
+  <use id="284bd842-4162-4747-ac3d-bab2fdf79da5" xlink:href="#def3" class="style3" x="779" y="45" />
+  <g id="284bd842-4162-4747-ac3d-bab2fdf79da5Container" transform="translate(779,45) rotate(0,25,25)" />
+  <use id="6f01811c-f225-4756-b434-6ef5a42126ef" xlink:href="#def5" class="style2" x="480" y="409" />
+  <g id="6f01811c-f225-4756-b434-6ef5a42126efContainer" transform="translate(480,409) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,21.105005 20.718352,7.530912 23.665359,10.388616 10.627086,23.962708 z" transform="translate(484.4,413.2)" />
+    <path style="fill:#A6A61D;stroke:#A6A61D;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 7.5907754,10.388616 10.627086,7.530912 23.665359,21.105005 20.718352,23.962708 z" transform="translate(484.4,413.2)" />
+  </g>
+  <use id="c1449880-7f67-4840-899c-ad033f9e7345" xlink:href="#def3" class="style3" x="245" y="414" />
+  <g id="c1449880-7f67-4840-899c-ad033f9e7345Container" transform="translate(245,414) rotate(0,25,25)" />
+  <use id="0558df3d-df61-4f1e-9aa0-e9814e75199d" xlink:href="#def14" class="style4" x="175" y="109" />
+  <g id="0558df3d-df61-4f1e-9aa0-e9814e75199dContainer" transform="translate(175,109) rotate(0,25,25)">
+    <text id="0558df3d-df61-4f1e-9aa0-e9814e75199dText" class="style5">
+	<tspan x="7" y="25">1. Sócio realiza </tspan><tspan x="31" y="39">login</tspan></text>
+  </g>
+  <use id="9df7649f-5faa-4b64-a1c5-9a307c41a3eb" xlink:href="#def14" class="style4" x="455" y="109" />
+  <g id="9df7649f-5faa-4b64-a1c5-9a307c41a3ebContainer" transform="translate(455,109) rotate(0,25,25)">
+    <text id="9df7649f-5faa-4b64-a1c5-9a307c41a3ebText" class="style6">
+	<tspan x="8" y="25">2. Realiza aceite </tspan><tspan x="16" y="39">dos termos</tspan></text>
+  </g>
+  <use id="b8383fd4-5060-421d-8f59-54b48ac5ee1f" xlink:href="#def14" class="style4" x="612" y="239" />
+  <g id="b8383fd4-5060-421d-8f59-54b48ac5ee1fContainer" transform="translate(612,239) rotate(0,25,25)">
+    <text id="b8383fd4-5060-421d-8f59-54b48ac5ee1fText" class="style7">
+	<tspan x="9" y="18">3. Confirma se </tspan><tspan x="6" y="32">os dados estão </tspan><tspan x="24" y="46">corretos</tspan></text>
+  </g>
+  <use id="7f390e27-cb15-469c-b870-a85d68e27c95" xlink:href="#def18" class="style4" x="736" y="134" />
+  <g id="7f390e27-cb15-469c-b870-a85d68e27c95Container" transform="translate(736,134) rotate(0,25,25)">
+    <text id="7f390e27-cb15-469c-b870-a85d68e27c95Text" class="style8">
+	<tspan x="10" y="18">4. Recebe formulário </tspan><tspan x="20" y="32">para edição de </tspan><tspan x="22" y="46">dados (e-mail)</tspan></text>
+  </g>
+  <use id="17e3d1fd-d111-4dd6-88fa-cb5a15d5ba8a" xlink:href="#def20" class="style4" x="882" y="239" />
+  <g id="17e3d1fd-d111-4dd6-88fa-cb5a15d5ba8aContainer" transform="translate(882,239) rotate(0,25,25)">
+    <text id="17e3d1fd-d111-4dd6-88fa-cb5a15d5ba8aText" class="style9">
+	<tspan x="10" y="18">5. Cria conta bancária </tspan><tspan x="25" y="32">com status = I </tspan><tspan x="41" y="46">(inativo)</tspan></text>
+  </g>
+  <use id="4578832c-8393-454c-943a-f2aeca930ba7" xlink:href="#def14" class="style4" x="1086" y="399" />
+  <g id="4578832c-8393-454c-943a-f2aeca930ba7Container" transform="translate(1086,399) rotate(0,25,25)">
+    <text id="4578832c-8393-454c-943a-f2aeca930ba7Text" class="style10">
+	<tspan x="8" y="18">7. Monta dados </tspan><tspan x="12" y="32">da empresa / </tspan><tspan x="31" y="46">sócio</tspan></text>
+  </g>
+  <use id="47909004-94a2-4597-9056-e031206fce0a" xlink:href="#def23" class="style4" x="1078" y="239" />
+  <g id="47909004-94a2-4597-9056-e031206fce0aContainer" transform="translate(1078,239) rotate(0,25,25)">
+    <text id="47909004-94a2-4597-9056-e031206fce0aText" class="style11">
+	<tspan x="8" y="18">6. Cria conta caixa </tspan><tspan x="17" y="32">com status = I </tspan><tspan x="33" y="46">(inativo)</tspan></text>
+  </g>
+  <use id="d481a849-0dfc-4eb0-87d8-4c36a6869d98" xlink:href="#def14" class="style4" x="839" y="399" />
+  <g id="d481a849-0dfc-4eb0-87d8-4c36a6869d98Container" transform="translate(839,399) rotate(0,25,25)">
+    <text id="d481a849-0dfc-4eb0-87d8-4c36a6869d98Text" class="style12">
+	<tspan x="26" y="25">8. Salva </tspan><tspan x="25" y="39">Payload</tspan></text>
+  </g>
+  <use id="f04d5b5e-6f3b-4aba-af68-23566407e84d" xlink:href="#def14" class="style4" x="612" y="399" />
+  <g id="f04d5b5e-6f3b-4aba-af68-23566407e84dContainer" transform="translate(612,399) rotate(0,25,25)">
+    <text id="f04d5b5e-6f3b-4aba-af68-23566407e84dText" class="style13">
+	<tspan x="21" y="18">9. Realiza </tspan><tspan x="16" y="32">registro no </tspan><tspan x="33" y="46">Baas</tspan></text>
+  </g>
+  <use id="202b633c-bcc9-4d00-920d-07e61620a0ad" xlink:href="#def27" class="style4" x="320" y="399" />
+  <g id="202b633c-bcc9-4d00-920d-07e61620a0adContainer" transform="translate(320,399) rotate(0,25,25)">
+    <text id="202b633c-bcc9-4d00-920d-07e61620a0adText" class="style14">
+	<tspan x="23" y="18">10. Atualiza </tspan><tspan x="20" y="32">Payload com </tspan><tspan x="6" y="46">status = 400 (erro)</tspan></text>
+  </g>
+  <use id="9da03446-6ebe-40be-b31c-a352d5449832" xlink:href="#def14" class="style4" x="562" y="521" />
+  <g id="9da03446-6ebe-40be-b31c-a352d5449832Container" transform="translate(562,521) rotate(0,25,25)">
+    <text id="9da03446-6ebe-40be-b31c-a352d5449832Text" class="style15">
+	<tspan x="15" y="25">11. Atualiza </tspan><tspan x="25" y="39">Payload</tspan></text>
+  </g>
+  <use id="0f049f0f-4f47-45c0-af16-957af85b3601" xlink:href="#def30" class="style4" x="705" y="519" />
+  <g id="0f049f0f-4f47-45c0-af16-957af85b3601Container" transform="translate(705,519) rotate(0,25,25)">
+    <text id="0f049f0f-4f47-45c0-af16-957af85b3601Text" class="style16">
+	<tspan x="21" y="14">12. Atualiza conta </tspan><tspan x="8" y="27">bancária com astecas = </tspan><tspan x="17" y="41">s (sim)  e status = w </tspan><tspan x="44" y="55">(waiting)</tspan></text>
+  </g>
+  <use id="d0f9306e-063b-47b1-8214-3fd4efe54d22" xlink:href="#def14" class="style17" x="890" y="521" />
+  <g id="d0f9306e-063b-47b1-8214-3fd4efe54d22Container" transform="translate(890,521) rotate(0,25,25)" />
+  <g>
+    <path style="fill:none;stroke:#03689A;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 17.324829,33.786065 16.789009,0 0,16.967615 -16.789009,0 z" transform="translate(910,530)" />
+    <path style="fill:#03689A;stroke:#03689A;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 21.343661,41.724627 3.031053,0 0,-3.157347 2.904758,0 0,3.157347 2.904759,0 0,2.904758 -2.904759,0 0,2.904759 -2.904758,0 0,-2.904759 -3.031053,0 z" transform="translate(910,530)" />
+  </g>
+  <use id="a43fa945-f2b5-4419-a854-2934835e3e95" xlink:href="#def3" class="style3" x="1048" y="536" />
+  <g id="a43fa945-f2b5-4419-a854-2934835e3e95Container" transform="translate(1048,536) rotate(0,25,25)" />
+  <polyline id="2972a476-04d4-4aa5-af46-e52cdee8e954" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 92,0 " marker-end="url(#defMarker)" transform="translate(520,269)" />
+  <text x="566" y="267" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="cdb67dc8-790e-4f35-9c9d-5342b5c15a54" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 72,0 " marker-end="url(#defMarker)" transform="translate(702,269)" />
+  <text x="738" y="267" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="8de03aad-17a9-4471-b78c-8e60e80ba1d1" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="157,0 0,0 " marker-end="url(#defMarker)" transform="translate(929,429)" />
+  <text x="1007.5" y="427" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="c468d7cf-c26f-4fd6-a1fe-c2dad3f69abe" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,55 0,0 " marker-end="url(#defMarker)" transform="translate(794,194)" />
+  <text x="794" y="219.5" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="b6f8f60e-ed90-497f-ad95-1f3bc1be4b36" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="56,0 0,0 " marker-end="url(#defMarker)" transform="translate(424,429)" />
+  <text x="452" y="427" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="ec6339a4-2701-4874-ab18-9b8811aec53c" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 73,0 " marker-end="url(#defMarker)" transform="translate(1005,269)" />
+  <text x="1041.5" y="267" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="a940decd-6539-43c3-9400-89b10e3d7d46" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="137,0 0,0 " marker-end="url(#defMarker)" transform="translate(702,429)" />
+  <text x="770.5" y="427" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="134d1e63-4649-45fb-b204-be6617552e85" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="83,0 0,0 " marker-end="url(#defMarker)" transform="translate(397,269)" />
+  <text x="438.5" y="267" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="df599f9c-067a-470d-b04a-ede797e9e05b" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 53,0 " marker-end="url(#defMarker)" transform="translate(652,551)" />
+  <text x="678.5" y="549" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="862eab98-c524-425e-9ace-2f7477522cac" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 51,0 " marker-end="url(#defMarker)" transform="translate(839,551)" />
+  <text x="864.5" y="549" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="b8089fa3-ae63-4a99-8b91-4355e5ec79b5" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,100 " marker-end="url(#defMarker)" transform="translate(1131,299)" />
+  <text x="1131" y="347" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="4853b467-fd6c-4827-912f-2092e2419b41" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 100,0 " marker-end="url(#defMarker)" transform="translate(355,139)" />
+  <text x="405" y="137" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="f6945be1-5bba-4f93-a639-8c232f989440" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 68,0 " marker-end="url(#defMarker)" transform="translate(814,269)" />
+  <text x="848" y="267" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="22d2c8f6-2031-4074-83fc-3af9166d5814" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,59 0,0 " marker-end="url(#defMarker)" transform="translate(794,75)" />
+  <text x="794" y="102.5" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="61b481b2-35ab-4d49-af39-4defbcf2d89c" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 68,0 " marker-end="url(#defMarker)" transform="translate(980,551)" />
+  <text x="1014" y="549" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="fb356d8a-7896-4184-a61e-a41955b64717" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,90 0,96 0,99.31366 2.686279,102 6,101.9999 62,102 " marker-end="url(#defMarker)" transform="translate(500,449)" />
+  <text x="500" y="549" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="7cb0d2c6-ea4d-4cb6-85fb-4e2a96a3b7dc" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,44 0,0 " marker-end="url(#defMarker)" transform="translate(335,75)" />
+  <text x="335" y="95" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="da35d9db-eeb3-4a1c-95ed-a624b3760457" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,80 " marker-end="url(#defMarker)" transform="translate(500,169)" />
+  <text x="500" y="207" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="070d2b6f-1832-4c3a-a502-563ac2d42cb2" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="92,0 0,0 " marker-end="url(#defMarker)" transform="translate(520,429)" />
+  <text x="566" y="427" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="3315f54b-90b7-4b9c-a74e-b4551ac16106" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="45,0 0,0 " marker-end="url(#defMarker)" transform="translate(275,429)" />
+  <text x="297.5" y="427" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="38cfeb97-949a-4a22-83b6-dc6c93fc0708" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 48,0 " marker-end="url(#defMarker)" transform="translate(127,139)" />
+  <text x="151" y="137" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="66c50757-b866-4317-b56b-98a0387a934b" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 50,0 " marker-end="url(#defMarker)" transform="translate(265,139)" />
+  <text x="290" y="137" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <g id="Text_ff5f6369-4c80-46b4-9344-b824df33333dContainer" transform="translate(430.5,429) rotate(0,25,25)">
+    <text id="Text_ff5f6369-4c80-46b4-9344-b824df33333dText" class="style19">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_73e29d5c-4408-480e-acc2-60e91ab403f9Container" transform="translate(516,548) rotate(0,25,25)">
+    <text id="Text_73e29d5c-4408-480e-acc2-60e91ab403f9Text" class="style20">
+	<tspan x="7" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_5bff44f7-8dfb-458e-89d8-3f9fb035c888Container" transform="translate(847.5,269) rotate(0,25,25)">
+    <text id="Text_5bff44f7-8dfb-458e-89d8-3f9fb035c888Text" class="style21">
+	<tspan x="7" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_064be5e9-4ad9-4ff9-8326-f4ec70b51ac7Container" transform="translate(791,200) rotate(0,25,25)">
+    <text id="Text_064be5e9-4ad9-4ff9-8326-f4ec70b51ac7Text" class="style22">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_8ef1b658-da67-4007-bc0b-98be70957706Container" transform="translate(566,269) rotate(0,25,25)">
+    <text id="Text_8ef1b658-da67-4007-bc0b-98be70957706Text" class="style23">
+	<tspan x="7" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_607ab1e9-9e89-4c11-b48b-c1728a175401Container" transform="translate(404,265) rotate(0,25,25)">
+    <text id="Text_607ab1e9-9e89-4c11-b48b-c1728a175401Text" class="style24">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_4202e226-a840-492d-ab2f-00dddfc48a7dContainer" transform="translate(406,139) rotate(0,25,25)">
+    <text id="Text_4202e226-a840-492d-ab2f-00dddfc48a7dText" class="style25">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_d0f9306e-063b-47b1-8214-3fd4efe54d22Container" transform="translate(890,587) rotate(0,25,25)">
+    <text id="Text_d0f9306e-063b-47b1-8214-3fd4efe54d22Text" class="style26">
+	<tspan x="18" y="14">13. Realiza </tspan><tspan x="23" y="29">envio de </tspan><tspan x="13" y="43">documentos </tspan><tspan x="17" y="57">(SendDocs)</tspan></text>
+  </g>
+  <g id="Text_6f01811c-f225-4756-b434-6ef5a42126efContainer" transform="translate(462,370) rotate(0,25,25)">
+    <text id="Text_6f01811c-f225-4756-b434-6ef5a42126efText" class="style27">
+	<tspan x="13" y="14">Registrado </tspan><tspan x="6" y="29">com sucesso?</tspan></text>
+  </g>
+  <g id="Text_b2bbafd2-4fa3-4dcb-bd20-c13a14ee078aContainer" transform="translate(756,295) rotate(0,25,25)">
+    <text id="Text_b2bbafd2-4fa3-4dcb-bd20-c13a14ee078aText" class="style28">
+	<tspan x="6" y="14">Dados estão </tspan><tspan x="14" y="29">corretos?</tspan></text>
+  </g>
+  <g id="Text_a002c575-8487-4823-8839-c70a13be073eContainer" transform="translate(473,295) rotate(0,25,25)">
+    <text id="Text_a002c575-8487-4823-8839-c70a13be073eText" class="style29">
+	<tspan x="9" y="14">Termos </tspan><tspan x="6" y="29">aceitos?</tspan></text>
+  </g>
+  <g id="Text_73759f74-d5ce-4003-9381-3b9ebad13289Container" transform="translate(322,80) rotate(0,25,25)">
+    <text id="Text_73759f74-d5ce-4003-9381-3b9ebad13289Text" class="style30">
+	<tspan x="16" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_2b9a7958-e2ce-4a56-a5c8-d4c41273526dContainer" transform="translate(297,165) rotate(0,25,25)">
+    <text id="Text_2b9a7958-e2ce-4a56-a5c8-d4c41273526dText" class="style31">
+	<tspan x="5" y="14">Possui conta </tspan><tspan x="30" y="29">em </tspan><tspan x="6" y="43">andamento?</tspan></text>
+  </g>
+</svg>

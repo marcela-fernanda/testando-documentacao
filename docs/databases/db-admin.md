@@ -1,5 +1,5 @@
 # Esquema Admin - Tabelas
-### Modulos
+## Modulos
 
 Tabela responsável por armazenar os diferentes módulos acessíveis a um usuário no sistema.
 
@@ -20,7 +20,7 @@ Tabela responsável por armazenar os diferentes módulos acessíveis a um usuár
   | :------------------------------ | :---------- | :----------------------------------------------------------------------------------- |
   | [^^`permissoes`^^](#permissoes) | Primary Key | As permissões que os usuários possuem para acesso a determinados módulos do sistema. |
 
-### Oauth_Access_Tokens
+## Oauth_Access_Tokens
 
 Tabela responsável por armazenar os tokens de acesso de cada usuário nas sessões do sistema.
 
@@ -42,9 +42,9 @@ Tabela responsável por armazenar os tokens de acesso de cada usuário nas sess�
 
   | Tabela                | Tipo        | Descrição                                           |
   | :-------------------- | :---------- | :-------------------------------------------------- |
-  | [^^`users`^^](#users) | Foreing Key | Usuário ao qual o token de acesso está relacionado. |
+  | [^^`users`^^](#users) | Foreing Key | Usuário a qual o token de acesso está relacionado.  |
 
-### Oauth_Auth_Codes
+## Oauth_Auth_Codes
 
 Tabela que armazena um código único ligado a um nome de domínio (URL) e que será usado para solicitar o token de acesso.
 
@@ -65,7 +65,7 @@ Tabela que armazena um código único ligado a um nome de domínio (URL) e que s
   | :-------------------- | :---------- | :---------------------------------------------------------------------------------------- |
   | [^^`users`^^](#users) | Foreing Key | Cada usuário, ao realizar o retorno ao cliente pela URL, gerará um código de autorização. |
 
-### Oauth_Clients
+## Oauth_Clients
 
 Tabela utilizada para controlar as sessões do usuário dentro do sistema, de forma a garantir a segurança dos dados do mesmo.
 
@@ -90,7 +90,7 @@ Tabela utilizada para controlar as sessões do usuário dentro do sistema, de fo
   | :-------------------- | :---------- | :------------ |
   | [^^`users`^^](#users) | Foreing Key | Cada usuário terá seus dados utilizados pela tabela descrita nesse documento, a fim de garantir a segurança dos dados do mesmo. |
 
-### Oauth_Personal_Access_Clients
+## Oauth_Personal_Access_Clients
 
 Tabela que controla quais clientes possuem tokens de acesso, logo, possuirão acesso aos recursos do sistema.
 
@@ -103,9 +103,9 @@ Tabela que controla quais clientes possuem tokens de acesso, logo, possuirão ac
   | `created_at` | timestamp |                                                         |
   | `updated_at` | timestamp |                                                         |
 
-### Oauth_Refresh_Tokens
+## Oauth_Refresh_Tokens
 
-Tabela que controla o processo de refresh de um token, ou seja, caso haja necessidade, um token pod ser gerado novamente, garantindo assim, a segurança dos dados do usuário.
+Tabela que controla o processo de refresh de um token, ou seja, caso haja necessidade, um token pode ser gerado novamente, garantindo assim, a segurança dos dados do usuário.
 
 - **Descrição dos campos da tabela:**
 
@@ -116,7 +116,7 @@ Tabela que controla o processo de refresh de um token, ou seja, caso haja necess
   | `revoked`         | bool(1)      | Verificação da expiração do token de acesso.            |
   | `expires_at`      | timestamp    |                                                         |
 
-### Password_Resets
+## Password_Resets
 
 Tabela responsável por controlar solicitação de resets de senhas pelo usuário.
 
@@ -128,7 +128,7 @@ Tabela responsável por controlar solicitação de resets de senhas pelo usuári
   | `token`      | varchar(255) | Token de acesso do usuário. |
   | `created_at` | timestamp    |                             |
 
-### Perfis
+## Perfis
 
 Tabela que intermedeia a ligação entre as permissões de uso do sistema que cada perfil possuirá.
 
@@ -151,21 +151,21 @@ Tabela que intermedeia a ligação entre as permissões de uso do sistema que ca
   | [^^`perfis`^^](#perfis)         | Foreing Key | Perfis da empresa dentro do sistema.                               |
 
 
-### Perfis_Permissoes
+## Perfis_Permissoes
 
 Tabela que armazena os diferentes tipos de permissões atribuídos a cada perfil de uma empresa no sistema.
 
 - **Descrição dos campos da tabela:**
 
-  | Campo        | Tipo         | Descrição                                                                      |
-  | :------------| :----------- | :----------------------------------------------------------------------------- |
-  | `id`         | int8         | Indentificador da tabela (Primary Key).                                        |
-  | `nome`       | varchar(255) | Nome da permissão.                                                             |
-  | `slug`       | varchar(255) | URL de acesso do usuário assim que o mesmo inicia sua sessão.                  |
-  | `modulo_id`  | int8         | Foreing Key da tabela [^^modulos^^](#modulos).                                 |
-  | `created_at` | timestamp    |                                                                                |
-  | `updated_at` | timestamp    |                                                                                |
-  | `status`     | varchar(255) | Status das permissões no sistema. Valores padrão: "A" (ativo) e "I" (inativo). |
+  | Campo        | Tipo         | Descrição                                                                                     |
+  | :------------| :----------- | :-------------------------------------------------------------------------------------------- |
+  | `id`         | int8         | Indentificador da tabela (Primary Key).                                                       |
+  | `nome`       | varchar(255) | Nome da permissão.                                                                            |
+  | `slug`       | varchar(255) | Identifica a permissão de uma forma resumida e "amigável".  |
+  | `modulo_id`  | int8         | Foreing Key da tabela [^^modulos^^](#modulos). Por exemplo, se o nome da permissão é "administrador principal" o slug pode ser "admin_principal". |
+  | `created_at` | timestamp    |                                                                                               |
+  | `updated_at` | timestamp    |                                                                                               |
+  | `status`     | varchar(255) | Status das permissões no sistema. Valores padrão: "A" (ativo) e "I" (inativo).                |
 
 - **Relacionamentos:**
 
@@ -174,7 +174,7 @@ Tabela que armazena os diferentes tipos de permissões atribuídos a cada perfil
   | [^^`modulos`^^](#modulos)                     | Foreing Key | As permissões são diferentes módulos do sistema cujo usuário, através de seu perfil, possui acesso. |
   | [^^`perfis_permissoes`^^](#perfis_permissoes) | Primary Key | Cada perfil possui diferentes permissões de acesso ao sistema. |
 
-### Permissoes
+## Permissoes
 
 Armazena os diferentes perfis ligados a uma empresa dentro do sistema, e que serão, neste, atribuídos a diferentes usuários.
 
@@ -199,7 +199,7 @@ Armazena os diferentes perfis ligados a uma empresa dentro do sistema, e que ser
   | [^^`perfis_permissoes`^^](#perfis_permissoes)    | Primary Key | Cada perfil terá diferentes permissões de uso do sistema. |
   | [^^`astecas.empresas`^^](db-astecas.md#empresas) | Foreing Key | Os perfis estão diretamente ligados a empresa, podendo, a mesma, possuir mais de 1 perfil. |
 
-### Users
+## Users
 
 Tabela que armazena os dados dos usuários que utilizam o sistema.
 
@@ -233,7 +233,7 @@ Tabela que armazena os dados dos usuários que utilizam o sistema.
   | [^^`users_perfil`^^](#users_perfil)               | Primary Key | Tabela que intermedeia perfil está ligado a um usuário.                                   |
   | [^^`perfis`^^](#perfis)                           | Foreing Key | Cada usuário possui um perfil no sistema.                                                 |
 
-### Users_Perfil
+## Users_Perfil
 
 Tabela que intermedeia o relacionamento entre o usuário e qual perfil está atribuído a esse.
 

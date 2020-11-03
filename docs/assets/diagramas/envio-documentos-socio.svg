@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="750px" height="390px">
+  <style type="text/css"><![CDATA[
+	.style1{fill:#E6FF97;stroke:#62A716;stroke-width:2;}
+	.style2{fill:#ECEFFF;stroke:#03689A;stroke-width:2;}
+	.style3{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def6);}
+	.style4{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def7);}
+	.style5{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def8);}
+	.style6{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def9);}
+	.style7{fill:#EEAAAA;stroke:#990000;stroke-width:3;}]]></style>
+  <defs>
+    <path id="6df89403-32d8-4636-a9ea-becaa3e2b3a3HeaderPath" fill-rule="evenodd" d="M 30,380 L 380,380 L 380,430 L 30,430 Z " />
+    <clipPath id="688bc8a3-4ab2-456e-9adf-ec3dc6d25745HeaderClipPath">
+      <use xlink:href="#6df89403-32d8-4636-a9ea-becaa3e2b3a3HeaderPath" />
+    </clipPath>
+    <ellipse id="def3" cx="15" cy="15" rx="15" ry="15" />
+    <clipPath id="def4">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def5" fill-rule="evenodd" d="M 7,0 L 83,0 L 83,0 C 86.87,-0 90,3.13 90,7 C 90,7 90,7 90,7 L 90,7 L 90,53 L 90,53 C 90,56.87 86.87,60 83,60 L 83,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def6">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def7">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def8">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def9">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def10">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <marker id="defMarkerShadow" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="0.1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <marker id="defMarker" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+  </defs>
+  <g>
+    <rect x="30" y="30" width="700" height="350" rx="0" ry="0" style="fill:#FFFFFF;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <line x1="80" y1="30" x2="80" y2="380" style="stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text style="font-family:'Segoe UI';font-size:10pt;font-weight:bold;fill:#000000;clip-path:url(#688bc8a3-4ab2-456e-9adf-ec3dc6d25745HeaderClipPath);" transform="rotate(-90 30 380)">
+      <tspan x="107.0584" y="410">Envio de Documentos do Sócio</tspan>
+    </text>
+  </g>
+  <use id="3f3a0728-1737-4a66-85cc-7e1a9042bd24" xlink:href="#def3" class="style1" x="103" y="77" />
+  <g id="3f3a0728-1737-4a66-85cc-7e1a9042bd24Container" transform="translate(103,77) rotate(0,25,25)" />
+  <use id="4804abf1-2aed-467d-ba42-803f5f479bdc" xlink:href="#def5" class="style2" x="182" y="62" />
+  <g id="4804abf1-2aed-467d-ba42-803f5f479bdcContainer" transform="translate(182,62) rotate(0,25,25)">
+    <text id="4804abf1-2aed-467d-ba42-803f5f479bdcText" class="style3">
+	<tspan x="9" y="25">1. Upload dos </tspan><tspan x="23" y="39">arquivos</tspan></text>
+  </g>
+  <use id="7cc66842-5f79-4f28-8ba1-82e5ccbd0ffd" xlink:href="#def5" class="style2" x="322" y="62" />
+  <g id="7cc66842-5f79-4f28-8ba1-82e5ccbd0ffdContainer" transform="translate(322,62) rotate(0,25,25)">
+    <text id="7cc66842-5f79-4f28-8ba1-82e5ccbd0ffdText" class="style4">
+	<tspan x="26" y="18">2. Salva </tspan><tspan x="15" y="32">arquivos no </tspan><tspan x="17" y="46">Amazon S3</tspan></text>
+  </g>
+  <use id="babdada8-08ba-4e7d-80cd-25e2446912fc" xlink:href="#def5" class="style2" x="466" y="62" />
+  <g id="babdada8-08ba-4e7d-80cd-25e2446912fcContainer" transform="translate(466,62) rotate(0,25,25)">
+    <text id="babdada8-08ba-4e7d-80cd-25e2446912fcText" class="style5">
+	<tspan x="19" y="18">3. Atualiza </tspan><tspan x="11" y="32">sócio (tabela) </tspan><tspan x="7" y="46">com status = e</tspan></text>
+  </g>
+  <use id="a209999f-5eb3-43e8-9625-463a0d161a31" xlink:href="#def5" class="style2" x="466" y="178" />
+  <g id="a209999f-5eb3-43e8-9625-463a0d161a31Container" transform="translate(466,178) rotate(0,25,25)">
+    <text id="a209999f-5eb3-43e8-9625-463a0d161a31Text" class="style6">
+	<tspan x="26" y="18">4. Envia </tspan><tspan x="13" y="32">documentos </tspan><tspan x="15" y="46">para o BaaS</tspan></text>
+  </g>
+  <use id="186afd7f-cc2e-4594-a227-cbfb5264e594" xlink:href="#def3" class="style7" x="496" y="295" />
+  <g id="186afd7f-cc2e-4594-a227-cbfb5264e594Container" transform="translate(496,295) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#990000;stroke:#990000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 25.183514,16.014719 a 8.8410206,8.8410206 0 1 1 -17.6820415,0 8.8410206,8.8410206 0 1 1 17.6820415,0 z" transform="translate(494.8,293.8)" />
+  </g>
+  <polyline id="f8c90bbc-8914-4788-9ee5-199397876545" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,57 " marker-end="url(#defMarker)" transform="translate(511,238)" />
+  <text x="511" y="264.5" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="cc5f6b8f-92a2-44ce-80f1-96e0ac62e6c4" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 49,0 " marker-end="url(#defMarker)" transform="translate(133,92)" />
+  <text x="157.5" y="90" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="5b99a265-3e02-4c16-94ad-cdfc6aff824a" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 50,0 " marker-end="url(#defMarker)" transform="translate(272,92)" />
+  <text x="297" y="90" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="f0c6b842-d2f6-43fe-8d12-f416b7396252" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 54,0 " marker-end="url(#defMarker)" transform="translate(412,92)" />
+  <text x="439" y="90" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+  <polyline id="ac85dd57-0fc4-4e5d-afcd-440973403466" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 0,56 " marker-end="url(#defMarker)" transform="translate(511,122)" />
+  <text x="511" y="148" style="font-family:'Segoe UI';font-size:8.25pt;fill:Black;">
+  </text>
+</svg>

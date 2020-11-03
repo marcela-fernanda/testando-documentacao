@@ -1,5 +1,5 @@
 # Esquema BAAS - Tabelas
-### Accounts
+## Accounts
 
 Tabela responsável por receber os dados da conta bancária, dados do titular da conta e os dados da empresa e associá-los a conta digital respectiva.
 
@@ -10,7 +10,7 @@ Tabela responsável por receber os dados da conta bancária, dados do titular da
   | `id`                             | int4         | Identificador da tabela (Primary Key).                                                           |
   | `idaccount`                      | int4         | Identificador da conta bancária.                                                                 |
   | `idpessoa`                       | int4         | Identificador do titular da conta.                                                               |
-  | `nome`                           | varchar(100) | Nome da pessoa ao qual a conta refere-se.                                                        |
+  | `nome`                           | varchar(100) | Nome da pessoa a qual a conta refere-se.                                                         |
   | `idproduto`                      | int4         | Identificador do produto.                                                                        |
   | `idorigemcomercial`              | int4         | Identificador da origem comercial da empresa.                                                    |
   | `nomeorigemcomercial`            | varchar(120) | Nome da origem comercial da empresa.                                                             |
@@ -67,7 +67,7 @@ Tabela responsável por receber os dados da conta bancária, dados do titular da
   | :------------------------------------------ | :---------- | :----------------------------------------------------------------------------- |
   | [^^`service_packages`^^](#service_packages) | Foreing Key | Cada conta terá um pacote de utilização mensal, com seus respectivos serviços. |
 
-### BankTransfers
+## BankTransfers
 
 Tabela responsável por armazenar os dados referentes aos destinatários envolvidos em  uma transferência bancária.
 
@@ -100,7 +100,7 @@ Tabela responsável por armazenar os dados referentes aos destinatários envolvi
   | `updated_a`          | timestamp    |                                                      |
   | `created_a`          | timestamp    |                                                      |
 
-### Cards
+## Cards
 
 Tabela responsável por armazenar os dados refentes aos cartões associados a uma determinada conta.
 
@@ -144,7 +144,7 @@ Tabela responsável por armazenar os dados refentes aos cartões associados a um
   | `created_at`                   | timestamp    |                                                                                |
   | `updated_at`                   | timestamp    |                                                                                |
 
-### P2PTransfer
+## P2PTransfer
 
 Tabela responsável por armazenar os dados referentes as transferências bancárias do tipo P2P.
 
@@ -177,7 +177,7 @@ Tabela responsável por armazenar os dados referentes as transferências bancár
   | :------------------------------------- | :---------- | :---------------------------------------------------- |
   | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Identifica qual usuário realizou a transferência P2P. |
 
-### Payments
+## Payments
 
 Tabela responsável por armazenar os dados de pagamentos ligados a uma conta.
 
@@ -205,7 +205,7 @@ Tabela responsável por armazenar os dados de pagamentos ligados a uma conta.
   | `created_at`            | timestamp    |                                                                                             |
   | `updated_at`            | timestamp    |                                                                                             |
 
-### Payment_Slip_Invoice
+## Payment_Slip_Invoice
 
 Tabela responsável por armazenar os boletos de pagamento referentes a cobranças feitas pelos clientes.
 
@@ -241,7 +241,7 @@ Tabela responsável por armazenar os boletos de pagamento referentes a cobrança
   | `fornecedor_cliente_id` | int8         | Foreing Key da tabela [^^fornecedores_clientes^^](db-astecas.md#fornecedores_clientes) (banco astecas). |
   | `documento_id`          | int8         | Foreing Key da tabela [^^documentos^^](db-astecas.md#documentos) (banco astecas).                       |
 
-#### Objetos da tabela - Payment_Slip_Invoice
+### Objetos da tabela - Payment_Slip_Invoice
 
 ???+ info "Dados"
 
@@ -307,7 +307,7 @@ Tabela responsável por armazenar os boletos de pagamento referentes a cobrança
 
 *[Amazon S3]: Amazon Simple Storage Service
 
-### Payment_Slip_Recharger
+## Payment_Slip_Recharger
 
 Tabela responsável os boletos de pagamento cujo pessoa que o emitiu será a mesma que o irá pagar.
 
@@ -339,7 +339,7 @@ Tabela responsável os boletos de pagamento cujo pessoa que o emitiu será a mes
   | `updated_at`       | timestamp    |                                                                                                                 |
   | `lancamento_id`    | int8         | Foreing Key da tabela [^^lancamentos^^](db-astecas.md#lancamentos) (banco astecas).                             |
 
-#### Objetos da tabela - Payment_Slip_Recharger
+### Objetos da tabela - Payment_Slip_Recharger
 
 ???+ info "Dados"
     
@@ -365,7 +365,7 @@ Tabela responsável os boletos de pagamento cujo pessoa que o emitiu será a mes
   | [^^`astecas.lancamentos`^^](db-astecas.md#lancamentos) | Foreing Key | Os boleto gerados são vinculados a um lançamento. |
   
 
-### Registrations
+## Registrations
 
 Tabela responsável por armazenar os dados das companhias (empresas).
 
@@ -382,7 +382,7 @@ Tabela responsável por armazenar os dados das companhias (empresas).
   | `created_at`     | timestamp   |                                                                               |
   | `updated_at`     | timestamp   |                                                                               |
 
-#### Objetos da tabela - Registrations
+### Objetos da tabela - Registrations
 
 ???+ info "Dados"
 
@@ -489,7 +489,7 @@ Tabela responsável por armazenar os dados das companhias (empresas).
   | :----------------------------------------------- | :---------- | :--------------------------------------- |
   | [^^`astecas.empresas`^^](db-astecas.md#empresas) | Foreing Key | Busca os dados da empresa para registro. |
 
-### Registrations_Documents
+## Registrations_Documents
 
 Armazena os documentos para o registro de uma empresa.
 
@@ -511,7 +511,7 @@ Armazena os documentos para o registro de uma empresa.
   | :--------------------------------------------------- | :---------- | :---------------------------------------------- |
   | [^^`astecas.documentos`^^](db-astecas.md#documentos) | Foreing Key | Busca os documentos relacionados a uma empresa. |
 
-### Registrations_Updates
+## Registrations_Updates
 
 Tabela utilizada no processo de atualização dos dados de uma determinada companhia.
 
@@ -526,7 +526,7 @@ Tabela utilizada no processo de atualização dos dados de uma determinada compa
   | `created_at`      | timestamp   |                                                                          |
   | `updated_at`      | timestamp   |                                                                          |
 
-#### Objetos da tabela - Registrations_Updates
+### Objetos da tabela - Registrations_Updates
 
 ???+ info "Dados"
 
@@ -627,7 +627,7 @@ Tabela utilizada no processo de atualização dos dados de uma determinada compa
         * **`deviceIdentification`:** Detalhes de identificação do dispositivo, contendo:
             * `fingerprint`: Identicação do dispositivo (agente de usuário do navegador ou número de série do dispositivo, e endereço ipv4, separados por um #).
 
-### Service_Packages
+## Service_Packages
 
 Tabela responsável por armazenar os dados dos pacotes de utilização dos serviços bancários.
 

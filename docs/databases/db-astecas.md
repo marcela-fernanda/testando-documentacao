@@ -1,5 +1,5 @@
 # Esquema Astecas - Tabelas
-### Bancos
+## Bancos
 
 Tabela responsável pelo armazenamento dos dados referentes aos bancos que estão ligados a uma dada conta bancária utilizada durante alguma transação bancária.
 
@@ -21,7 +21,7 @@ Tabela responsável pelo armazenamento dos dados referentes aos bancos que estã
   | :---------------------------------------- | :---------- | :----------------------------------|
   | [^^`contasbancarias`^^](#contasbancarias) | Primary Key | A conta bancária está ligada a um banco, assim como o mesmo banco possui várias contas bancárias ligadas a ele. |
 
-### Cargos
+## Cargos
 
 Tabela responsável por armazenar os cargos que cada empresa possui.
 
@@ -43,7 +43,7 @@ Tabela responsável por armazenar os cargos que cada empresa possui.
   | [^^`empresas`^^](#empresas)           | Foreing Key | Cada empresa possui diversos cargos, e cargos estão ligados a uma empresa. |
   | [^^`colaboradores`^^](#colaboradores) | Primary Key | Cada colaborador exerce um cargo dentro de uma determinada empresa.        |
 
-### CentroCustos
+## CentroCustos
 
 Tabela responsável por agrupar as receitas e despesas relacionadas a uma empresa.
 
@@ -69,7 +69,7 @@ Tabela responsável por agrupar as receitas e despesas relacionadas a uma empres
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas)         | Primary Key | Os dados dos centros de custos estão inseridos nos lançamentos que passarão pelo processo de "baixa". |
   | [^^`lancamentos`^^](#lancamentos)                       | Primary Key | Os dados centros de custos estão contidos em lançamentos.                           |
 
-### Colaboradores
+## Colaboradores
 
 Tabela responsável por armazenar os dados de um colaborador de uma determinada empresa e qual cargo este exerce na mesma.
 
@@ -100,7 +100,54 @@ Tabela responsável por armazenar os dados de um colaborador de uma determinada 
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas) | Primary Key | Os lançamentos (que contém dados dos colaboradores) passarão pelo processo de "baixa" no sistema. |
   | [^^`orcamentos_baixas`^^](#orcamentos_baixas)   | Primary Key | As "baixas" dos orçamentos presentes no sistema também conterão os dados dos colaboradores das empresas. |
 
-### ContasBancarias
+## Complementos
+
+Tabela responsável por armazenar informações complementares sobre uma empresa, como por exemplo, diretorias.
+
+- **Descrição dos campos da tabela:**
+
+  | Campo        | Tipo         | Descrição                                                      |
+  | :----------- | :----------- | :------------------------------------------------------------- |
+  | `id`         | int4         | Indentificador da tabela (Primary Key).                        |
+  | `empresa_id` | int8         | Foreing Key da tabela [^^empresas^^](#empresas).               |
+  | `unidade_id` | int4         | Foreing Key da tabela [^^unidades^^](#unidades).               |
+  | `nome`       | varchar(255) | Nome do complemento.                                           |
+  | `descricao`  | text         | Descrição do complemento.                                      |
+  | `status`     | varchar(1)   | Identifica se o complemento está "A" (ativo) ou "I" (inativo.) |
+  | `created_at` | timestamp    |                                                                |
+  | `updated_at` | timestamp    |                                                                |
+
+- **Relacionamentos:**
+
+  | Tabela                            | Tipo        | Descrição                                                                                    |
+  | :-------------------------------- | :---------- | :------------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)       | Foreing Key | Os complementos são relacionados a uma empresa específica.                                   |
+  | [^^`unidades`^^](#unidades)       | Foreing Key | Os complementos são relacionados as unidades de uma empresa específica. Informação opcional. |
+  | [^^`lancamentos`^^](#lancamentos) | Primary Key | Os diferentes complementos estão contidos dentro das informações dos lançamentos.            |
+
+## Complementos_Opcoes
+
+Agrupa sub-complementos armazenados na tabela de complementos. Por exemplo, uma diretoria pode ser subdividida em diretoria executiva.
+
+- **Descrição dos campos da tabela:**
+
+  | Campo            | Tipo         | Descrição                                                      |
+  | :--------------- | :----------- | :------------------------------------------------------------- |
+  | `id`             | int8         | Indentificador da tabela (Primary Key).                        |
+  | `complemento_id` | int4         | Foreing Key da tabela [^^complementos^^](#complementos).       |
+  | `nome`           | varchar(255) | Nome do sub-complemento.                                       |
+  | `descricao`      | text         | Descrição do sub-complemento.                                  |
+  | `status`         | varchar(1)   | Identifica se o complemento está "A" (ativo) ou "I" (inativo.) |
+  | `created_at`     | timestamp    |                                                                |
+  | `updated_at`     | timestamp    |                                                                |
+
+- **Relacionamentos:**
+
+  | Tabela                              | Tipo        | Descrição                                                                |
+  | :---------------------------------- | :---------- | :----------------------------------------------------------------------- |
+  | [^^`complementos`^^](#complementos) | Primary Key | As opções de complementos são ramificações de um complemento mais geral. |
+
+## ContasBancarias
 
 A tabela corresponde as contas bancárias das empresas, utilizadas para movimentação financeira.
 
@@ -135,7 +182,7 @@ A tabela corresponde as contas bancárias das empresas, utilizadas para moviment
   | [^^`extratos`^^](#extratos)                         | Primary Key | As movimentações financeiras feitas na conta corrente geram extratos.           |
   | [^^`contascaixas`^^](#contascaixas)                 | Primary Key | As contas bancárias estão ligadas as contas caixas, ou seja, as transações financeiras podem ser tanto feitas por uma conta bancária quanto por outros tipos de meios, que serão controlados na conta caixa. |
 
-### ContasBancarias_Tipo
+## ContasBancarias_Tipo
 
 Tabela responsável por armazenar os tipos de contas bancárias existentes.
 
@@ -155,7 +202,7 @@ Tabela responsável por armazenar os tipos de contas bancárias existentes.
   | :---------------------------------------- | :---------- | :----------------------------------------------------------------------------------------------- |
   | [^^`contasbancarias`^^](#contasbancarias) | Primary Key | Cada conta bancária possui um tipo específico, por exemplo: conta corrente, conta poupança, etc. |
 
-### ContasCaixas
+## ContasCaixas
 
 Tabela responsável por englobar transações financeiras advindas de diversas fontes, como pagamentos por contas bancárias, dinheiro, etc.
 
@@ -184,7 +231,7 @@ Tabela responsável por englobar transações financeiras advindas de diversas f
   | [^^`contasbancarias`^^](#contasbancarias)       | Foreing Key | As transações armazenadas na conta caixa podem ser originadas de contas bancárias.         |
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas) | Primary Key | Os dados armazenados na tabela contascaixas serão utilizados nas baixas dos lançamentos.   |
 
-### Contratos
+## Contratos
 
 Tabela responsável por armazenar os contratos que cada empresa assina ao firmar um acordo de utilização do sistema.
 
@@ -210,7 +257,7 @@ Tabela responsável por armazenar os contratos que cada empresa assina ao firmar
   | [^^`empresas`^^](#empresas) | Foreing Key | Os contratos são firmados com empresas, sendo assim, cada empresa pode realizar vários contratos.            |
   | [^^`planos`^^](#planos)     | Foreing Key | Cada contrato possui um plano de utilização do sistema, e os planos podem estar contidos em vários contratos.|
 
-### Departamentos
+## Departamentos
 
 Tabela responsável por armazenar os dados dos departamentos que cada empresa/unidade pode ter.
 
@@ -237,7 +284,7 @@ Tabela responsável por armazenar os dados dos departamentos que cada empresa/un
   | [^^`lancamentos`^^](#lancamentos)                       | Primary Key | Os dados referentes a cada departamento constarão nos lançamentos.               |
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas)         | Primary Key | Os dados referentes a cada departamento constarão nas baixas dos lançamentos.    |
 
-### Documentos
+## Documentos
 
 Tabela responsável por armazenar os documentos (anexos) referentes aos lançamentos de cada empresa.
 
@@ -268,7 +315,7 @@ Tabela responsável por armazenar os documentos (anexos) referentes aos lançame
   | [^^`lancamentos_baixas_documentos`^^](#lancamentos_baixas_documentos) | Primary Key | Está em um intermediário onde um documento é ligado a uma baixa de um lançamento específico. |
   | [^^`lancamentos_documentos`^^](#lancamentos_documentos)               | Primary Key | Refere-se ao documento presente em um lançamento. |
 
-### Documentos_Tipos
+## Documentos_Tipos
 
 Tabela responsável por armazenar os tipos de documentos presentes no sistema.
 
@@ -288,7 +335,7 @@ Tabela responsável por armazenar os tipos de documentos presentes no sistema.
   | :------------------------------ | :---------- | :----------------------------------------------------------------------------------------------------- |
   | [^^`documentos`^^](#documentos) | Primary Key | Os tipos de documentos estão atrelados aos documentos, ou seja, cada documento tem um tipo específico. |
 
-### Empresas
+## Empresas
 
 Tabela responsável pelo armazenamento dos dados a cada empresa presente em um grupo.
 
@@ -326,9 +373,10 @@ Tabela responsável pelo armazenamento dos dados a cada empresa presente em um g
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas)       | Primary Key | Os lançamentos das empresas passarão pelo processo de "baixa".                     |
   | [^^`contratos`^^](#contratos)                         | Primary Key | Cada empresa assina um contrato de utilização do sistema, onde o mesmo contará com um plano que discriminará o que a empresa poderá ou não fazer no sistema. |
   | [^^`documentos`^^](#documentos)                       | Primary Key | A empresa possui documentos atrelados a ela.                                       |
+  | [^^`tecnospeed.pagador`^^](db-tecnospeed.md#pagador)  | Primary Key | A empresa possui contas bancárias de um pagador ligadas a ela.                     |
   | [^^`grupos`^^](#grupos)                               | Foreing Key | Cada empresa faz parte de um grupo específico de várias empresas.                  |
 
-### Extratos
+## Extratos
 
 Tabela utilizada para armazenar os extratos bancários de uma empresa.
 
@@ -364,7 +412,7 @@ Tabela utilizada para armazenar os extratos bancários de uma empresa.
   | [^^`admin.users`^^](db-admin.md#users)              | Foreing Key | Cada extrato está ligado a um usuário dentro do sistema.                           |
   | [^^`extratos_lancamentos`^^](#extratos_lancamentos) | Primary Key | Os extratos são compostos por lançamentos.                                         |
 
-### Extratos_Lancamentos
+## Extratos_Lancamentos
 
 Tabela responsável por agrupar todos os lançamentos contidos em um extrato.
 
@@ -393,7 +441,7 @@ Tabela responsável por agrupar todos os lançamentos contidos em um extrato.
   | [^^`extratos`^^](#extratos)                                                               | Foreing Key | Os lançamentos contém vários extratos. |
   | [^^`lancamentos_baixas_extratos_lancamentos`^^](#lancamentos_baixas_extratos_lancamentos) | Primary Key | Os lançamentos de extratos passam pelo processo de "baixa" dentro do sistema. |
 
-### Fornecedores_Clientes
+## Fornecedores_Clientes
 
 Tabela responsável por armazenar os tipos de documentos presentes no sistema.
 
@@ -439,7 +487,7 @@ Tabela responsável por armazenar os tipos de documentos presentes no sistema.
   | [^^`orcamentos_lancamentos`^^](#orcamentos_lancamentos) | Primary Key | Os lançamentos contidos nos orçamentos conterão os dados dos fornecedores.      |
   | [^^`lancamentos`^^](#lancamentos)                       | Primary Key | Os lançamentos conterão os dados dos fornecedores.                              |
 
-### Grupos
+## Grupos
 
 Tabela que armazena os dados do grupo do qual cada empresa faz parte.
 
@@ -449,7 +497,7 @@ Tabela que armazena os dados do grupo do qual cada empresa faz parte.
   | :----------- | :---------- | :----------------------------------------------------------------------------- |
   | `id`         | int8        | Indentificador da tabela (Primary Key).                                        |
   | `nome`       | varchar(40) | Nome do grupo cuja empresa pertence.                                           |
-  | `descricao`  | text        | Descrição do grupo ao qual a empresa pertence.                                 |
+  | `descricao`  | text        | Descrição do grupo a qual a empresa pertence.                                  |
   | `created_at` | timestamp   |                                                                                |
   | `updated_at` | timestamp   |                                                                                |
   | `status`     | varchar(1)  | Status atual do grupo no sistema. Valores padrão: "A" (ativo) e "I" (inativo). |
@@ -460,7 +508,7 @@ Tabela que armazena os dados do grupo do qual cada empresa faz parte.
   | :-------------------------- | :---------- | :-------------------------------------------------------------------------------------- |
   | [^^`empresas`^^](#empresas) | Primary Key | Cada empresa pertence a um grupo, e os grupos possuem várias empresas atreladas a eles. |
 
-### Lancamentos
+## Lancamentos
 
 Tabela responsável por armazenar os dados dos lançamentos de uma empresa no sistema. Um lançamento é um registro de algo que pode vir a (futuro) afetar, financeiramente, uma empresa. No sistema, os lançamentos podem assumir 3 estados: 
 
@@ -471,7 +519,7 @@ Tabela responsável por armazenar os dados dos lançamentos de uma empresa no si
 :   Lançamentos com esse status já foram devidamente analisados pelo setor operacional. 
 
 `"B" (baixado/baixa)`
-:   onde dado lançamento já passou pelo processo de análise e já foi pago/recebido.
+:   Onde dado lançamento já passou pelo processo de análise e já foi pago/recebido.
 
 
 - **Descrição dos campos da tabela:**
@@ -506,23 +554,25 @@ Tabela responsável por armazenar os dados dos lançamentos de uma empresa no si
   | `autorizado`            | varchar(1)   | Verificação para saber se o lançamento está ou não autorizado.                                   |
   | `autorizado_por`        | int8         | Referente a pessoa que realizou a autorização do lançamento.                                     |
   | `autorizado_em`         | timestamp    | Data em que foi realizada a autorização do lançamento (formato ISO 8601).                        |
+  | `complemento_id`        | int8         | Foreing Key da tabela [^^complementos^^](#complementos).                                         |
 
 - **Relacionamentos:**
 
-  | Tabela                                                  | Tipo        | Descrição                                                                          |
-  | :------------------------------------------------------ | :---------- | :--------------------------------------------------------------------------------- |
-  | [^^`empresas`^^](#empresas)                             | Foreing Key | O lançamento refere-se a uma empresa, a qual ele está ligado.                      |
-  | [^^`departamentos`^^](#departamentos)                   | Foreing Key | O lançamento refere-se a um departamento, a qual ele está ligado.                  |
-  | [^^`fornecedor_clientes`^^](#fornecedor_clientes)       | Foreing Key | Os dados do fornecedor constarão em um lançamento.                                 |
-  | [^^`colaboradores`^^](#colaboradores)                   | Foreing Key | Os dados refentes ao colaborador estão contidos em um lançamento.                  |
-  | [^^`unidades`^^](#unidades)                             | Foreing Key | O lançamento refere-se a uma unidade, a qual ele está ligado.                      |
-  | [^^`centrocustos`^^](#centrocustos)                     | Foreing Key | Os dados do centro de custos da empresa estará contido no lançamento.              |
-  | [^^`pag_transferencias`^^](#pag_transferencias)         | Foreing Key | Os dados referentes aos pagamentos de transferências estão contidos no lançamento. |
-  | [^^`planocontas`^^](#planocontas)                       | Foreing Key | Corresponde a categoria do lançamento.                                             |
-  | [^^`lancamentos_baixas`^^](#lancamentos_baixas)         | Primary Key | Os lançamentos passarão, no sistema, pelo processo de baixa.                       |
-  | [^^`lancamentos_documentos`^^](#lancamentos_documentos) | Primary Key | Os lançamentos possuem documentos (anexos) que estão atrelados a eles.             |
+  | Tabela                                                  | Tipo        | Descrição                                                                           |
+  | :------------------------------------------------------ | :---------- | :---------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)                             | Foreing Key | O lançamento refere-se a uma empresa, a qual ele está ligado.                       |
+  | [^^`departamentos`^^](#departamentos)                   | Foreing Key | O lançamento refere-se a um departamento, a qual ele está ligado.                   |
+  | [^^`fornecedor_clientes`^^](#fornecedor_clientes)       | Foreing Key | Os dados do fornecedor constarão em um lançamento.                                  |
+  | [^^`colaboradores`^^](#colaboradores)                   | Foreing Key | Os dados refentes ao colaborador estão contidos em um lançamento.                   |
+  | [^^`unidades`^^](#unidades)                             | Foreing Key | O lançamento refere-se a uma unidade, a qual ele está ligado.                       |
+  | [^^`centrocustos`^^](#centrocustos)                     | Foreing Key | Os dados do centro de custos da empresa estará contido no lançamento.               |
+  | [^^`pag_transferencias`^^](#pag_transferencias)         | Foreing Key | Os dados referentes aos pagamentos de transferências estão contidos no lançamento.  |
+  | [^^`planocontas`^^](#planocontas)                       | Foreing Key | Corresponde a categoria do lançamento.                                              |
+  | [^^`complementos`^^](#complementos)                     | Foreing Key | Os dados correspondentes aos complementos de uma empresa constarão nos lançamentos. |
+  | [^^`lancamentos_baixas`^^](#lancamentos_baixas)         | Primary Key | Os lançamentos passarão, no sistema, pelo processo de baixa.                        |
+  | [^^`lancamentos_documentos`^^](#lancamentos_documentos) | Primary Key | Os lançamentos possuem documentos (anexos) que estão atrelados a eles.              |
 
-### Lancamentos_Baixas
+## Lancamentos_Baixas
 
 Tabela que armazena os lançamentos que já sofreram baixa, ou seja, foram pagos ou recebidos. Um lançamento pode, também, ser inserido pelo usuário já tendo sido "baixado", e, nesse caso, posteriormente passará pelo processo de análise.
 
@@ -574,9 +624,9 @@ Tabela que armazena os lançamentos que já sofreram baixa, ou seja, foram pagos
   | [^^`lancamentos_baixas_extratos_lancamentos`^^](#lancamentos_baixas_extratos_lancamentos) | Primary Key | Intermediário que liga os lançamentos contidos nos extratos aos lançamentos baixados. |
   | [^^`lancamentos_baixas_documentos`^^](#lancamentos_baixas_documentos)                     | Primary Key | Intermediário que liga o documento (anexo) de um dado lançamento ao mesmo. |
 
-### Lancamentos_Baixas_Documentos
+## Lancamentos_Baixas_Documentos
 
-Tabela responsável por intermediar o relacionamento entre um lançamento "baixado" e o documento do respectivo lançamento, relacionando, também, o usuário ao qual tais dados estão ligados.
+Tabela responsável por intermediar o relacionamento entre um lançamento "baixado" e o documento do respectivo lançamento, relacionando, também, o usuário a qual tais dados estão ligados.
 
 - **Descrição dos campos da tabela:**
 
@@ -597,7 +647,7 @@ Tabela responsável por intermediar o relacionamento entre um lançamento "baixa
   | [^^`documentos`^^](#documentos)                 | Foreing Key | Documentos referentes aos lançamentos (anexos).                  |
   | [^^`admin.users`^^](db-admin.md#users)          | Foreing Key | Usuário correspondente de um lançamento específico.              |
 
-### Lancamentos_Baixas_Extratos_Lancamentos
+## Lancamentos_Baixas_Extratos_Lancamentos
 
 Tabela que intermedeia os lançamentos que foram "baixados" e os lançamentos que estão contidos em um extrato.
 
@@ -618,9 +668,9 @@ Tabela que intermedeia os lançamentos que foram "baixados" e os lançamentos qu
   | :-------------------------------------------------- | :---------- | :--------------------------------------------------------- |
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas)     | Foreing Key | Lançamentos que já foram "baixados".                       |
   | [^^`extratos_lancamentos`^^](#extratos_lancamentos) | Foreing Key | Lançamentos com um dado status contidos em um extrato.     |
-  | [^^`admin.users`^^](db-admin.md#users)              | Foreing Key | Os dados dos usuários ao qual os lançamentos correspondem. |
+  | [^^`admin.users`^^](db-admin.md#users)              | Foreing Key | Os dados dos usuários a qual os lançamentos correspondem.  |
 
-### Lancamentos_Documentos
+## Lancamentos_Documentos
 
 Tabela responsável por intermediar o relacionamento entre a tabela que contém os lançamentos e a tabela que contém os documentos desses lançamentos.
 
@@ -641,9 +691,9 @@ Tabela responsável por intermediar o relacionamento entre a tabela que contém 
   | :------------------------------------- | :---------- | :------------------------------------------------------- |
   | [^^`lancamentos`^^](#lancamentos)      | Foreing Key | Lançamentos de uma empresa presentes no sistema.         |
   | [^^`documentos`^^](#documentos)        | Foreing Key | Documentos referentes ao lançamento (anexos).            |
-  | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Usuário ao qual corresponde aquele lançamento/documento. |
+  | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Usuário a qual corresponde aquele lançamento/documento.  |
 
-### Orcamentos_Lancamentos
+## Orcamentos_Lancamentos
 
 Tabela que agrupa os lançamentos presentes no orçamento de uma determinada empresa.
 
@@ -683,7 +733,7 @@ Tabela que agrupa os lançamentos presentes no orçamento de uma determinada emp
   | [^^`planocontas`^^](#planocontas)                     | Foreing Key | O informativo sobre a categoria do lançamento em questão.                            |
 
 
-### Pag_Transferencias
+## Pag_Transferencias
 
 Tabela responsável por armazenar os dados do pagamento de uma transferência bancária realizada pela empresa.
 
@@ -712,7 +762,7 @@ Tabela responsável por armazenar os dados do pagamento de uma transferência ba
   | [^^`lancamentos`^^](#lancamentos)                     | Primary Key | As transferências constarão nos lançamentos da empresa.                         |
   | [^^`lancamentos_baixas`^^](#lancamentos_baixas)       | Primary Key | Os lançamentos, que contém os pagamentos de transferência, passarão pelo processo de "baixa" dentro do sistema. |
 
-### Painel_Dados
+## Painel_Dados
 
 Tabela responsável por armazenar os dados da empresa, que serão mostrados (UI) no seu painel de dados no sistema.
 
@@ -743,7 +793,7 @@ Tabela responsável por armazenar os dados da empresa, que serão mostrados (UI)
   | [^^`empresas`^^](#empresas) | Foreing Key | O painel de dados irá apresentar dados da empresa no sistema.                                          |
   | [^^`unidades`^^](#unidades) | Foreing Key | O painel de dados contará, também, com os dados de cada unidade pertencente a uma determinada empresa. |
 
-### PlanoContas
+## PlanoContas
 
 Tabela responsável por armazenar a categoria de lançamentos presentes no sistema.
 
@@ -771,7 +821,7 @@ Tabela responsável por armazenar a categoria de lançamentos presentes no siste
   | :-------------------------- | :---------- | :-------------------------------------------------------------- |
   | [^^`empresas`^^](#empresas) | Foreing Key | Empresa cujo lançamento pertence, e que receberá uma categoria. |
 
-### PlanoContas_Padrao
+## PlanoContas_Padrao
 
 Tabela que armazena planos padronizados que um lançamento pode possuir.
 
@@ -797,7 +847,7 @@ Tabela que armazena planos padronizados que um lançamento pode possuir.
   | :---------------------------------------------------------- | :---------- | :------------------------------------------------------------------------ |
   | [^^`planocontas_padrao_tipos`^^](#planocontas_padrao_tipos) | Foreing Key | Cada plano pode ter um tipo, que é discriminado na tabela correspondente. |
 
-### PlanoContas_Padrao_Tipos
+## PlanoContas_Padrao_Tipos
 
 Tabela que armazena os diferentes tipos de planos que as contas podem possuir.
 
@@ -817,7 +867,7 @@ Tabela que armazena os diferentes tipos de planos que as contas podem possuir.
   | :---------------------------------------------- | :---------- | :-------------------------------------------------------------------------- |
   | [^^`planocontas_padrao`^^](#planocontas_padrao) | Primary Key | Cada plano terá um tipo especifico, e será atrelado a uma conta específica. |
 
-### Planos
+## Planos
 
 Tabela responsável por armazenar os dados referentes aos planos que poderão ser contratados por uma determinada empresa.
 
@@ -839,7 +889,7 @@ Tabela responsável por armazenar os dados referentes aos planos que poderão se
   | [^^`planos_modulos`^^](#planos_modulos) | Primary Key | Os planos contém diferentes módulos, armazenados na tabela de nome correspondente. |
   | [^^`contratos`^^](#contratos)           | Primary Key | Um plano é adquirido através de um contrato, este sendo feito com empresas.        |
 
-### Planos_Modulos
+## Planos_Modulos
 
 Tabela responsável por armazenar os diferentes módulos que um plano possui.
 
@@ -860,7 +910,7 @@ Tabela responsável por armazenar os diferentes módulos que um plano possui.
   | [^^`planos`^^](#planos)                    | Foreing Key | Plano que contém um módulo e que será contratado por uma empresa. |
   | [^^`admin.modulos`^^](db-admin.md#modulos) | Foreing Key | Liga o módulo do plano ao usuário que o contratou.                |
 
-### Socios
+## Socios
 
 Tabela responsável por armazenar os dados referentes a um sócio de uma determinada empresa.
 
@@ -933,7 +983,7 @@ Tabela responsável por armazenar os dados referentes a um sócio de uma determi
   | [^^`unidades`^^](#unidades)            | Foreing Key | Um sócio pode estar associado a unidades de uma mesma empresa de formas diferentes. |
   | [^^`admin.users`^^](db-admin.md#users) | Foreing Key | Cada sócio é um diferente usuário dentro do sistema.                                |
 
-### Unidades
+## Unidades
 
 Tabela responsável por armazenar os dados de cada unidade de uma empresa no sistema.
 
@@ -987,11 +1037,12 @@ Tabela responsável por armazenar os dados de cada unidade de uma empresa no sis
 
 - **Relacionamentos:**
 
-  | Tabela                                | Tipo        | Descrição                                                                                 |
-  | :------------------------------------ | :---------- | :---------------------------------------------------------------------------------------- |
-  | [^^`empresas`^^](#empresas)           | Foreing Key | As unidades são pertencentes as empresas, sendo que a mesma pode ter várias unidades.     |
-  | [^^`centrocustos`^^](#centrocustos)   | Primary Key | Cada unidade possui seu centro de custos próprio, agrupando receitas e despesas da mesma. |
-  | [^^`contascaixas`^^](#contascaixas)   | Primary Key | Cada unidade possui sua conta caixa, para gerenciamento das transações financeiras.       |
-  | [^^`painel_dados`^^](#painel_dados)   | Primary Key | Os dados das unidades estarão presentes, também, no painel de dados no sistema.           |
-  | [^^`departamentos`^^](#departamentos) | Primary Key | Cada unidade pode ter seus departamentos particulares.                                    |
-  | [^^`lancamentos`^^](#lancamentos)     | Primary Key | Os dados das unidades estarão presentes nos lançamentos.                                  |
+  | Tabela                                   | Tipo        | Descrição                                                                                 |
+  | :--------------------------------------- | :---------- | :---------------------------------------------------------------------------------------- |
+  | [^^`empresas`^^](#empresas)              | Foreing Key | As unidades são pertencentes as empresas, sendo que a mesma pode ter várias unidades.     |
+  | [^^`centrocustos`^^](#centrocustos)      | Primary Key | Cada unidade possui seu centro de custos próprio, agrupando receitas e despesas da mesma. |
+  | [^^`contascaixas`^^](#contascaixas)      | Primary Key | Cada unidade possui sua conta caixa, para gerenciamento das transações financeiras.       |
+  | [^^`painel_dados`^^](#painel_dados)      | Primary Key | Os dados das unidades estarão presentes, também, no painel de dados no sistema.           |
+  | [^^`departamentos`^^](#departamentos)    | Primary Key | Cada unidade pode ter seus departamentos particulares.                                    |
+  | [^^`lancamentos`^^](#lancamentos)        | Primary Key | Os dados das unidades estarão presentes nos lançamentos.                                  |
+  | [^^`tecnospeed.pagador`^^](#lancamentos) | Primary Key | As contas bancárias de um pagador estão relacionadas a uma unidade.                       |
