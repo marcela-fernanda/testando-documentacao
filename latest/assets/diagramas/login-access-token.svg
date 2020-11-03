@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="750px" height="390px">
+  <style type="text/css"><![CDATA[
+	.style1{fill:#E6FF97;stroke:#62A716;stroke-width:2;}
+	.style2{fill:#FFFFCC;stroke:#A6A61D;stroke-width:2;}
+	.style3{fill:#EEAAAA;stroke:#990000;stroke-width:3;}
+	.style4{fill:#ECEFFF;stroke:#03689A;stroke-width:2;}
+	.style5{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def10);}
+	.style6{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def11);}
+	.style7{fill:#FFFFFF;}
+	.style8{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def15);}
+	.style9{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def16);}
+	.style10{text-rendering:auto;font-family:'Segoe UI';font-size:8pt;fill:#000000;clip-path:url(#def18);}]]></style>
+  <defs>
+    <path id="631b042d-8ac4-4c10-a560-a290184feed8HeaderPath" fill-rule="evenodd" d="M 30,380 L 380,380 L 380,430 L 30,430 Z " />
+    <clipPath id="4b6d1ad5-5106-4537-95fb-a03051611995HeaderClipPath">
+      <use xlink:href="#631b042d-8ac4-4c10-a560-a290184feed8HeaderPath" />
+    </clipPath>
+    <ellipse id="def3" cx="15" cy="15" rx="15" ry="15" />
+    <clipPath id="def4">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <polygon id="def5" points="-0,20 20,-0 40,20 20,40 -0,20 " />
+    <clipPath id="def6">
+      <use xlink:href="#def5" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def7">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def8">
+      <use xlink:href="#def3" transform="translate(0,0)" />
+    </clipPath>
+    <path id="def9" fill-rule="evenodd" d="M 7,0 L 83,0 L 83,0 C 86.87,-0 90,3.13 90,7 C 90,7 90,7 90,7 L 90,7 L 90,53 L 90,53 C 90,56.87 86.87,60 83,60 L 83,60 L 7,60 L 7,60 C 3.13,60 0,56.87 0,53 L 0,53 L 0,7 L 0,7 C -0,3.13 3.13,0 7,0 Z " />
+    <clipPath id="def10">
+      <use xlink:href="#def9" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def11">
+      <use xlink:href="#def9" transform="translate(0,0)" />
+    </clipPath>
+    <marker id="defMarkerShadow" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="0.1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <marker id="defMarker" viewbox="0 0 10 8" refX="10" refY="4" markerUnits="strokeWidth" markerWidth="10" markerHeight="8" orient="auto" fill="#000000" fill-opacity="1">
+      <path fill-rule="evenodd" d="M 9,4 L 1,9 L 3,4 L 1,-1 Z " />
+    </marker>
+    <rect id="def14" width="50" height="30" />
+    <clipPath id="def15">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <clipPath id="def16">
+      <use xlink:href="#def14" transform="translate(0,0)" />
+    </clipPath>
+    <rect id="def17" width="72" height="30" />
+    <clipPath id="def18">
+      <use xlink:href="#def17" transform="translate(0,0)" />
+    </clipPath>
+  </defs>
+  <g>
+    <rect x="30" y="30" width="700" height="350" rx="0" ry="0" style="fill:#FFFFFF;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <line x1="80" y1="30" x2="80" y2="380" style="stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text style="font-family:'Segoe UI';font-size:10pt;font-weight:bold;fill:#000000;clip-path:url(#4b6d1ad5-5106-4537-95fb-a03051611995HeaderClipPath);" transform="rotate(-90 30 380)">
+      <tspan x="163.9366" y="410">Access Token</tspan>
+    </text>
+  </g>
+  <use id="764e8f96-d414-419c-b7f5-35194043adfa" xlink:href="#def3" class="style1" x="96" y="122" />
+  <g id="764e8f96-d414-419c-b7f5-35194043adfaContainer" transform="translate(96,122) rotate(0,25,25)" />
+  <use id="12bac306-ce96-44d6-9583-398d864e5a8e" xlink:href="#def5" class="style2" x="314" y="117" />
+  <g id="12bac306-ce96-44d6-9583-398d864e5a8eContainer" transform="translate(314,117) rotate(0,25,25)" />
+  <use id="9933ccce-3688-44a9-8e8b-9d8c5db074dc" xlink:href="#def3" class="style3" x="319" y="39" />
+  <g id="9933ccce-3688-44a9-8e8b-9d8c5db074dcContainer" transform="translate(319,39) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#990000;stroke:#990000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 25.183514,16.014719 a 8.8410206,8.8410206 0 1 1 -17.6820415,0 8.8410206,8.8410206 0 1 1 17.6820415,0 z" transform="translate(317.8,37.8)" />
+  </g>
+  <use id="4e3438e5-8a99-488f-aef2-852b9adaed1a" xlink:href="#def3" class="style3" x="561" y="122" />
+  <g id="4e3438e5-8a99-488f-aef2-852b9adaed1aContainer" transform="translate(561,122) rotate(0,25,25)" />
+  <g>
+    <path style="fill:#990000;stroke:#990000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 25.183514,16.014719 a 8.8410206,8.8410206 0 1 1 -17.6820415,0 8.8410206,8.8410206 0 1 1 17.6820415,0 z" transform="translate(559.8,120.8)" />
+  </g>
+  <use id="2d81540b-2a70-4397-8818-5be95b4a86d1" xlink:href="#def9" class="style4" x="175" y="107" />
+  <g id="2d81540b-2a70-4397-8818-5be95b4a86d1Container" transform="translate(175,107) rotate(0,25,25)">
+    <text id="2d81540b-2a70-4397-8818-5be95b4a86d1Text" class="style5">
+	<tspan x="22" y="32">1. OAuth</tspan></text>
+  </g>
+  <use id="2044360d-76f1-4fcd-a0a3-51a792d033bc" xlink:href="#def9" class="style4" x="401" y="107" />
+  <g id="2044360d-76f1-4fcd-a0a3-51a792d033bcContainer" transform="translate(401,107) rotate(0,25,25)">
+    <text id="2044360d-76f1-4fcd-a0a3-51a792d033bcText" class="style6">
+	<tspan x="7" y="25">2. Gerar Bearer </tspan><tspan x="30" y="39">Token</tspan></text>
+  </g>
+  <polyline id="c1952e89-416a-4eb6-92ba-23de3e5c13b2" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 70,0 " marker-end="url(#defMarker)" transform="translate(491,137)" />
+  <text x="526" y="135" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="6ff59241-5c9d-4821-8cd3-c4eb01833579" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 49,0 " marker-end="url(#defMarker)" transform="translate(126,137)" />
+  <text x="150.5" y="135" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="cb1a26bd-154b-4f5f-8759-01be760c9e66" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,48 0,0 " marker-end="url(#defMarker)" transform="translate(334,69)" />
+  <text x="334" y="91" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="f6cc48bc-c196-4da2-8ae3-5c2328df7ee8" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 47,0 " marker-end="url(#defMarker)" transform="translate(354,137)" />
+  <text x="377.5" y="135" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <polyline id="d617f9db-7ac3-4e68-8be9-42e0e64f8b0e" style="stroke:#000000;fill:none;stroke-opacity:1;stroke-width:1;" points="0,0 49,0 " marker-end="url(#defMarker)" transform="translate(265,137)" />
+  <text x="289.5" y="135" style="font-family:'Segoe UI';font-size:8pt;fill:#000000;">
+  </text>
+  <g id="Text_28798449-ddf2-45a8-852a-1fe8ce762f9eContainer" transform="translate(360,136) rotate(0,25,25)">
+    <text id="Text_28798449-ddf2-45a8-852a-1fe8ce762f9eText" class="style8">
+	<tspan x="7" y="14">Sim</tspan></text>
+  </g>
+  <g id="Text_4365ee70-dd6f-4061-94e1-88b372b24ea4Container" transform="translate(331,73) rotate(0,25,25)">
+    <text id="Text_4365ee70-dd6f-4061-94e1-88b372b24ea4Text" class="style9">
+	<tspan x="7" y="14">Não</tspan></text>
+  </g>
+  <g id="Text_12bac306-ce96-44d6-9583-398d864e5a8eContainer" transform="translate(298,164) rotate(0,25,25)">
+    <text id="Text_12bac306-ce96-44d6-9583-398d864e5a8eText" class="style10">
+	<tspan x="5" y="14">Usuário ok?</tspan></text>
+  </g>
+</svg>
