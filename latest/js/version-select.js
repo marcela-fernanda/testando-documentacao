@@ -22,10 +22,9 @@ window.addEventListener("DOMContentLoaded", function() {
 
   var xhr = new XMLHttpRequest();
   xhr.open("GET", ABS_BASE_URL + "/../versions.json");
+  console.log(xhr);
   xhr.onload = function() {
     var versions = JSON.parse(this.responseText);
-
-    console.log(versions)
 
     var realVersion = versions.find(function(i) {
       return i.version === CURRENT_VERSION ||
