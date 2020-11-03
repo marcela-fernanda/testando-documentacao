@@ -83,3 +83,10 @@ a.md-nav__link--active:hover {
 .mobile-images img {
   width: 300px;
 }
+
+/* Sobreescrevendo estilos do Mike */
+@media only screen and (max-width:76.1875em) {
+  #version-selector {
+    padding: 0;
+  }
+}

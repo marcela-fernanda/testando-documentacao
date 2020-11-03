@@ -4,7 +4,7 @@
 
 Para realizar login no Astecas, siga os seguintes passos:
 
-1. Acesse a [página inicial]( https://app.astecasdigital.com.br/) do Astecas.
+1. Acesse a [página inicial](https://app.astecasdigital.com.br/) do Astecas.
 2. Insira seu e-mail no campo **seu e-mail** e sua senha no **sua senha**.
 3. Marque a caixa **não sou um robô** (reCAPTCHA).
 4. Clique em **entrar**.
