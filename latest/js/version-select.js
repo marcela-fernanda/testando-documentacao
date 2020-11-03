@@ -25,6 +25,8 @@ window.addEventListener("DOMContentLoaded", function() {
   xhr.onload = function() {
     var versions = JSON.parse(this.responseText);
 
+    console.log(versions)
+
     var realVersion = versions.find(function(i) {
       return i.version === CURRENT_VERSION ||
              i.aliases.includes(CURRENT_VERSION);
