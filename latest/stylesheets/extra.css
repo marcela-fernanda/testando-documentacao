@@ -29,6 +29,10 @@ ins code {
   color: #422682 !important;
 }
 
+ins code:hover {
+  color: #44CCCC !important;
+}
+
 a.md-nav__link--active {
   border-left: 4px solid #422682;
   padding-left: 4px;
@@ -74,4 +78,8 @@ a.md-nav__link--active:hover {
 
 .md-nav__source {
   background-color: #44CCCC;
+}
+
+.mobile-images img {
+  width: 300px;
 }

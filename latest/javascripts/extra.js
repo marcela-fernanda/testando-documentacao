@@ -23,18 +23,3 @@ function changeCheckedInput (currentId) {
     } 
   } 
 }
-
-/*window.onscroll = function() {
-  displayTitle();
-}
-
-function displayTitle (){
-  var title = document.getElementsByClassName("md-header-nav__title");
-
-  if (title[0].attributes[2].value === "active") {
-    var parentElement = document.getElementsByClassName("md-header-nav__ellipsis");
-    var currentTitle = parentElement[0].children[1];
-
-    currentTitle.classList.add("displayTitle");
-  }
-}*/
