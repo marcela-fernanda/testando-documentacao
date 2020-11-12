@@ -109,8 +109,6 @@ theme:
     language: pt
     palette:
         scheme: astecas
-    icon:
-        repo: fontawesome/brands/git
 
 extra_css:
   - stylesheets/extra.css
