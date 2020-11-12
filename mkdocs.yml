@@ -3,7 +3,7 @@ site_author: Astecas
 copyright: Copyright © 2019 - 2020 Astecas
 
 #Repositório GitLab
-repo_url: https://gitlab.com/marcela-fernanda/documentacao-astecas
+repo_url: https://github.com/marcela-fernanda/testando-documentacao
 repo_name: astecas/documentacao
 edit_uri: ""
 
@@ -110,7 +110,7 @@ theme:
     palette:
         scheme: astecas
     icon:
-        repo: fontawesome/brands/gitlab
+        repo: fontawesome/brands/git
 
 extra_css:
   - stylesheets/extra.css
